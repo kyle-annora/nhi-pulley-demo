@@ -2,17 +2,19 @@
   "schema": 1,
   "title": "NHI Patrick offline kit",
   "date": "2026-11-01",
+  "edition": "Focused mobile and business-next-step refinement",
   "entry": "backup.html",
   "mainScenes": 6,
-  "currentDemoScreenshots": 6,
+  "mainDemoScreenshots": 6,
   "separatePlatformStills": 2,
+  "captureProvenance": "Scene 6 is a current focused-refinement capture of prepared same-case records. Other captures retain their historical source labels. See assets/frames.json and assets/platform-frames.json.",
   "externalDependencies": 0,
   "fixture": "Prepared deterministic F-4412 case, not the user browser records",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2141,
-      "sha256": "70f6ddd4d2832218bd3eaa62dcfd1f0a70ed85595a85c50ac3954444bbd10249"
+      "bytes": 2597,
+      "sha256": "405b956279826ac07ea12887254b040f93ca6c84af1de71b58678b96c33eb6ff"
     },
     {
       "path": "assets/01-inspection.png",
@@ -41,8 +43,8 @@
     },
     {
       "path": "assets/06-next-step.png",
-      "bytes": 69882,
-      "sha256": "68c5631032c2c214775d5eb4a7797408be8e78fe0b1208336f5fcdcfa417ad8c"
+      "bytes": 109821,
+      "sha256": "26890505d80fad7fa4ce5847ed4166e9f486b61c69cb85b77d00bca017450f17"
     },
     {
       "path": "assets/07-annora-explorer.png",
@@ -56,8 +58,8 @@
     },
     {
       "path": "assets/frames.json",
-      "bytes": 1781,
-      "sha256": "b9ec3c7d6e4686a35b0aa5941a0485754ad6768ff6dcbb03c1916f3beea376c9"
+      "bytes": 1988,
+      "sha256": "537250ae5840670e531e182888f3ee10e87624b0d14e0235d85972469a462d0e"
     },
     {
       "path": "assets/platform-frames.json",
@@ -66,8 +68,8 @@
     },
     {
       "path": "backup.html",
-      "bytes": 21968,
-      "sha256": "185f66f6063c4bc37ae44997c9e18f7360be6f5b60f311bfa3ad3237775fa3e1"
+      "bytes": 22400,
+      "sha256": "8a28bbea700407639c00b95c2a650d5d950ada668ecf0367022eb08dae2ae433"
     },
     {
       "path": "example-case.json",
@@ -76,13 +78,13 @@
     },
     {
       "path": "hand-off.md",
-      "bytes": 2549,
-      "sha256": "9338cf86c11aa63b416fb4842b2ab95c85d058dda31804c9249e86da30fc069c"
+      "bytes": 3140,
+      "sha256": "7d1457f01e090c4cf98ebe1409d432ddb795c9e2224c6a8c989e2a19045c0378"
     },
     {
       "path": "patrick-talk-track.md",
-      "bytes": 10724,
-      "sha256": "192db7743f377a951b7783e95d49331fd625dadbff6fa634f2d849efedde063c"
+      "bytes": 14102,
+      "sha256": "0356ed5933b44609869f3c9cae93f452f885546519f1c306f2b550db9e20146d"
     }
   ]
 }

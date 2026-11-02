@@ -14,6 +14,45 @@
 .p-quote-lines>summary{padding:12px 0;font-size:12px;font-weight:500;cursor:pointer;border-top:1px solid var(--n-line)}
 .p-quote-lines>summary:focus-visible{outline:2px solid var(--n-focus);outline-offset:3px}
 .p-quote-amount .p-delivery-outcome{margin-top:10px;font-size:12px;line-height:1.55;color:var(--n-foreground)}
+.p-inspect-copy,.p-model-wrap{scroll-margin-top:16px}
+.p-inspect-copy:focus,.p-model-wrap:focus{outline:none}
+.p-inspect-copy:focus-visible,.p-model-wrap:focus-visible{outline:2px solid var(--n-focus);outline-offset:5px}
+.p-business-next{padding:24px 28px;margin-bottom:28px;background:#fff;border:1px solid var(--n-line);border-radius:7px;display:grid;grid-template-columns:1fr 1.15fr;gap:10px 32px}
+.p-business-next .p-section-label{margin-bottom:9px}
+.p-business-next h2{font-size:25px;font-weight:500;line-height:1.2;letter-spacing:-.025em;margin:0 0 12px}
+.p-business-next p:not(.p-section-label){font-size:13px;line-height:1.6;color:var(--n-muted);margin:0;max-width:52ch}
+.p-business-next dl{margin:0;display:grid;gap:10px}
+.p-business-next dl>div{display:grid;grid-template-columns:120px 1fr;gap:16px;border-bottom:1px solid var(--n-line);padding-bottom:10px;font-size:13px;line-height:1.5}
+.p-business-next dt{font-weight:500}.p-business-next dd{margin:0;color:var(--n-muted)}
+.p-business-next .p-business-boundary{grid-column:1/-1;font-size:11px!important;margin-top:4px!important;max-width:none!important}
+.p-completion-layout{display:grid;grid-template-columns:1.1fr 1fr;align-items:start;gap:24px}
+.p-completion-layout .p-business-next{grid-template-columns:1fr;gap:20px;margin:0}
+.p-completion-layout .p-business-next dl>div{grid-template-columns:118px 1fr}
+.p-completed-evidence .p-result-facts{margin-bottom:18px}
+.p-completed-evidence .p-question{padding:18px;margin-bottom:14px}
+.p-completed-evidence .p-question blockquote{font-size:16px}
+.p-completed-evidence .p-details{margin-top:0}
+.p-completed-evidence .p-caption{font-size:11px;margin-top:12px}
+.p-completed-owners{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;column-gap:28px;padding:0}
+.p-completed-owners h2{grid-column:1/-1;font-size:16px;margin-bottom:10px}
+.p-completed-owners>div{padding:12px 0 0}
+.p-capability-appendix{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:32px;padding-top:22px;border-top:1px solid var(--n-line)}
+.p-capability-appendix .p-section-label{font-size:10px;margin-bottom:8px}
+.p-capability-appendix h2{font-size:18px;font-weight:500;line-height:1.4;margin:0 0 6px}
+.p-capability-appendix p:not(.p-section-label){font-size:12px;color:var(--n-muted);line-height:1.6;margin:0;max-width:65ch}
+.p-capability-appendix>.n-control{font-size:13px;text-decoration:underline;text-underline-offset:4px;flex-shrink:0}
+@media(max-width:760px){
+ .p-completion-layout{grid-template-columns:1fr;gap:20px}
+ .p-completion-layout .p-business-next{gap:18px}
+ .p-completion-layout .p-business-next dl>div{grid-template-columns:105px 1fr}
+ .p-completed-owners{grid-template-columns:1fr;gap:14px}
+ .p-business-next{padding:21px 18px;grid-template-columns:1fr;gap:18px;margin-bottom:22px}
+ .p-business-next h2{font-size:24px;max-width:22ch}
+ .p-business-next dl>div{grid-template-columns:105px 1fr;gap:14px;font-size:12px}
+ .p-business-next .p-business-boundary{margin-top:0!important}
+ .p-capability-appendix{display:block;margin-top:24px;padding-top:20px}
+ .p-capability-appendix>.n-control{padding-left:0;margin-top:10px;min-height:44px}
+}
 @media(max-width:1000px){.p-opening{gap:30px}.p-two-column,.p-quote-layout,.p-next-layout{grid-template-columns:minmax(0,1.3fr) minmax(260px,1fr);gap:24px}.p-paper{padding:24px}.p-inspection{gap:26px}.p-shell .n-pulley-viewport{height:340px}.p-header-label{display:none}}
 @media(max-width:760px){.p-header{padding:12px 16px;gap:14px;min-height:62px}.p-header img{width:174px;height:auto}.p-header>.n-evidence{font-size:10px;padding:3px 5px}.p-guide{font-size:12px}.p-guide>div{right:0}.p-progress{padding:12px 16px;font-size:11px;align-items:flex-start;gap:8px}.p-progress>span:last-child{max-width:38%;text-align:right}.p-main{padding:22px 16px 26px;min-height:calc(100vh - 230px)}.p-page-heading{margin-bottom:22px}.p-page-heading h1{font-size:27px;line-height:1.2}.p-page-heading>.n-eyebrow{font-size:10px;margin-bottom:8px}.p-shell[data-stage=opening] .p-main{padding-top:26px}.p-shell[data-stage=opening] .p-page-heading h1{font-size:33px}.p-opening{grid-template-columns:1fr;gap:22px}.p-opening-model{margin-top:0;grid-row:1}.p-shell .p-opening-model .n-pulley-viewport{height:225px}.p-opening .p-lead{font-size:15px;margin-bottom:22px}.p-opening-acts li{padding:14px 0}.p-two-column,.p-quote-layout,.p-next-layout{grid-template-columns:1fr;gap:22px}.p-form-grid{grid-template-columns:1fr;gap:22px}.p-paper{padding:22px 18px}.p-question{padding:18px}.p-question blockquote{font-size:17px}.p-question>p:last-child{font-size:11px}.p-inspection{grid-template-columns:1fr;grid-template-areas:"copy" "scene";gap:20px}.p-inspect-copy{padding:0}.p-inspect-copy h2{font-size:24px}.p-inspect-copy>p:not(.p-check-position){font-size:14px}.p-inspect-copy .p-catalog-fact{margin-top:18px}.p-model-toggle{display:flex!important;width:100%;justify-content:space-between!important}.p-inspect-scene[data-model-open=false] .p-model-wrap{display:none}.p-inspect-scene[data-model-open=true] .p-model-wrap{margin-top:12px}.p-shell .n-pulley-viewport{height:260px}.p-shell .n-pulley-stage-toolbar{padding:8px 10px}.p-shell .n-pulley-stage-caption{padding:10px}.p-paper-heading{align-items:flex-start;flex-wrap:wrap}.p-paper-heading h2{font-size:22px}.p-quote-amount>strong{font-size:31px}.p-change-rows dd{font-size:14px;gap:14px}.p-result-facts{gap:16px}.p-result-facts strong{font-size:26px}.p-actionbar{position:sticky;display:block;padding:10px 16px max(10px,env(safe-area-inset-bottom));min-height:0}.p-actionbar>div:first-child{font-size:11px;margin-bottom:8px}.p-action-buttons{gap:8px;display:flex}.p-action-buttons>.n-control{flex:1;min-height:46px;font-size:12px;padding-inline:10px}.p-boundary{padding:12px 16px;font-size:10px}.p-prepared-note{font-size:11px}}
 @media(max-width:360px){.p-header{gap:9px}.p-header img{width:133px}.p-header>.n-evidence{font-size:9px}.p-page-heading h1{font-size:25px}.p-shell[data-stage=opening] .p-page-heading h1{font-size:30px}.p-action-buttons{flex-direction:column-reverse;align-items:stretch}.p-action-buttons>.n-control{flex:auto;min-height:44px}}

@@ -6,6 +6,10 @@ A focused presentation for Patrick: understand F-4412 in 3D, retain a useful mou
 
 The seven-minute route uses explicit save, review and issue actions. The three-minute route is a clearly labeled, read-only prepared replay. The main story starts at 200 units, requests 250 units, and shows v2 at a $2,260 priced subtotal. Five-week delivery remains unconfirmed, freight and tax remain unpriced, and engineering findings remain open.
 
+The completed F-4412 case leads with **Prepare application information.** and names the customer's mounting, speed and load inputs. The optional capability preview is a separate appendix; it is not the primary business continuation.
+
+On phone, the question comes first. Opening 3D positions the model in view, returning restores the question, and Studio customer preview uses a focused screen with an explicit editor / F-4412 return. The [mobile proof sequence](docs/presentation/patrick-talk-track.md) gives Patrick a 45–60 second demonstration.
+
 The optional Explorer / Studio branch uses a **separate crank sample**. It demonstrates authored motion and product-content draft → customer preview → reviewed local publication. It returns to the F-4412 case; its capabilities are not represented as validated F-4412 operation or a live NHI integration.
 
 ## Run locally

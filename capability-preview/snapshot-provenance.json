@@ -11,5 +11,6 @@
     "design-preview/index.html"
   ],
   "storagePrefix": "nhi-patrick-capability-v1:",
-  "runtimeAssetsUnchanged": true
+  "runtimeAssetsUnchanged": true,
+  "presentationAdapters": ["storage-isolation.js", "patrick-mobile-bridge.js"]
 }

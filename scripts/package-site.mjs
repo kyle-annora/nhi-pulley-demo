@@ -7,7 +7,7 @@ await rm(output,{recursive:true,force:true});
 await mkdir(output,{recursive:true});
 await cp('index.html',resolve(output,'workspace.html'));
 await cp('patrick.html',resolve(output,'patrick.html'));
-for(const path of ['capability-preview','presentation-kit','assets','shared-explorer/dist','docs/presentation/patrick-talk-track.md','THIRD-PARTY-NOTICES.md','DESIGN.md']){
+for(const path of ['capability-preview','presentation-kit','assets','shared-explorer/dist','docs/presentation/patrick-talk-track.md','docs/mobile-refinements.md','docs/components/shadcn-upstream.json','THIRD-PARTY-NOTICES.md','DESIGN.md']){
   await mkdir(resolve(output,path,'..'),{recursive:true});
   await cp(path,resolve(output,path),{recursive:true});
 }

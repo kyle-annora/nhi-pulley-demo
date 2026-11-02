@@ -1,0 +1,893 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "sha256": "5356cb1e7dcf85874c1f2152795b7011f43f01c2bfc899a5fa75a198687204ad"
+  },
+  "contours": {
+    "file": "silhouettes.bin",
+    "compressedFile": "silhouettes.bin.gz",
+    "format": "uint32-oct16-le",
+    "coordinates": "original-mesh-local",
+    "bytesPerSegment": 16,
+    "layout": [
+      "uint32 sourceStartVertex",
+      "uint32 sourceEndVertex",
+      "int16 normalA.octX",
+      "int16 normalA.octY",
+      "int16 normalB.octX",
+      "int16 normalB.octY"
+    ],
+    "sha256": "80c22c05122dd863d1bfcd80f356e7f45a1342c6c362e6466a89bf22df679fcf",
+    "description": "Source endpoint indices retain exact positions. Adjacent face normals use signed octahedral 16-bit encoding. The GPU classifies visible silhouettes; coplanar triangle diagonals are excluded. Boundary edges use opposing normals."
+  },
+  "stats": {
+    "meshCount": 107,
+    "uniqueGeometryCount": 46,
+    "bytes": 501184,
+    "gzipBytes": 181615,
+    "uniqueSegments": 31324,
+    "referencedSegments": 69408
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "segmentCount": 216,
+      "geometryId": 0,
+      "sourceGeometrySha256": "0f58e9fd55b067be58755a20580c1815e175ca3de74253756d87cf7175934dd2",
+      "sha256": "5daf21cd614d3d56259ff89e9f72e6c85c70213e242bd45293cf43adc7ab0c22"
+    },
+    {
+      "byteOffset": 3456,
+      "segmentCount": 758,
+      "geometryId": 1,
+      "sourceGeometrySha256": "e03fe3b887630d087c55ff15bd52145e65564d0c33d0d939388092ea41d24fb8",
+      "sha256": "783d6344048973e3b8a0f8bbceeeffb89caa9ff07d9be59c56bedf77184d1c25"
+    },
+    {
+      "byteOffset": 15584,
+      "segmentCount": 960,
+      "geometryId": 2,
+      "sourceGeometrySha256": "35c7825a41d24d8a5cd078c115edfbbd6ff1b7e7156d276b77447829a2d5fc5e",
+      "sha256": "3404edb9a1cc808d03e5d3c807e12d7591ce5f70b20facfdd560e306c20791c4"
+    },
+    {
+      "byteOffset": 30944,
+      "segmentCount": 18,
+      "geometryId": 3,
+      "sourceGeometrySha256": "584b22ca7ad7052e0b030000a883492972242ab73cd81b80c0aa62e684bcd601",
+      "sha256": "12ea3c24556c27534286620e86fad3c131237bf141d9ac6e39a9b0049c7dfa4e"
+    },
+    {
+      "byteOffset": 31232,
+      "segmentCount": 960,
+      "geometryId": 4,
+      "sourceGeometrySha256": "81de2c36e7589090ef9d0ff383f4e0acfb0b48cca2bedcd2a3dfa2d07a9db842",
+      "sha256": "084b66cad05a87f1c8c1fa631fc68aed0ae14df07ef9bcbeb0c413ff7858dd5b"
+    },
+    {
+      "byteOffset": 46592,
+      "segmentCount": 960,
+      "geometryId": 5,
+      "sourceGeometrySha256": "f655f3d5af8570a346aa0f78c3356b18d8c32ada305d82c33313b5ee79b893b6",
+      "sha256": "deedb6f4aade1473721578ecf1a0f8df68e8f5568010e2338d15d7a5f9b32daf"
+    },
+    {
+      "byteOffset": 61952,
+      "segmentCount": 184,
+      "geometryId": 6,
+      "sourceGeometrySha256": "0c9610de3f3226e0cdffdaea0a2ae2e94f5486284af8998cadcda388d44f205e",
+      "sha256": "3f6f6d5fff777fcecd36a577f08b46eb82b37bb51f7953b40d6236a772df2827"
+    },
+    {
+      "byteOffset": 64896,
+      "segmentCount": 758,
+      "geometryId": 7,
+      "sourceGeometrySha256": "96da0af7c6a95b25f75a588717e06ae6e804656b03e5be3a6c64c3bf2c13b26c",
+      "sha256": "b185a52bd7367479738cfe10acbdaef9fa7defe8904570d717dfac5b91d6dfeb"
+    },
+    {
+      "byteOffset": 77024,
+      "segmentCount": 960,
+      "geometryId": 8,
+      "sourceGeometrySha256": "4070b0a8b2ffb2e6c795acea04f1ff1c048278a5a75d1b06ee33738ecc11c4dd",
+      "sha256": "e44afb6f43311e5c0683571176f89fddc2eb5a52b8f3fec43d43d57298cc96f9"
+    },
+    {
+      "byteOffset": 92384,
+      "segmentCount": 960,
+      "geometryId": 9,
+      "sourceGeometrySha256": "5285aa5013093bda65548224041ff59f5ca6d9ad476841391d21bb8694594013",
+      "sha256": "313dcfade51ce61d19cefb9cc3b977f5e2be04f9c65cbfc447287871d915e64a"
+    },
+    {
+      "byteOffset": 107744,
+      "segmentCount": 960,
+      "geometryId": 10,
+      "sourceGeometrySha256": "12b12763e2702dfb392cac1637288a9c7d344966dae6a20e1c674a271ff4e774",
+      "sha256": "b62d673bb417e8aee9f7049567e5a497a5781127979ebd932b89f6b39eec165e"
+    },
+    {
+      "byteOffset": 123104,
+      "segmentCount": 832,
+      "geometryId": 11,
+      "sourceGeometrySha256": "788b5e3d9425a6a04b3cfcae3bb3023a1b537406a0d95c6940bd0f93cb83b49c",
+      "sha256": "99e5de7225cac892f8d59ac359f37bbff6d413cdb46d062ed86904ff0a8fc75c"
+    },
+    {
+      "byteOffset": 136416,
+      "segmentCount": 18,
+      "geometryId": 12,
+      "sourceGeometrySha256": "c61ce2c055dbf6bacb1eee0b5bd5fe93e81299bf7861afbf672423fbd16c34d8",
+      "sha256": "12ea3c24556c27534286620e86fad3c131237bf141d9ac6e39a9b0049c7dfa4e"
+    },
+    {
+      "byteOffset": 136704,
+      "segmentCount": 960,
+      "geometryId": 13,
+      "sourceGeometrySha256": "163eee882f863ec53475187b121006d10c95e286e6b1c50ecbf97493656162ee",
+      "sha256": "7659a89ea600cf21a3b59275a50bcc2ebe3c3e1c3317006933d57678343b3590"
+    },
+    {
+      "byteOffset": 152064,
+      "segmentCount": 960,
+      "geometryId": 14,
+      "sourceGeometrySha256": "50adc02bb602bca37bf1664d1ef813cdbb6e173cb90aec4a5cc72e1accb5a71a",
+      "sha256": "580716747b77cff71dd0040d24c03d30431b2c94cbadd580594920bc4090cbc8"
+    },
+    {
+      "byteOffset": 167424,
+      "segmentCount": 18,
+      "geometryId": 15,
+      "sourceGeometrySha256": "8166c1b5487fb1a4871ee8febca4028724ac4e0b1710f17af2bea32029f5fb71",
+      "sha256": "12ea3c24556c27534286620e86fad3c131237bf141d9ac6e39a9b0049c7dfa4e"
+    },
+    {
+      "byteOffset": 167712,
+      "segmentCount": 960,
+      "geometryId": 16,
+      "sourceGeometrySha256": "c765f1ec9219a18c6db8c4687c02ea2c957302697ce13f471b74844b0509440a",
+      "sha256": "1b43d590c48a07e7f376a66152338330b910c40ec3a5fe1ab9479f92d7a440a6"
+    },
+    {
+      "byteOffset": 183072,
+      "segmentCount": 960,
+      "geometryId": 17,
+      "sourceGeometrySha256": "cf2afe8bf2ee98b5ab97ac1d2c46445a3cb436de26a99877c5083db091f1f193",
+      "sha256": "9a30e0d0bb8b0341abf77c5d7fe9722ac3874fc6fc4417e95f50589bc33eaa3e"
+    },
+    {
+      "byteOffset": 198432,
+      "segmentCount": 1565,
+      "geometryId": 18,
+      "sourceGeometrySha256": "3c201ebe248a1d232da16319efd78b837eaf9fc702c0be8bd3e419328469662e",
+      "sha256": "cb61f13f3a363724d062e6d98c2f248534ff9a6375b15426105ddb5b6ba62b9f"
+    },
+    {
+      "byteOffset": 223472,
+      "segmentCount": 757,
+      "geometryId": 19,
+      "sourceGeometrySha256": "04f249033263d2a0b3622d86c094b1aba69be95bcc053d3cff8d509fcf2f2b6f",
+      "sha256": "c967c27127b7bd6d38d659a0346610f3ab6e3b3a4b8b6ef5589f2f65a13da811"
+    },
+    {
+      "byteOffset": 235584,
+      "segmentCount": 184,
+      "geometryId": 20,
+      "sourceGeometrySha256": "c12dd2d50db6c88021c43df93b5f7bfbdaab9f92e6805e4eae560f709bb21939",
+      "sha256": "448d11d285a269307a65d5cd35cd9479d4ec9519047763f3f7c3646b9515c299"
+    },
+    {
+      "byteOffset": 238528,
+      "segmentCount": 216,
+      "geometryId": 21,
+      "sourceGeometrySha256": "7bced40f3bf03e233a99d574b5918de0a30be478a975b93cd3375e472c744da1",
+      "sha256": "fd36bb9e1fee9c3ded1e09be93e1217f721b6f61b5784a10c5a6bb8ad9b31fd8"
+    },
+    {
+      "byteOffset": 241984,
+      "segmentCount": 1160,
+      "geometryId": 22,
+      "sourceGeometrySha256": "d4219e82d704f347a1793a7f04f04190b5f36ff0c6f5a1a2b389a244c4d6887f",
+      "sha256": "23177c6f086df64a0910d66f4b5c501bd201c68511d1b8c977d4f6aed6cc47b3"
+    },
+    {
+      "byteOffset": 260544,
+      "segmentCount": 960,
+      "geometryId": 23,
+      "sourceGeometrySha256": "5be6f7849d6b65f6501682a12711f7c4ce4eff5ee3e33c9dbc95b40ff48b8f7c",
+      "sha256": "e25d4051b9b24403c37e1cb9cb5e9c600e72af0a3f59d1d8827d55d4fc45e1d3"
+    },
+    {
+      "byteOffset": 275904,
+      "segmentCount": 960,
+      "geometryId": 24,
+      "sourceGeometrySha256": "7e71ed6a8443734f9ddbcc29702b881c506e987c5c095bd797405263fa38d7d0",
+      "sha256": "54e97668c49bb12d30f563605eb82c31db7576a80735ea9e4e87f29c4c6833e4"
+    },
+    {
+      "byteOffset": 291264,
+      "segmentCount": 960,
+      "geometryId": 25,
+      "sourceGeometrySha256": "604ea0dbd1bfa8a6fe89f70b9b9744dec68a9a981e1ee1287d2bb99ecb64cd49",
+      "sha256": "e0571b19ffa699aa80bd07386cfb878845cbab81b421c377d89bdecdc2362c15"
+    },
+    {
+      "byteOffset": 306624,
+      "segmentCount": 960,
+      "geometryId": 26,
+      "sourceGeometrySha256": "2a06f81895baed3de5a12113739549c0b25f6c64a7aa06184e82639da0e72261",
+      "sha256": "1841a09ab95ca8791ae7ae8761650646176bdf36039497fe8013a6faf3dc6a76"
+    },
+    {
+      "byteOffset": 321984,
+      "segmentCount": 216,
+      "geometryId": 27,
+      "sourceGeometrySha256": "2f3175847a025078fe901a4f7a24e9591dfa835caf7b9272c76cedb65b32de1b",
+      "sha256": "8e50d0471e37bc1ef6f9c234569f85a9eefbf1730e2a2ca06ff6fdeb371e253b"
+    },
+    {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28,
+      "sourceGeometrySha256": "d602e6f2cce706e2126e90adcd25a7fe3eb8d7896b4ea4a47c84d9b4181dfe92",
+      "sha256": "635945f4626bf2d0a824f9d596f8fc7a07c8753c785c24c10ca068e15afc2108"
+    },
+    {
+      "byteOffset": 328896,
+      "segmentCount": 300,
+      "geometryId": 29,
+      "sourceGeometrySha256": "1c14aeeab41c043e62f26b9a7d61c8ab33ca4600ba2709176a8870551251e12d",
+      "sha256": "469bd1bfd80bbf27cfe9d6fdcff76319f1e04cc890ef954d1462d6d7027ad4b6"
+    },
+    {
+      "byteOffset": 333696,
+      "segmentCount": 18,
+      "geometryId": 30,
+      "sourceGeometrySha256": "8b9a22dcd18a2371b8a5bdd900ab3da4b6bac385be396d1d16bf4919c98be121",
+      "sha256": "12ea3c24556c27534286620e86fad3c131237bf141d9ac6e39a9b0049c7dfa4e"
+    },
+    {
+      "byteOffset": 333984,
+      "segmentCount": 960,
+      "geometryId": 31,
+      "sourceGeometrySha256": "93b6d293bd1947b6eb5ac4e04bd089ee7a2cc5a341c1a5ca9cafff870c94bb5b",
+      "sha256": "7be8c04e2413a3c593f6e7911113aa03cf2a79f31af106d0d854a5a63651fe61"
+    },
+    {
+      "byteOffset": 349344,
+      "segmentCount": 960,
+      "geometryId": 32,
+      "sourceGeometrySha256": "c2bebd7e020bc0b3e1c19ce89a900da2bfcbcad6be4835c13d4672c3128c9879",
+      "sha256": "2ea5acf20f83f0a6be3f19c4ad56eadf00823c2961003ed61646f25d68e1e013"
+    },
+    {
+      "byteOffset": 364704,
+      "segmentCount": 216,
+      "geometryId": 33,
+      "sourceGeometrySha256": "9eb3afbe99a4b7fbad737d2d90e284b239e0680a29e7074b76c99d90a9ac4f84",
+      "sha256": "08ac98ee7b526ca6f1138406be3b957ef222f491c69c702527131af402485fe8"
+    },
+    {
+      "byteOffset": 368160,
+      "segmentCount": 960,
+      "geometryId": 34,
+      "sourceGeometrySha256": "173cb36530aa249a3fd32be6af2cc3c74ab3956e2791deb5dccdeeaecdcc352b",
+      "sha256": "05032fabc874ea178889b2d3d230da3248de13724fd573f508f4d69c10741bda"
+    },
+    {
+      "byteOffset": 383520,
+      "segmentCount": 960,
+      "geometryId": 35,
+      "sourceGeometrySha256": "68dd7a04965bdd347f4baa1a9535bee13ed91291453540a30c452b2110900379",
+      "sha256": "7c379005a823b0223a11ecfac96637803de03c61626243b4be254d9fe65ae685"
+    },
+    {
+      "byteOffset": 398880,
+      "segmentCount": 216,
+      "geometryId": 36,
+      "sourceGeometrySha256": "27cf22ce89fc9ee45fbcf008471bd2e15ddb137e9d9f7fb7fa0cf45a0920cd8d",
+      "sha256": "4fd23332c5dbe9a841296ca86d52ae93c8d7d4bb6ecdd5069018acb9719b2b10"
+    },
+    {
+      "byteOffset": 402336,
+      "segmentCount": 960,
+      "geometryId": 37,
+      "sourceGeometrySha256": "7edabb4fe74cc68098c6b5cd261182f5684d83d354556c9551eb08204053361b",
+      "sha256": "83745ac97e1ab0d3c688c1f308c4462c006bae1867b5a2ed6dba178540aa2a1e"
+    },
+    {
+      "byteOffset": 417696,
+      "segmentCount": 960,
+      "geometryId": 38,
+      "sourceGeometrySha256": "4ebdbee7446a16cad37adf31f6979f27a48f76e84f27af034bf507804dc97913",
+      "sha256": "d199ebc5c07ed73b691a0869a4bad85c644c554fed404d31d3cb2a7e76561ac2"
+    },
+    {
+      "byteOffset": 433056,
+      "segmentCount": 960,
+      "geometryId": 39,
+      "sourceGeometrySha256": "59336a50dce008eb8d17aa99b851d2a55a426d46423026f2abd1a9d006875140",
+      "sha256": "2f7a66c3a5358cb7548cff8b6b1f48cee6541241bd85550ec67decb148621bd5"
+    },
+    {
+      "byteOffset": 448416,
+      "segmentCount": 960,
+      "geometryId": 40,
+      "sourceGeometrySha256": "4aa6baf764170ca6752a1404ed4e07a5fe425972083b4262112b095b5b1b5185",
+      "sha256": "562cd6eba24461b5d664fea4fa43fc1c6409f0fc465dc09813f1e8657845aefa"
+    },
+    {
+      "byteOffset": 463776,
+      "segmentCount": 216,
+      "geometryId": 41,
+      "sourceGeometrySha256": "9be3cba43b5bb3928f5a6d26ef7626e2415b4ae3674431cd0494f6c7cc4d3396",
+      "sha256": "678b1223734856444d2d3ca93cc7f159bc7c6ff321ca934f45527d79dacb58e0"
+    },
+    {
+      "byteOffset": 467232,
+      "segmentCount": 18,
+      "geometryId": 42,
+      "sourceGeometrySha256": "cc442fe868f66c21ee8c264095a9e178bd122034cae3726faa5d4329233b10db",
+      "sha256": "12ea3c24556c27534286620e86fad3c131237bf141d9ac6e39a9b0049c7dfa4e"
+    },
+    {
+      "byteOffset": 467520,
+      "segmentCount": 960,
+      "geometryId": 43,
+      "sourceGeometrySha256": "0df0ecc771dc7a542338fac5f51ae8d18f75893e932b14a90f931d42533c3e56",
+      "sha256": "270162112e4a24f13f7564486b423fcd03da6b5e492e8c846504f28be75c3109"
+    },
+    {
+      "byteOffset": 482880,
+      "segmentCount": 960,
+      "geometryId": 44,
+      "sourceGeometrySha256": "e2a78645cf67cd9cb1d4b0ad04a69b7086e3f2f671b26114e19dedda57e58042",
+      "sha256": "a55a7270017e7ab783c63103d7f92ff032bf21cf802587e41dbd6bb4dc9e8500"
+    },
+    {
+      "byteOffset": 498240,
+      "segmentCount": 184,
+      "geometryId": 45,
+      "sourceGeometrySha256": "5a69ff27046d80d2b434dc39a2f6952c5da49bd6ac6e24be0683c9523da86870",
+      "sha256": "83435466a1bb86c97c1dd6126336baac84927e82036a7eb02f579a93f5de7c3b"
+    }
+  ],
+  "meshes": {
+    "Base_|_cobalt_plinth": {
+      "byteOffset": 0,
+      "segmentCount": 216,
+      "geometryId": 0
+    },
+    "Connecting_rod": {
+      "byteOffset": 3456,
+      "segmentCount": 758,
+      "geometryId": 1
+    },
+    "Rod_bearing_bronze_seat": {
+      "byteOffset": 15584,
+      "segmentCount": 960,
+      "geometryId": 2
+    },
+    "Rod_bearing_bronze_seat001": {
+      "byteOffset": 15584,
+      "segmentCount": 960,
+      "geometryId": 2
+    },
+    "Rod_pivot_hex_recess": {
+      "byteOffset": 30944,
+      "segmentCount": 18,
+      "geometryId": 3
+    },
+    "Rod_pivot_hex_recess001": {
+      "byteOffset": 30944,
+      "segmentCount": 18,
+      "geometryId": 3
+    },
+    "Rod_pivot_socket_head": {
+      "byteOffset": 31232,
+      "segmentCount": 960,
+      "geometryId": 4
+    },
+    "Rod_pivot_socket_head001": {
+      "byteOffset": 31232,
+      "segmentCount": 960,
+      "geometryId": 4
+    },
+    "Rod_pivot_washer": {
+      "byteOffset": 46592,
+      "segmentCount": 960,
+      "geometryId": 5
+    },
+    "Rod_pivot_washer001": {
+      "byteOffset": 46592,
+      "segmentCount": 960,
+      "geometryId": 5
+    },
+    "Rod_recessed_spine": {
+      "byteOffset": 61952,
+      "segmentCount": 184,
+      "geometryId": 6
+    },
+    "Crank_arm": {
+      "byteOffset": 64896,
+      "segmentCount": 758,
+      "geometryId": 7
+    },
+    "Crank_balance_disk": {
+      "byteOffset": 77024,
+      "segmentCount": 960,
+      "geometryId": 8
+    },
+    "Crank_pin_lower_spacer": {
+      "byteOffset": 92384,
+      "segmentCount": 960,
+      "geometryId": 9
+    },
+    "Crank_pin_shaft": {
+      "byteOffset": 107744,
+      "segmentCount": 960,
+      "geometryId": 10
+    },
+    "Disk_silver_pocket": {
+      "byteOffset": 123104,
+      "segmentCount": 832,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket001": {
+      "byteOffset": 123104,
+      "segmentCount": 832,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket002": {
+      "byteOffset": 123104,
+      "segmentCount": 832,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket003": {
+      "byteOffset": 123104,
+      "segmentCount": 832,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket004": {
+      "byteOffset": 123104,
+      "segmentCount": 832,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket005": {
+      "byteOffset": 123104,
+      "segmentCount": 832,
+      "geometryId": 11
+    },
+    "Spindle_cap_hex_recess": {
+      "byteOffset": 136416,
+      "segmentCount": 18,
+      "geometryId": 12
+    },
+    "Spindle_cap_socket_head": {
+      "byteOffset": 136704,
+      "segmentCount": 960,
+      "geometryId": 13
+    },
+    "Spindle_cap_washer": {
+      "byteOffset": 152064,
+      "segmentCount": 960,
+      "geometryId": 14
+    },
+    "Deck_fastener_hex_recess": {
+      "byteOffset": 167424,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_hex_recess001": {
+      "byteOffset": 167424,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_hex_recess002": {
+      "byteOffset": 167424,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_hex_recess003": {
+      "byteOffset": 167424,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_socket_head": {
+      "byteOffset": 167712,
+      "segmentCount": 960,
+      "geometryId": 16
+    },
+    "Deck_fastener_socket_head001": {
+      "byteOffset": 167712,
+      "segmentCount": 960,
+      "geometryId": 16
+    },
+    "Deck_fastener_socket_head002": {
+      "byteOffset": 167712,
+      "segmentCount": 960,
+      "geometryId": 16
+    },
+    "Deck_fastener_socket_head003": {
+      "byteOffset": 167712,
+      "segmentCount": 960,
+      "geometryId": 16
+    },
+    "Deck_fastener_washer": {
+      "byteOffset": 183072,
+      "segmentCount": 960,
+      "geometryId": 17
+    },
+    "Deck_fastener_washer001": {
+      "byteOffset": 183072,
+      "segmentCount": 960,
+      "geometryId": 17
+    },
+    "Deck_fastener_washer002": {
+      "byteOffset": 183072,
+      "segmentCount": 960,
+      "geometryId": 17
+    },
+    "Deck_fastener_washer003": {
+      "byteOffset": 183072,
+      "segmentCount": 960,
+      "geometryId": 17
+    },
+    "Deck_subtitle": {
+      "byteOffset": 198432,
+      "segmentCount": 1565,
+      "geometryId": 18
+    },
+    "Deck_title": {
+      "byteOffset": 223472,
+      "segmentCount": 757,
+      "geometryId": 19
+    },
+    "Deck_|_brushed_insert": {
+      "byteOffset": 235584,
+      "segmentCount": 184,
+      "geometryId": 20
+    },
+    "Guide_end_support": {
+      "byteOffset": 238528,
+      "segmentCount": 216,
+      "geometryId": 21
+    },
+    "Guide_end_support001": {
+      "byteOffset": 238528,
+      "segmentCount": 216,
+      "geometryId": 21
+    },
+    "Guide_label": {
+      "byteOffset": 241984,
+      "segmentCount": 1160,
+      "geometryId": 22
+    },
+    "Guide_support_collar": {
+      "byteOffset": 260544,
+      "segmentCount": 960,
+      "geometryId": 23
+    },
+    "Guide_support_collar001": {
+      "byteOffset": 260544,
+      "segmentCount": 960,
+      "geometryId": 23
+    },
+    "Guide_support_collar002": {
+      "byteOffset": 260544,
+      "segmentCount": 960,
+      "geometryId": 23
+    },
+    "Guide_support_collar003": {
+      "byteOffset": 260544,
+      "segmentCount": 960,
+      "geometryId": 23
+    },
+    "Linear_guide_rail": {
+      "byteOffset": 275904,
+      "segmentCount": 960,
+      "geometryId": 24
+    },
+    "Linear_guide_rail001": {
+      "byteOffset": 275904,
+      "segmentCount": 960,
+      "geometryId": 24
+    },
+    "Main_vertical_shaft": {
+      "byteOffset": 291264,
+      "segmentCount": 960,
+      "geometryId": 25
+    },
+    "Rubber_isolator": {
+      "byteOffset": 306624,
+      "segmentCount": 960,
+      "geometryId": 26
+    },
+    "Rubber_isolator001": {
+      "byteOffset": 306624,
+      "segmentCount": 960,
+      "geometryId": 26
+    },
+    "Rubber_isolator002": {
+      "byteOffset": 306624,
+      "segmentCount": 960,
+      "geometryId": 26
+    },
+    "Rubber_isolator003": {
+      "byteOffset": 306624,
+      "segmentCount": 960,
+      "geometryId": 26
+    },
+    "Scale_tick_00": {
+      "byteOffset": 321984,
+      "segmentCount": 216,
+      "geometryId": 27
+    },
+    "Scale_tick_01": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_02": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_03": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_04": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_05": {
+      "byteOffset": 321984,
+      "segmentCount": 216,
+      "geometryId": 27
+    },
+    "Scale_tick_06": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_07": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_08": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_09": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_10": {
+      "byteOffset": 321984,
+      "segmentCount": 216,
+      "geometryId": 27
+    },
+    "Scale_tick_11": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_12": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_13": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Scale_tick_14": {
+      "byteOffset": 325440,
+      "segmentCount": 216,
+      "geometryId": 28
+    },
+    "Carriage_mark": {
+      "byteOffset": 328896,
+      "segmentCount": 300,
+      "geometryId": 29
+    },
+    "Carriage_screw_hex_recess": {
+      "byteOffset": 333696,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_hex_recess001": {
+      "byteOffset": 333696,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_hex_recess002": {
+      "byteOffset": 333696,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_hex_recess003": {
+      "byteOffset": 333696,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_socket_head": {
+      "byteOffset": 333984,
+      "segmentCount": 960,
+      "geometryId": 31
+    },
+    "Carriage_screw_socket_head001": {
+      "byteOffset": 333984,
+      "segmentCount": 960,
+      "geometryId": 31
+    },
+    "Carriage_screw_socket_head002": {
+      "byteOffset": 333984,
+      "segmentCount": 960,
+      "geometryId": 31
+    },
+    "Carriage_screw_socket_head003": {
+      "byteOffset": 333984,
+      "segmentCount": 960,
+      "geometryId": 31
+    },
+    "Carriage_screw_washer": {
+      "byteOffset": 349344,
+      "segmentCount": 960,
+      "geometryId": 32
+    },
+    "Carriage_screw_washer001": {
+      "byteOffset": 349344,
+      "segmentCount": 960,
+      "geometryId": 32
+    },
+    "Carriage_screw_washer002": {
+      "byteOffset": 349344,
+      "segmentCount": 960,
+      "geometryId": 32
+    },
+    "Carriage_screw_washer003": {
+      "byteOffset": 349344,
+      "segmentCount": 960,
+      "geometryId": 32
+    },
+    "Orange_slider_carriage": {
+      "byteOffset": 364704,
+      "segmentCount": 216,
+      "geometryId": 33
+    },
+    "Slider_bushing_barrel": {
+      "byteOffset": 368160,
+      "segmentCount": 960,
+      "geometryId": 34
+    },
+    "Slider_bushing_barrel001": {
+      "byteOffset": 368160,
+      "segmentCount": 960,
+      "geometryId": 34
+    },
+    "Slider_bushing_end_ring": {
+      "byteOffset": 383520,
+      "segmentCount": 960,
+      "geometryId": 35
+    },
+    "Slider_bushing_end_ring001": {
+      "byteOffset": 383520,
+      "segmentCount": 960,
+      "geometryId": 35
+    },
+    "Slider_bushing_end_ring002": {
+      "byteOffset": 383520,
+      "segmentCount": 960,
+      "geometryId": 35
+    },
+    "Slider_bushing_end_ring003": {
+      "byteOffset": 383520,
+      "segmentCount": 960,
+      "geometryId": 35
+    },
+    "Slider_pin_saddle": {
+      "byteOffset": 398880,
+      "segmentCount": 216,
+      "geometryId": 36
+    },
+    "Slider_pin_shaft": {
+      "byteOffset": 402336,
+      "segmentCount": 960,
+      "geometryId": 37
+    },
+    "Spindle_bearing_housing": {
+      "byteOffset": 417696,
+      "segmentCount": 960,
+      "geometryId": 38
+    },
+    "Spindle_bearing_race": {
+      "byteOffset": 433056,
+      "segmentCount": 960,
+      "geometryId": 39
+    },
+    "Spindle_bearing_seal": {
+      "byteOffset": 448416,
+      "segmentCount": 960,
+      "geometryId": 40
+    },
+    "Spindle_pedestal": {
+      "byteOffset": 463776,
+      "segmentCount": 216,
+      "geometryId": 41
+    },
+    "Support_mount_hex_recess": {
+      "byteOffset": 467232,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_hex_recess001": {
+      "byteOffset": 467232,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_hex_recess002": {
+      "byteOffset": 467232,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_hex_recess003": {
+      "byteOffset": 467232,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_socket_head": {
+      "byteOffset": 467520,
+      "segmentCount": 960,
+      "geometryId": 43
+    },
+    "Support_mount_socket_head001": {
+      "byteOffset": 467520,
+      "segmentCount": 960,
+      "geometryId": 43
+    },
+    "Support_mount_socket_head002": {
+      "byteOffset": 467520,
+      "segmentCount": 960,
+      "geometryId": 43
+    },
+    "Support_mount_socket_head003": {
+      "byteOffset": 467520,
+      "segmentCount": 960,
+      "geometryId": 43
+    },
+    "Support_mount_washer": {
+      "byteOffset": 482880,
+      "segmentCount": 960,
+      "geometryId": 44
+    },
+    "Support_mount_washer001": {
+      "byteOffset": 482880,
+      "segmentCount": 960,
+      "geometryId": 44
+    },
+    "Support_mount_washer002": {
+      "byteOffset": 482880,
+      "segmentCount": 960,
+      "geometryId": 44
+    },
+    "Support_mount_washer003": {
+      "byteOffset": 482880,
+      "segmentCount": 960,
+      "geometryId": 44
+    },
+    "Travel_scale": {
+      "byteOffset": 498240,
+      "segmentCount": 184,
+      "geometryId": 45
+    }
+  }
+}

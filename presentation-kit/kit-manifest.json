@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "title": "NHI Patrick offline kit",
+  "date": "2026-11-01",
+  "entry": "backup.html",
+  "mainScenes": 6,
+  "currentDemoScreenshots": 6,
+  "separatePlatformStills": 2,
+  "externalDependencies": 0,
+  "fixture": "Prepared deterministic F-4412 case, not the user browser records",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2141,
+      "sha256": "70f6ddd4d2832218bd3eaa62dcfd1f0a70ed85595a85c50ac3954444bbd10249"
+    },
+    {
+      "path": "assets/01-inspection.png",
+      "bytes": 44772,
+      "sha256": "6494db8ae852ac9c82226d0aaabc3edddc98ff82d00b27ccbc94393ebbee864a"
+    },
+    {
+      "path": "assets/02-question.png",
+      "bytes": 53664,
+      "sha256": "2d579f88598da19df3ed0e638c8397f0a2329d88e18d851e66addc843b6b62cf"
+    },
+    {
+      "path": "assets/03-rfq.png",
+      "bytes": 51603,
+      "sha256": "afa51e7ce20d07df3edd4dfb218e52b4fa4eca7fcb6890f1f23d2e7b1810b838"
+    },
+    {
+      "path": "assets/04-seller.png",
+      "bytes": 52076,
+      "sha256": "d1be87de1e66294bff5b3b63e228a56319698c1a07fb686fdfab7a0dbf7bddcc"
+    },
+    {
+      "path": "assets/05-v2.png",
+      "bytes": 58978,
+      "sha256": "e5203a8b5c916e7cda4bbbfde2ec0dccd7357a7acaf70add930110f61bd371e8"
+    },
+    {
+      "path": "assets/06-next-step.png",
+      "bytes": 69882,
+      "sha256": "68c5631032c2c214775d5eb4a7797408be8e78fe0b1208336f5fcdcfa417ad8c"
+    },
+    {
+      "path": "assets/07-annora-explorer.png",
+      "bytes": 80654,
+      "sha256": "fe26e5da89a739c512daccdf92ae5ca5c1c26350e704b0ab28e3001d810fabe7"
+    },
+    {
+      "path": "assets/08-annora-studio.png",
+      "bytes": 53996,
+      "sha256": "caf91bb73f254ef796309a7bb8607602de01aca72921dad11d0815491feb1e7e"
+    },
+    {
+      "path": "assets/frames.json",
+      "bytes": 1781,
+      "sha256": "b9ec3c7d6e4686a35b0aa5941a0485754ad6768ff6dcbb03c1916f3beea376c9"
+    },
+    {
+      "path": "assets/platform-frames.json",
+      "bytes": 753,
+      "sha256": "170a2379b064f32d8286068253b459a8f3d953feb9d1b2d086d2d4e1ca992e44"
+    },
+    {
+      "path": "backup.html",
+      "bytes": 21968,
+      "sha256": "185f66f6063c4bc37ae44997c9e18f7360be6f5b60f311bfa3ad3237775fa3e1"
+    },
+    {
+      "path": "example-case.json",
+      "bytes": 276550,
+      "sha256": "5d48d27dcaa90acae7f4164213d46171702a72c72c0433ead4abe5abff36629a"
+    },
+    {
+      "path": "hand-off.md",
+      "bytes": 2549,
+      "sha256": "9338cf86c11aa63b416fb4842b2ab95c85d058dda31804c9249e86da30fc069c"
+    },
+    {
+      "path": "patrick-talk-track.md",
+      "bytes": 10724,
+      "sha256": "192db7743f377a951b7783e95d49331fd625dadbff6fa634f2d849efedde063c"
+    }
+  ]
+}

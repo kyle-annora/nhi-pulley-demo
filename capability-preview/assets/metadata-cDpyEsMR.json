@@ -1,0 +1,6454 @@
+{
+  "schemaVersion": 1,
+  "root": {
+    "id": "kinetic-01",
+    "title": "Crank-slider mechanism",
+    "description": "One rotary input becomes a controlled linear stroke. Follow the authored four-second cycle through the crank, connecting rod and carriage."
+  },
+  "source": {
+    "title": "Kinetic 01 — tabletop crank-slider",
+    "author": "Pradeep Kaushik",
+    "repository": "https://github.com/pr9868/scene-acceptance",
+    "commit": "c361b9ad46f91ba960c708c2510aa204ad45605b",
+    "path": "examples/astra-mechanical-assembly/submission/output/crank_slider.glb",
+    "sha256": "5356cb1e7dcf85874c1f2152795b7011f43f01c2bfc899a5fa75a198687204ad",
+    "license": "MIT",
+    "licenseURL": "https://github.com/pr9868/scene-acceptance/blob/c361b9ad46f91ba960c708c2510aa204ad45605b/examples/astra-mechanical-assembly/LICENSE",
+    "licenseSha256": "8f694d23cac4bad2c9f97c5b21f20a891c018445594edc179a39555c17c79728",
+    "generatorSha256": "58c06fd95e6b9c10cb1fc95eb852cc0b59c9e2a2fe71e8734293da7fdfec7bc9",
+    "kind": "Published procedural mechanism study with authored animation; not manufacturer CAD.",
+    "attribution": "Kinetic 01 by Pradeep Kaushik, MIT. Original study produced with an AI agent; presentation metadata and technical edges adapted for Annora Explorer.",
+    "file": "model.glb",
+    "preserved": [
+      "geometry",
+      "hierarchy",
+      "materials",
+      "pivots",
+      "animation channels",
+      "animation samplers"
+    ]
+  },
+  "stats": {
+    "meshCount": 107,
+    "nodeCount": 114,
+    "triangles": 74572,
+    "sourceMaterials": 7,
+    "animationClips": 1,
+    "bytes": 2574332,
+    "gzipBytes": 595025
+  },
+  "bounds": [
+    [
+      -0.1574999988079071,
+      0,
+      -0.08500000089406967
+    ],
+    [
+      0.1574999988079071,
+      0.1095749983942369,
+      0.08500000089406967
+    ]
+  ],
+  "cycleBounds": [
+    [
+      -0.1575009988079071,
+      -0.000001,
+      -0.08500100089406967
+    ],
+    [
+      0.1575009988079071,
+      0.1095759983942369,
+      0.08500100089406967
+    ]
+  ],
+  "cycleBoundsSampling": {
+    "coordinates": "source-world",
+    "samples": 961,
+    "sampleRateHz": 240,
+    "paddingMetres": 0.000001,
+    "purpose": "Conservative sampled presentation envelope; not a collision bound."
+  },
+  "orientation": {
+    "up": "+Y",
+    "travel": "+X",
+    "operatingPlane": "XZ",
+    "sourceUnits": "metres",
+    "defaultDirection": [
+      0.55,
+      1.2,
+      1.35
+    ]
+  },
+  "dimensions": {
+    "crankRadiusMm": 35,
+    "rodPinSpacingMm": 110,
+    "sliderStrokeMm": 70,
+    "cycleSeconds": 4
+  },
+  "operation": {
+    "clipName": "Animation",
+    "duration": 4,
+    "kind": "authored-kinematic-animation",
+    "sourceSampleRateHz": 60,
+    "landmarks": {
+      "center": "Crank_Center",
+      "crankPin": "Crank_Pin",
+      "sliderPin": "Slider_Pin",
+      "rod": "Connecting_Rod_Pose"
+    },
+    "stages": [
+      {
+        "at": 0,
+        "time": 0,
+        "title": "Outer travel limit",
+        "description": "The crank and connecting rod align at the outer end of the 70 mm stroke.",
+        "nodeId": "carriage"
+      },
+      {
+        "at": 0.25,
+        "time": 1,
+        "title": "Rotary input, linear travel",
+        "description": "The crank pin turns through 90 degrees as the connecting rod draws the carriage inward.",
+        "nodeId": "rod"
+      },
+      {
+        "at": 0.5,
+        "time": 2,
+        "title": "Inner travel limit",
+        "description": "At 180 degrees the carriage reaches the inner limit and reverses direction.",
+        "nodeId": "carriage"
+      },
+      {
+        "at": 0.75,
+        "time": 3,
+        "title": "Return stroke",
+        "description": "The crank continues in the same direction while the rod drives the carriage outward.",
+        "nodeId": "crank"
+      }
+    ]
+  },
+  "hierarchy": {
+    "kind": "source-node-containment",
+    "rootIndices": [
+      113
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "name": "Base | cobalt plinth",
+        "loadedName": "Base_|_cobalt_plinth",
+        "parent": 113,
+        "children": [],
+        "mesh": 0
+      },
+      {
+        "index": 1,
+        "name": "Connecting rod",
+        "loadedName": "Connecting_rod",
+        "parent": 11,
+        "children": [],
+        "mesh": 1
+      },
+      {
+        "index": 2,
+        "name": "Rod bearing bronze seat",
+        "loadedName": "Rod_bearing_bronze_seat",
+        "parent": 11,
+        "children": [],
+        "mesh": 2
+      },
+      {
+        "index": 3,
+        "name": "Rod bearing bronze seat.001",
+        "loadedName": "Rod_bearing_bronze_seat001",
+        "parent": 11,
+        "children": [],
+        "mesh": 3
+      },
+      {
+        "index": 4,
+        "name": "Rod pivot hex recess",
+        "loadedName": "Rod_pivot_hex_recess",
+        "parent": 11,
+        "children": [],
+        "mesh": 4
+      },
+      {
+        "index": 5,
+        "name": "Rod pivot hex recess.001",
+        "loadedName": "Rod_pivot_hex_recess001",
+        "parent": 11,
+        "children": [],
+        "mesh": 5
+      },
+      {
+        "index": 6,
+        "name": "Rod pivot socket head",
+        "loadedName": "Rod_pivot_socket_head",
+        "parent": 11,
+        "children": [],
+        "mesh": 6
+      },
+      {
+        "index": 7,
+        "name": "Rod pivot socket head.001",
+        "loadedName": "Rod_pivot_socket_head001",
+        "parent": 11,
+        "children": [],
+        "mesh": 7
+      },
+      {
+        "index": 8,
+        "name": "Rod pivot washer",
+        "loadedName": "Rod_pivot_washer",
+        "parent": 11,
+        "children": [],
+        "mesh": 8
+      },
+      {
+        "index": 9,
+        "name": "Rod pivot washer.001",
+        "loadedName": "Rod_pivot_washer001",
+        "parent": 11,
+        "children": [],
+        "mesh": 9
+      },
+      {
+        "index": 10,
+        "name": "Rod recessed spine",
+        "loadedName": "Rod_recessed_spine",
+        "parent": 11,
+        "children": [],
+        "mesh": 10
+      },
+      {
+        "index": 11,
+        "name": "Connecting_Rod_Pose",
+        "loadedName": "Connecting_Rod_Pose",
+        "parent": 113,
+        "children": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "mesh": null
+      },
+      {
+        "index": 12,
+        "name": "Crank_Center",
+        "loadedName": "Crank_Center",
+        "parent": 113,
+        "children": [],
+        "mesh": null
+      },
+      {
+        "index": 13,
+        "name": "Crank arm",
+        "loadedName": "Crank_arm",
+        "parent": 27,
+        "children": [],
+        "mesh": 11
+      },
+      {
+        "index": 14,
+        "name": "Crank balance disk",
+        "loadedName": "Crank_balance_disk",
+        "parent": 27,
+        "children": [],
+        "mesh": 12
+      },
+      {
+        "index": 15,
+        "name": "Crank pin lower spacer",
+        "loadedName": "Crank_pin_lower_spacer",
+        "parent": 27,
+        "children": [],
+        "mesh": 13
+      },
+      {
+        "index": 16,
+        "name": "Crank pin shaft",
+        "loadedName": "Crank_pin_shaft",
+        "parent": 27,
+        "children": [],
+        "mesh": 14
+      },
+      {
+        "index": 17,
+        "name": "Crank_Pin",
+        "loadedName": "Crank_Pin",
+        "parent": 27,
+        "children": [],
+        "mesh": null
+      },
+      {
+        "index": 18,
+        "name": "Disk silver pocket",
+        "loadedName": "Disk_silver_pocket",
+        "parent": 27,
+        "children": [],
+        "mesh": 15
+      },
+      {
+        "index": 19,
+        "name": "Disk silver pocket.001",
+        "loadedName": "Disk_silver_pocket001",
+        "parent": 27,
+        "children": [],
+        "mesh": 16
+      },
+      {
+        "index": 20,
+        "name": "Disk silver pocket.002",
+        "loadedName": "Disk_silver_pocket002",
+        "parent": 27,
+        "children": [],
+        "mesh": 17
+      },
+      {
+        "index": 21,
+        "name": "Disk silver pocket.003",
+        "loadedName": "Disk_silver_pocket003",
+        "parent": 27,
+        "children": [],
+        "mesh": 18
+      },
+      {
+        "index": 22,
+        "name": "Disk silver pocket.004",
+        "loadedName": "Disk_silver_pocket004",
+        "parent": 27,
+        "children": [],
+        "mesh": 19
+      },
+      {
+        "index": 23,
+        "name": "Disk silver pocket.005",
+        "loadedName": "Disk_silver_pocket005",
+        "parent": 27,
+        "children": [],
+        "mesh": 20
+      },
+      {
+        "index": 24,
+        "name": "Spindle cap hex recess",
+        "loadedName": "Spindle_cap_hex_recess",
+        "parent": 27,
+        "children": [],
+        "mesh": 21
+      },
+      {
+        "index": 25,
+        "name": "Spindle cap socket head",
+        "loadedName": "Spindle_cap_socket_head",
+        "parent": 27,
+        "children": [],
+        "mesh": 22
+      },
+      {
+        "index": 26,
+        "name": "Spindle cap washer",
+        "loadedName": "Spindle_cap_washer",
+        "parent": 27,
+        "children": [],
+        "mesh": 23
+      },
+      {
+        "index": 27,
+        "name": "Crank_Rotation",
+        "loadedName": "Crank_Rotation",
+        "parent": 113,
+        "children": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "mesh": null
+      },
+      {
+        "index": 28,
+        "name": "Deck fastener hex recess",
+        "loadedName": "Deck_fastener_hex_recess",
+        "parent": 113,
+        "children": [],
+        "mesh": 24
+      },
+      {
+        "index": 29,
+        "name": "Deck fastener hex recess.001",
+        "loadedName": "Deck_fastener_hex_recess001",
+        "parent": 113,
+        "children": [],
+        "mesh": 25
+      },
+      {
+        "index": 30,
+        "name": "Deck fastener hex recess.002",
+        "loadedName": "Deck_fastener_hex_recess002",
+        "parent": 113,
+        "children": [],
+        "mesh": 26
+      },
+      {
+        "index": 31,
+        "name": "Deck fastener hex recess.003",
+        "loadedName": "Deck_fastener_hex_recess003",
+        "parent": 113,
+        "children": [],
+        "mesh": 27
+      },
+      {
+        "index": 32,
+        "name": "Deck fastener socket head",
+        "loadedName": "Deck_fastener_socket_head",
+        "parent": 113,
+        "children": [],
+        "mesh": 28
+      },
+      {
+        "index": 33,
+        "name": "Deck fastener socket head.001",
+        "loadedName": "Deck_fastener_socket_head001",
+        "parent": 113,
+        "children": [],
+        "mesh": 29
+      },
+      {
+        "index": 34,
+        "name": "Deck fastener socket head.002",
+        "loadedName": "Deck_fastener_socket_head002",
+        "parent": 113,
+        "children": [],
+        "mesh": 30
+      },
+      {
+        "index": 35,
+        "name": "Deck fastener socket head.003",
+        "loadedName": "Deck_fastener_socket_head003",
+        "parent": 113,
+        "children": [],
+        "mesh": 31
+      },
+      {
+        "index": 36,
+        "name": "Deck fastener washer",
+        "loadedName": "Deck_fastener_washer",
+        "parent": 113,
+        "children": [],
+        "mesh": 32
+      },
+      {
+        "index": 37,
+        "name": "Deck fastener washer.001",
+        "loadedName": "Deck_fastener_washer001",
+        "parent": 113,
+        "children": [],
+        "mesh": 33
+      },
+      {
+        "index": 38,
+        "name": "Deck fastener washer.002",
+        "loadedName": "Deck_fastener_washer002",
+        "parent": 113,
+        "children": [],
+        "mesh": 34
+      },
+      {
+        "index": 39,
+        "name": "Deck fastener washer.003",
+        "loadedName": "Deck_fastener_washer003",
+        "parent": 113,
+        "children": [],
+        "mesh": 35
+      },
+      {
+        "index": 40,
+        "name": "Deck subtitle",
+        "loadedName": "Deck_subtitle",
+        "parent": 113,
+        "children": [],
+        "mesh": 36
+      },
+      {
+        "index": 41,
+        "name": "Deck title",
+        "loadedName": "Deck_title",
+        "parent": 113,
+        "children": [],
+        "mesh": 37
+      },
+      {
+        "index": 42,
+        "name": "Deck | brushed insert",
+        "loadedName": "Deck_|_brushed_insert",
+        "parent": 113,
+        "children": [],
+        "mesh": 38
+      },
+      {
+        "index": 43,
+        "name": "Guide end support",
+        "loadedName": "Guide_end_support",
+        "parent": 113,
+        "children": [],
+        "mesh": 39
+      },
+      {
+        "index": 44,
+        "name": "Guide end support.001",
+        "loadedName": "Guide_end_support001",
+        "parent": 113,
+        "children": [],
+        "mesh": 40
+      },
+      {
+        "index": 45,
+        "name": "Guide label",
+        "loadedName": "Guide_label",
+        "parent": 113,
+        "children": [],
+        "mesh": 41
+      },
+      {
+        "index": 46,
+        "name": "Guide support collar",
+        "loadedName": "Guide_support_collar",
+        "parent": 113,
+        "children": [],
+        "mesh": 42
+      },
+      {
+        "index": 47,
+        "name": "Guide support collar.001",
+        "loadedName": "Guide_support_collar001",
+        "parent": 113,
+        "children": [],
+        "mesh": 43
+      },
+      {
+        "index": 48,
+        "name": "Guide support collar.002",
+        "loadedName": "Guide_support_collar002",
+        "parent": 113,
+        "children": [],
+        "mesh": 44
+      },
+      {
+        "index": 49,
+        "name": "Guide support collar.003",
+        "loadedName": "Guide_support_collar003",
+        "parent": 113,
+        "children": [],
+        "mesh": 45
+      },
+      {
+        "index": 50,
+        "name": "Linear guide rail",
+        "loadedName": "Linear_guide_rail",
+        "parent": 113,
+        "children": [],
+        "mesh": 46
+      },
+      {
+        "index": 51,
+        "name": "Linear guide rail.001",
+        "loadedName": "Linear_guide_rail001",
+        "parent": 113,
+        "children": [],
+        "mesh": 47
+      },
+      {
+        "index": 52,
+        "name": "Main vertical shaft",
+        "loadedName": "Main_vertical_shaft",
+        "parent": 113,
+        "children": [],
+        "mesh": 48
+      },
+      {
+        "index": 53,
+        "name": "Rubber isolator",
+        "loadedName": "Rubber_isolator",
+        "parent": 113,
+        "children": [],
+        "mesh": 49
+      },
+      {
+        "index": 54,
+        "name": "Rubber isolator.001",
+        "loadedName": "Rubber_isolator001",
+        "parent": 113,
+        "children": [],
+        "mesh": 50
+      },
+      {
+        "index": 55,
+        "name": "Rubber isolator.002",
+        "loadedName": "Rubber_isolator002",
+        "parent": 113,
+        "children": [],
+        "mesh": 51
+      },
+      {
+        "index": 56,
+        "name": "Rubber isolator.003",
+        "loadedName": "Rubber_isolator003",
+        "parent": 113,
+        "children": [],
+        "mesh": 52
+      },
+      {
+        "index": 57,
+        "name": "Scale tick 00",
+        "loadedName": "Scale_tick_00",
+        "parent": 113,
+        "children": [],
+        "mesh": 53
+      },
+      {
+        "index": 58,
+        "name": "Scale tick 01",
+        "loadedName": "Scale_tick_01",
+        "parent": 113,
+        "children": [],
+        "mesh": 54
+      },
+      {
+        "index": 59,
+        "name": "Scale tick 02",
+        "loadedName": "Scale_tick_02",
+        "parent": 113,
+        "children": [],
+        "mesh": 55
+      },
+      {
+        "index": 60,
+        "name": "Scale tick 03",
+        "loadedName": "Scale_tick_03",
+        "parent": 113,
+        "children": [],
+        "mesh": 56
+      },
+      {
+        "index": 61,
+        "name": "Scale tick 04",
+        "loadedName": "Scale_tick_04",
+        "parent": 113,
+        "children": [],
+        "mesh": 57
+      },
+      {
+        "index": 62,
+        "name": "Scale tick 05",
+        "loadedName": "Scale_tick_05",
+        "parent": 113,
+        "children": [],
+        "mesh": 58
+      },
+      {
+        "index": 63,
+        "name": "Scale tick 06",
+        "loadedName": "Scale_tick_06",
+        "parent": 113,
+        "children": [],
+        "mesh": 59
+      },
+      {
+        "index": 64,
+        "name": "Scale tick 07",
+        "loadedName": "Scale_tick_07",
+        "parent": 113,
+        "children": [],
+        "mesh": 60
+      },
+      {
+        "index": 65,
+        "name": "Scale tick 08",
+        "loadedName": "Scale_tick_08",
+        "parent": 113,
+        "children": [],
+        "mesh": 61
+      },
+      {
+        "index": 66,
+        "name": "Scale tick 09",
+        "loadedName": "Scale_tick_09",
+        "parent": 113,
+        "children": [],
+        "mesh": 62
+      },
+      {
+        "index": 67,
+        "name": "Scale tick 10",
+        "loadedName": "Scale_tick_10",
+        "parent": 113,
+        "children": [],
+        "mesh": 63
+      },
+      {
+        "index": 68,
+        "name": "Scale tick 11",
+        "loadedName": "Scale_tick_11",
+        "parent": 113,
+        "children": [],
+        "mesh": 64
+      },
+      {
+        "index": 69,
+        "name": "Scale tick 12",
+        "loadedName": "Scale_tick_12",
+        "parent": 113,
+        "children": [],
+        "mesh": 65
+      },
+      {
+        "index": 70,
+        "name": "Scale tick 13",
+        "loadedName": "Scale_tick_13",
+        "parent": 113,
+        "children": [],
+        "mesh": 66
+      },
+      {
+        "index": 71,
+        "name": "Scale tick 14",
+        "loadedName": "Scale_tick_14",
+        "parent": 113,
+        "children": [],
+        "mesh": 67
+      },
+      {
+        "index": 72,
+        "name": "Carriage mark",
+        "loadedName": "Carriage_mark",
+        "parent": 95,
+        "children": [],
+        "mesh": 68
+      },
+      {
+        "index": 73,
+        "name": "Carriage screw hex recess",
+        "loadedName": "Carriage_screw_hex_recess",
+        "parent": 95,
+        "children": [],
+        "mesh": 69
+      },
+      {
+        "index": 74,
+        "name": "Carriage screw hex recess.001",
+        "loadedName": "Carriage_screw_hex_recess001",
+        "parent": 95,
+        "children": [],
+        "mesh": 70
+      },
+      {
+        "index": 75,
+        "name": "Carriage screw hex recess.002",
+        "loadedName": "Carriage_screw_hex_recess002",
+        "parent": 95,
+        "children": [],
+        "mesh": 71
+      },
+      {
+        "index": 76,
+        "name": "Carriage screw hex recess.003",
+        "loadedName": "Carriage_screw_hex_recess003",
+        "parent": 95,
+        "children": [],
+        "mesh": 72
+      },
+      {
+        "index": 77,
+        "name": "Carriage screw socket head",
+        "loadedName": "Carriage_screw_socket_head",
+        "parent": 95,
+        "children": [],
+        "mesh": 73
+      },
+      {
+        "index": 78,
+        "name": "Carriage screw socket head.001",
+        "loadedName": "Carriage_screw_socket_head001",
+        "parent": 95,
+        "children": [],
+        "mesh": 74
+      },
+      {
+        "index": 79,
+        "name": "Carriage screw socket head.002",
+        "loadedName": "Carriage_screw_socket_head002",
+        "parent": 95,
+        "children": [],
+        "mesh": 75
+      },
+      {
+        "index": 80,
+        "name": "Carriage screw socket head.003",
+        "loadedName": "Carriage_screw_socket_head003",
+        "parent": 95,
+        "children": [],
+        "mesh": 76
+      },
+      {
+        "index": 81,
+        "name": "Carriage screw washer",
+        "loadedName": "Carriage_screw_washer",
+        "parent": 95,
+        "children": [],
+        "mesh": 77
+      },
+      {
+        "index": 82,
+        "name": "Carriage screw washer.001",
+        "loadedName": "Carriage_screw_washer001",
+        "parent": 95,
+        "children": [],
+        "mesh": 78
+      },
+      {
+        "index": 83,
+        "name": "Carriage screw washer.002",
+        "loadedName": "Carriage_screw_washer002",
+        "parent": 95,
+        "children": [],
+        "mesh": 79
+      },
+      {
+        "index": 84,
+        "name": "Carriage screw washer.003",
+        "loadedName": "Carriage_screw_washer003",
+        "parent": 95,
+        "children": [],
+        "mesh": 80
+      },
+      {
+        "index": 85,
+        "name": "Orange slider carriage",
+        "loadedName": "Orange_slider_carriage",
+        "parent": 95,
+        "children": [],
+        "mesh": 81
+      },
+      {
+        "index": 86,
+        "name": "Slider bushing barrel",
+        "loadedName": "Slider_bushing_barrel",
+        "parent": 95,
+        "children": [],
+        "mesh": 82
+      },
+      {
+        "index": 87,
+        "name": "Slider bushing barrel.001",
+        "loadedName": "Slider_bushing_barrel001",
+        "parent": 95,
+        "children": [],
+        "mesh": 83
+      },
+      {
+        "index": 88,
+        "name": "Slider bushing end ring",
+        "loadedName": "Slider_bushing_end_ring",
+        "parent": 95,
+        "children": [],
+        "mesh": 84
+      },
+      {
+        "index": 89,
+        "name": "Slider bushing end ring.001",
+        "loadedName": "Slider_bushing_end_ring001",
+        "parent": 95,
+        "children": [],
+        "mesh": 85
+      },
+      {
+        "index": 90,
+        "name": "Slider bushing end ring.002",
+        "loadedName": "Slider_bushing_end_ring002",
+        "parent": 95,
+        "children": [],
+        "mesh": 86
+      },
+      {
+        "index": 91,
+        "name": "Slider bushing end ring.003",
+        "loadedName": "Slider_bushing_end_ring003",
+        "parent": 95,
+        "children": [],
+        "mesh": 87
+      },
+      {
+        "index": 92,
+        "name": "Slider pin saddle",
+        "loadedName": "Slider_pin_saddle",
+        "parent": 95,
+        "children": [],
+        "mesh": 88
+      },
+      {
+        "index": 93,
+        "name": "Slider pin shaft",
+        "loadedName": "Slider_pin_shaft",
+        "parent": 95,
+        "children": [],
+        "mesh": 89
+      },
+      {
+        "index": 94,
+        "name": "Slider_Pin",
+        "loadedName": "Slider_Pin",
+        "parent": 95,
+        "children": [],
+        "mesh": null
+      },
+      {
+        "index": 95,
+        "name": "Slider_Translation",
+        "loadedName": "Slider_Translation",
+        "parent": 113,
+        "children": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94
+        ],
+        "mesh": null
+      },
+      {
+        "index": 96,
+        "name": "Spindle bearing housing",
+        "loadedName": "Spindle_bearing_housing",
+        "parent": 113,
+        "children": [],
+        "mesh": 90
+      },
+      {
+        "index": 97,
+        "name": "Spindle bearing race",
+        "loadedName": "Spindle_bearing_race",
+        "parent": 113,
+        "children": [],
+        "mesh": 91
+      },
+      {
+        "index": 98,
+        "name": "Spindle bearing seal",
+        "loadedName": "Spindle_bearing_seal",
+        "parent": 113,
+        "children": [],
+        "mesh": 92
+      },
+      {
+        "index": 99,
+        "name": "Spindle pedestal",
+        "loadedName": "Spindle_pedestal",
+        "parent": 113,
+        "children": [],
+        "mesh": 93
+      },
+      {
+        "index": 100,
+        "name": "Support mount hex recess",
+        "loadedName": "Support_mount_hex_recess",
+        "parent": 113,
+        "children": [],
+        "mesh": 94
+      },
+      {
+        "index": 101,
+        "name": "Support mount hex recess.001",
+        "loadedName": "Support_mount_hex_recess001",
+        "parent": 113,
+        "children": [],
+        "mesh": 95
+      },
+      {
+        "index": 102,
+        "name": "Support mount hex recess.002",
+        "loadedName": "Support_mount_hex_recess002",
+        "parent": 113,
+        "children": [],
+        "mesh": 96
+      },
+      {
+        "index": 103,
+        "name": "Support mount hex recess.003",
+        "loadedName": "Support_mount_hex_recess003",
+        "parent": 113,
+        "children": [],
+        "mesh": 97
+      },
+      {
+        "index": 104,
+        "name": "Support mount socket head",
+        "loadedName": "Support_mount_socket_head",
+        "parent": 113,
+        "children": [],
+        "mesh": 98
+      },
+      {
+        "index": 105,
+        "name": "Support mount socket head.001",
+        "loadedName": "Support_mount_socket_head001",
+        "parent": 113,
+        "children": [],
+        "mesh": 99
+      },
+      {
+        "index": 106,
+        "name": "Support mount socket head.002",
+        "loadedName": "Support_mount_socket_head002",
+        "parent": 113,
+        "children": [],
+        "mesh": 100
+      },
+      {
+        "index": 107,
+        "name": "Support mount socket head.003",
+        "loadedName": "Support_mount_socket_head003",
+        "parent": 113,
+        "children": [],
+        "mesh": 101
+      },
+      {
+        "index": 108,
+        "name": "Support mount washer",
+        "loadedName": "Support_mount_washer",
+        "parent": 113,
+        "children": [],
+        "mesh": 102
+      },
+      {
+        "index": 109,
+        "name": "Support mount washer.001",
+        "loadedName": "Support_mount_washer001",
+        "parent": 113,
+        "children": [],
+        "mesh": 103
+      },
+      {
+        "index": 110,
+        "name": "Support mount washer.002",
+        "loadedName": "Support_mount_washer002",
+        "parent": 113,
+        "children": [],
+        "mesh": 104
+      },
+      {
+        "index": 111,
+        "name": "Support mount washer.003",
+        "loadedName": "Support_mount_washer003",
+        "parent": 113,
+        "children": [],
+        "mesh": 105
+      },
+      {
+        "index": 112,
+        "name": "Travel scale",
+        "loadedName": "Travel_scale",
+        "parent": 113,
+        "children": [],
+        "mesh": 106
+      },
+      {
+        "index": 113,
+        "name": "CRANK_SLIDER_ASSEMBLY",
+        "loadedName": "CRANK_SLIDER_ASSEMBLY",
+        "parent": null,
+        "children": [
+          0,
+          11,
+          12,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112
+        ],
+        "mesh": null
+      }
+    ]
+  },
+  "groups": [
+    {
+      "id": "crank",
+      "title": "Crank drive",
+      "description": "A rotating crank and offset pin provide the rotary input for one complete revolution.",
+      "meshNames": [
+        "Crank_arm",
+        "Crank_balance_disk",
+        "Crank_pin_lower_spacer",
+        "Crank_pin_shaft",
+        "Disk_silver_pocket",
+        "Disk_silver_pocket001",
+        "Disk_silver_pocket002",
+        "Disk_silver_pocket003",
+        "Disk_silver_pocket004",
+        "Disk_silver_pocket005",
+        "Spindle_cap_hex_recess",
+        "Spindle_cap_socket_head",
+        "Spindle_cap_washer"
+      ],
+      "children": []
+    },
+    {
+      "id": "rod",
+      "title": "Connecting rod",
+      "description": "The 110 mm link follows the crank pin and transfers its motion to the carriage.",
+      "meshNames": [
+        "Connecting_rod",
+        "Rod_bearing_bronze_seat",
+        "Rod_bearing_bronze_seat001",
+        "Rod_pivot_hex_recess",
+        "Rod_pivot_hex_recess001",
+        "Rod_pivot_socket_head",
+        "Rod_pivot_socket_head001",
+        "Rod_pivot_washer",
+        "Rod_pivot_washer001",
+        "Rod_recessed_spine"
+      ],
+      "children": []
+    },
+    {
+      "id": "carriage",
+      "title": "Slider carriage",
+      "description": "The carriage travels 70 mm along the guide while remaining connected to the rod.",
+      "meshNames": [
+        "Carriage_mark",
+        "Carriage_screw_hex_recess",
+        "Carriage_screw_hex_recess001",
+        "Carriage_screw_hex_recess002",
+        "Carriage_screw_hex_recess003",
+        "Carriage_screw_socket_head",
+        "Carriage_screw_socket_head001",
+        "Carriage_screw_socket_head002",
+        "Carriage_screw_socket_head003",
+        "Carriage_screw_washer",
+        "Carriage_screw_washer001",
+        "Carriage_screw_washer002",
+        "Carriage_screw_washer003",
+        "Orange_slider_carriage",
+        "Slider_bushing_barrel",
+        "Slider_bushing_barrel001",
+        "Slider_bushing_end_ring",
+        "Slider_bushing_end_ring001",
+        "Slider_bushing_end_ring002",
+        "Slider_bushing_end_ring003",
+        "Slider_pin_saddle",
+        "Slider_pin_shaft"
+      ],
+      "children": []
+    },
+    {
+      "id": "guide",
+      "title": "Linear guide",
+      "description": "Two fixed rails guide the carriage; the scale makes its travel visible.",
+      "meshNames": [
+        "Guide_end_support",
+        "Guide_end_support001",
+        "Guide_label",
+        "Guide_support_collar",
+        "Guide_support_collar001",
+        "Guide_support_collar002",
+        "Guide_support_collar003",
+        "Linear_guide_rail",
+        "Linear_guide_rail001",
+        "Scale_tick_00",
+        "Scale_tick_01",
+        "Scale_tick_02",
+        "Scale_tick_03",
+        "Scale_tick_04",
+        "Scale_tick_05",
+        "Scale_tick_06",
+        "Scale_tick_07",
+        "Scale_tick_08",
+        "Scale_tick_09",
+        "Scale_tick_10",
+        "Scale_tick_11",
+        "Scale_tick_12",
+        "Scale_tick_13",
+        "Scale_tick_14",
+        "Travel_scale"
+      ],
+      "children": []
+    },
+    {
+      "id": "frame",
+      "title": "Frame and supports",
+      "description": "The base, spindle bearing and fixed supports establish the reference for the moving mechanism.",
+      "meshNames": [
+        "Base_|_cobalt_plinth",
+        "Deck_fastener_hex_recess",
+        "Deck_fastener_hex_recess001",
+        "Deck_fastener_hex_recess002",
+        "Deck_fastener_hex_recess003",
+        "Deck_fastener_socket_head",
+        "Deck_fastener_socket_head001",
+        "Deck_fastener_socket_head002",
+        "Deck_fastener_socket_head003",
+        "Deck_fastener_washer",
+        "Deck_fastener_washer001",
+        "Deck_fastener_washer002",
+        "Deck_fastener_washer003",
+        "Deck_subtitle",
+        "Deck_title",
+        "Deck_|_brushed_insert",
+        "Main_vertical_shaft",
+        "Rubber_isolator",
+        "Rubber_isolator001",
+        "Rubber_isolator002",
+        "Rubber_isolator003",
+        "Spindle_bearing_housing",
+        "Spindle_bearing_race",
+        "Spindle_bearing_seal",
+        "Spindle_pedestal",
+        "Support_mount_hex_recess",
+        "Support_mount_hex_recess001",
+        "Support_mount_hex_recess002",
+        "Support_mount_hex_recess003",
+        "Support_mount_socket_head",
+        "Support_mount_socket_head001",
+        "Support_mount_socket_head002",
+        "Support_mount_socket_head003",
+        "Support_mount_washer",
+        "Support_mount_washer001",
+        "Support_mount_washer002",
+        "Support_mount_washer003"
+      ],
+      "children": []
+    }
+  ],
+  "parts": [
+    {
+      "id": "kinetic-node-000",
+      "meshName": "Base_|_cobalt_plinth",
+      "sourceName": "Base | cobalt plinth",
+      "sourceNodeIndex": 0,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Base | cobalt plinth",
+      "title": "Base · cobalt plinth",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0,
+        0.01899999938905239,
+        0
+      ],
+      "bounds": [
+        [
+          -0.1574999988079071,
+          0.007999999448657036,
+          -0.08500000089406967
+        ],
+        [
+          0.1574999988079071,
+          0.029999999329447746,
+          0.08500000089406967
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Structure | cobalt enamel",
+      "finishFamily": "structure",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.1575009988079071,
+          0.007998999448657037,
+          -0.08500100089406967
+        ],
+        [
+          0.1575009988079071,
+          0.030000999329447747,
+          0.08500100089406967
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-001",
+      "meshName": "Connecting_rod",
+      "sourceName": "Connecting rod",
+      "sourceNodeIndex": 1,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Connecting rod",
+      "title": "Connecting rod",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        -4.656612873077393e-10,
+        0.10199999809265137,
+        0
+      ],
+      "bounds": [
+        [
+          -0.06199999991804361,
+          0.09899999806657434,
+          -0.007000000216066837
+        ],
+        [
+          0.06199999898672104,
+          0.1049999981187284,
+          0.007000000216066837
+        ]
+      ],
+      "triangles": 796,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13206862922613302,
+          0.09899899806657432,
+          -0.043864481320385985
+        ],
+        [
+          0.06205337539629299,
+          0.1050009981187284,
+          0.043864481320385985
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-002",
+      "meshName": "Rod_bearing_bronze_seat",
+      "sourceName": "Rod bearing bronze seat",
+      "sourceNodeIndex": 2,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod bearing bronze seat",
+      "title": "Rod bearing bronze seat",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        -0.054999999701976776,
+        0.1054999977350235,
+        0
+      ],
+      "bounds": [
+        [
+          -0.0617999997921288,
+          0.10474999772850424,
+          -0.006800000090152025
+        ],
+        [
+          -0.04819999961182475,
+          0.10624999774154276,
+          0.006800000090152025
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Slider | signal orange",
+      "finishFamily": "bronze",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13186532635646234,
+          0.10474899772850423,
+          -0.04361123884958582
+        ],
+        [
+          -0.04813467333928773,
+          0.10625099774154276,
+          0.04361123884958582
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-003",
+      "meshName": "Rod_bearing_bronze_seat001",
+      "sourceName": "Rod bearing bronze seat.001",
+      "sourceNodeIndex": 3,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod bearing bronze seat.001",
+      "title": "Rod bearing bronze seat 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.1054999977350235,
+        0
+      ],
+      "bounds": [
+        [
+          0.04819999961182475,
+          0.10474999772850424,
+          -0.006800000090152025
+        ],
+        [
+          0.0617999997921288,
+          0.10624999774154276,
+          0.006800000090152025
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Slider | signal orange",
+      "finishFamily": "bronze",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.021895028645155107,
+          0.10474899772850423,
+          -0.008611243128679138
+        ],
+        [
+          0.06185007346110468,
+          0.10625099774154276,
+          0.008611243128679138
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-004",
+      "meshName": "Rod_pivot_hex_recess",
+      "sourceName": "Rod pivot hex recess",
+      "sourceNodeIndex": 4,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod pivot hex recess",
+      "title": "Rod pivot hex recess",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        -0.054999999701976776,
+        0.10949999839067459,
+        0
+      ],
+      "bounds": [
+        [
+          -0.05657963000703603,
+          0.10942499838711228,
+          -0.0018240000354126096
+        ],
+        [
+          -0.05342036939691752,
+          0.1095749983942369,
+          0.0018240000354126096
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.12658377221099412,
+          0.10942399838711227,
+          -0.037232816057801654
+        ],
+        [
+          -0.05341622747121329,
+          0.1095759983942369,
+          0.037232816057801654
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-005",
+      "meshName": "Rod_pivot_hex_recess001",
+      "sourceName": "Rod pivot hex recess.001",
+      "sourceNodeIndex": 5,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod pivot hex recess.001",
+      "title": "Rod pivot hex recess 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.10949999839067459,
+        0
+      ],
+      "bounds": [
+        [
+          0.05342036939691752,
+          0.10942499838711228,
+          -0.0018240000354126096
+        ],
+        [
+          0.05657963000703603,
+          0.1095749983942369,
+          0.0018240000354126096
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.016587588382558235,
+          0.10942399838711227,
+          -0.0022328203368949754
+        ],
+        [
+          0.05658126083797154,
+          0.1095759983942369,
+          0.0022328203368949754
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-006",
+      "meshName": "Rod_pivot_socket_head",
+      "sourceName": "Rod pivot socket head",
+      "sourceNodeIndex": 6,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod pivot socket head",
+      "title": "Rod pivot socket head",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        -0.054999999701976776,
+        0.10819999873638153,
+        0
+      ],
+      "bounds": [
+        [
+          -0.05879999976605177,
+          0.10694999876432121,
+          -0.003800000064074993
+        ],
+        [
+          -0.05119999963790178,
+          0.10944999870844185,
+          0.003800000064074993
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.12882052313354472,
+          0.1069489987643212,
+          -0.03981260414608619
+        ],
+        [
+          -0.0511794765650519,
+          0.10945099870844185,
+          0.03981260414608619
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-007",
+      "meshName": "Rod_pivot_socket_head001",
+      "sourceName": "Rod pivot socket head.001",
+      "sourceNodeIndex": 7,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod pivot socket head.001",
+      "title": "Rod pivot socket head 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.10819999873638153,
+        0
+      ],
+      "bounds": [
+        [
+          0.05119999963790178,
+          0.10694999876432121,
+          -0.003800000064074993
+        ],
+        [
+          0.05879999976605177,
+          0.10944999870844185,
+          0.003800000064074993
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0188310384350511,
+          0.1069489987643212,
+          -0.00481260842517951
+        ],
+        [
+          0.05881670727105507,
+          0.10945099870844185,
+          0.00481260842517951
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-008",
+      "meshName": "Rod_pivot_washer",
+      "sourceName": "Rod pivot washer",
+      "sourceNodeIndex": 8,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod pivot washer",
+      "title": "Rod pivot washer",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        -0.054999999701976776,
+        0.10649999976158142,
+        0
+      ],
+      "bounds": [
+        [
+          -0.06031999969854951,
+          0.1059999997378327,
+          -0.005319999996572733
+        ],
+        [
+          -0.04967999970540404,
+          0.10699999978533015,
+          0.005319999996572733
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13036088597293127,
+          0.10599899973783268,
+          -0.04173724562699088
+        ],
+        [
+          -0.04963911369848077,
+          0.10700099978533015,
+          0.04173724562699088
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-009",
+      "meshName": "Rod_pivot_washer001",
+      "sourceName": "Rod pivot washer.001",
+      "sourceNodeIndex": 9,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod pivot washer.001",
+      "title": "Rod pivot washer 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.10649999976158142,
+        0
+      ],
+      "bounds": [
+        [
+          0.04967999970540404,
+          0.1059999997378327,
+          -0.005319999996572733
+        ],
+        [
+          0.06031999969854951,
+          0.10699999978533015,
+          0.005319999996572733
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.020378542661239396,
+          0.10599899973783268,
+          -0.0067372499060842
+        ],
+        [
+          0.060349314607143406,
+          0.10700099978533015,
+          0.0067372499060842
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-010",
+      "meshName": "Rod_recessed_spine",
+      "sourceName": "Rod recessed spine",
+      "sourceNodeIndex": 10,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Connecting_Rod_Pose/Rod recessed spine",
+      "title": "Rod recessed spine",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "rod",
+      "explode": [
+        0,
+        0.065,
+        0
+      ],
+      "center": [
+        0,
+        0.10520000010728836,
+        0
+      ],
+      "bounds": [
+        [
+          -0.039000000804662704,
+          0.10485000011976808,
+          -0.0020000000949949026
+        ],
+        [
+          0.039000000804662704,
+          0.10555000009480864,
+          0.0020000000949949026
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.1090062187054919,
+          0.10484900011976807,
+          -0.03180615019628873
+        ],
+        [
+          0.03900266376048785,
+          0.10555100009480864,
+          0.03180615019628873
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-013",
+      "meshName": "Crank_arm",
+      "sourceName": "Crank arm",
+      "sourceNodeIndex": 13,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Crank arm",
+      "title": "Crank arm",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.07250000350177288,
+        0.08699999749660492,
+        0
+      ],
+      "bounds": [
+        [
+          -0.0990000031888485,
+          0.08349999785423279,
+          -0.008999999612569809
+        ],
+        [
+          -0.046000003814697266,
+          0.09049999713897705,
+          0.008999999612569809
+        ]
+      ],
+      "triangles": 796,
+      "sourceMaterial": "Structure | cobalt enamel",
+      "finishFamily": "structure",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13491199914400023,
+          0.08349899785423279,
+          -0.04491199580042709
+        ],
+        [
+          -0.04508800950701719,
+          0.09050099713897705,
+          0.04491199501913375
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-014",
+      "meshName": "Crank_balance_disk",
+      "sourceName": "Crank balance disk",
+      "sourceNodeIndex": 14,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Crank balance disk",
+      "title": "Crank balance disk",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.07800000160932541,
+        0
+      ],
+      "bounds": [
+        [
+          -0.11900000274181366,
+          0.07500000158324838,
+          -0.028999999165534973
+        ],
+        [
+          -0.06100000441074371,
+          0.08100000163540244,
+          0.028999999165534973
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13101319942028547,
+          0.07499900158324838,
+          -0.04101319584400678
+        ],
+        [
+          -0.0489868077322719,
+          0.08100100163540244,
+          0.04101319584400678
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-015",
+      "meshName": "Crank_pin_lower_spacer",
+      "sourceName": "Crank pin lower spacer",
+      "sourceNodeIndex": 15,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Crank pin lower spacer",
+      "title": "Crank pin lower spacer",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.055000003427267075,
+        0.09399999678134918,
+        0
+      ],
+      "bounds": [
+        [
+          -0.061500003561377525,
+          0.09099999675527215,
+          -0.006500000134110451
+        ],
+        [
+          -0.048500003293156624,
+          0.09699999680742621,
+          0.006500000134110451
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.1320068893038609,
+          0.09099899675527215,
+          -0.04200689293473762
+        ],
+        [
+          -0.04799311314608112,
+          0.09700099680742622,
+          0.04200689355070312
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-016",
+      "meshName": "Crank_pin_shaft",
+      "sourceName": "Crank pin shaft",
+      "sourceNodeIndex": 16,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Crank pin shaft",
+      "title": "Crank pin shaft",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.055000003427267075,
+        0.0949999988079071,
+        0
+      ],
+      "bounds": [
+        [
+          -0.05950000323355198,
+          0.08399999886751175,
+          -0.0044999998062849045
+        ],
+        [
+          -0.05050000362098217,
+          0.10599999874830246,
+          0.0044999998062849045
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.1297564107020932,
+          0.08399899886751175,
+          -0.03975640929873177
+        ],
+        [
+          -0.0502435944666366,
+          0.10600099874830246,
+          0.03975641284785998
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-018",
+      "meshName": "Disk_silver_pocket",
+      "sourceName": "Disk silver pocket",
+      "sourceNodeIndex": 18,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Disk silver pocket",
+      "title": "Disk silver pocket",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.0690000057220459,
+        0.0812000036239624,
+        0
+      ],
+      "bounds": [
+        [
+          -0.0723000057041645,
+          0.08090000360971317,
+          -0.0032999999821186066
+        ],
+        [
+          -0.06570000573992729,
+          0.08150000363821164,
+          0.0032999999821186066
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11452397805769876,
+          0.08089900360971317,
+          -0.024523973665401003
+        ],
+        [
+          -0.06547603001835253,
+          0.08150100363821164,
+          0.024523973839462823
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-019",
+      "meshName": "Disk_silver_pocket001",
+      "sourceName": "Disk silver pocket.001",
+      "sourceNodeIndex": 19,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Disk silver pocket.001",
+      "title": "Disk silver pocket 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.07950000464916229,
+        0.0812000036239624,
+        -0.018186533823609352
+      ],
+      "bounds": [
+        [
+          -0.0828000046312809,
+          0.08090000360971317,
+          -0.02148653380572796
+        ],
+        [
+          -0.07620000466704369,
+          0.08150000363821164,
+          -0.014886533841490746
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11553744245199223,
+          0.08089900360971317,
+          -0.025537437220250758
+        ],
+        [
+          -0.06446256643498145,
+          0.08150100363821164,
+          0.02553744013097846
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-020",
+      "meshName": "Disk_silver_pocket002",
+      "sourceName": "Disk silver pocket.002",
+      "sourceNodeIndex": 20,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Disk silver pocket.002",
+      "title": "Disk silver pocket 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.10050000250339508,
+        0.0812000036239624,
+        -0.018186533823609352
+      ],
+      "bounds": [
+        [
+          -0.10380000248551369,
+          0.08090000360971317,
+          -0.02148653380572796
+        ],
+        [
+          -0.09720000252127647,
+          0.08150000363821164,
+          -0.014886533841490746
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11553744086152974,
+          0.08089900360971317,
+          -0.025537437330211115
+        ],
+        [
+          -0.06446256457928348,
+          0.08150100363821164,
+          0.025537440861947786
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-021",
+      "meshName": "Disk_silver_pocket003",
+      "sourceName": "Disk silver pocket.003",
+      "sourceNodeIndex": 21,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Disk silver pocket.003",
+      "title": "Disk silver pocket 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.11100000143051147,
+        0.0812000036239624,
+        0
+      ],
+      "bounds": [
+        [
+          -0.11430000141263008,
+          0.08090000360971317,
+          -0.0032999999821186066
+        ],
+        [
+          -0.10770000144839287,
+          0.08150000363821164,
+          0.0032999999821186066
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11452397713420484,
+          0.08089900360971317,
+          -0.024523973839462823
+        ],
+        [
+          -0.06547602909485861,
+          0.08150100363821164,
+          0.024523973665401003
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-022",
+      "meshName": "Disk_silver_pocket004",
+      "sourceName": "Disk silver pocket.004",
+      "sourceNodeIndex": 22,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Disk silver pocket.004",
+      "title": "Disk silver pocket 5",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.10050000250339508,
+        0.0812000036239624,
+        0.018186533823609352
+      ],
+      "bounds": [
+        [
+          -0.10380000248551369,
+          0.08090000360971317,
+          0.014886533841490746
+        ],
+        [
+          -0.09720000252127647,
+          0.08150000363821164,
+          0.02148653380572796
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11553744071757592,
+          0.08089900360971317,
+          -0.02553744013097846
+        ],
+        [
+          -0.06446256470056515,
+          0.08150100363821164,
+          0.025537437220250758
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-023",
+      "meshName": "Disk_silver_pocket005",
+      "sourceName": "Disk silver pocket.005",
+      "sourceNodeIndex": 23,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Disk silver pocket.005",
+      "title": "Disk silver pocket 6",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.07950000464916229,
+        0.0812000036239624,
+        0.018186533823609352
+      ],
+      "bounds": [
+        [
+          -0.0828000046312809,
+          0.08090000360971317,
+          0.014886533841490746
+        ],
+        [
+          -0.07620000466704369,
+          0.08150000363821164,
+          0.02148653380572796
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11553744257327389,
+          0.08089900360971317,
+          -0.025537440861947786
+        ],
+        [
+          -0.06446256629102763,
+          0.08150100363821164,
+          0.025537437330211115
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-024",
+      "meshName": "Spindle_cap_hex_recess",
+      "sourceName": "Spindle cap hex recess",
+      "sourceNodeIndex": 24,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Spindle cap hex recess",
+      "title": "Spindle cap hex recess",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.0949999988079071,
+        0
+      ],
+      "bounds": [
+        [
+          -0.09187061828561127,
+          0.0949249988043448,
+          -0.00215999991632998
+        ],
+        [
+          -0.0881293888669461,
+          0.09507499881146941,
+          0.00215999991632998
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.09285841477338207,
+          0.0949239988043448,
+          -0.0028584111781869885
+        ],
+        [
+          -0.0871415923791753,
+          0.09507599881146941,
+          0.0028584111781869885
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-025",
+      "meshName": "Spindle_cap_socket_head",
+      "sourceName": "Spindle cap socket head",
+      "sourceNodeIndex": 25,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Spindle cap socket head",
+      "title": "Spindle cap socket head",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.09369999915361404,
+        0
+      ],
+      "bounds": [
+        [
+          -0.09450000338256359,
+          0.09244999918155372,
+          -0.0044999998062849045
+        ],
+        [
+          -0.08550000376999378,
+          0.09494999912567437,
+          0.0044999998062849045
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.09636496490951497,
+          0.09244899918155372,
+          -0.0063649613332362855
+        ],
+        [
+          -0.0836350422430424,
+          0.09495099912567437,
+          0.0063649613332362855
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-026",
+      "meshName": "Spindle_cap_washer",
+      "sourceName": "Spindle cap washer",
+      "sourceNodeIndex": 26,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Crank_Rotation/Spindle cap washer",
+      "title": "Spindle cap washer",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "crank",
+      "explode": [
+        -0.05,
+        0.025,
+        0
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.09200000017881393,
+        0
+      ],
+      "bounds": [
+        [
+          -0.09630000358447433,
+          0.09150000015506521,
+          -0.006300000008195639
+        ],
+        [
+          -0.08370000356808305,
+          0.09250000020256266,
+          0.006300000008195639
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.09891054983793623,
+          0.09149900015506521,
+          -0.00891054626165754
+        ],
+        [
+          -0.08108945731462114,
+          0.09250100020256266,
+          0.00891054626165754
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-028",
+      "meshName": "Deck_fastener_hex_recess",
+      "sourceName": "Deck fastener hex recess",
+      "sourceNodeIndex": 28,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener hex recess",
+      "title": "Deck fastener hex recess",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.03700000047683716,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.1302470697555691,
+          0.03692500047327485,
+          0.05855999863706529
+        ],
+        [
+          -0.1277529166545719,
+          0.03707500048039947,
+          0.061439998680725694
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.1302480697555691,
+          0.03692400047327485,
+          0.05855899863706529
+        ],
+        [
+          -0.1277519166545719,
+          0.03707600048039947,
+          0.061440998680725695
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-029",
+      "meshName": "Deck_fastener_hex_recess001",
+      "sourceName": "Deck fastener hex recess.001",
+      "sourceNodeIndex": 29,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener hex recess.001",
+      "title": "Deck fastener hex recess 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.03700000047683716,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.1302470697555691,
+          0.03692500047327485,
+          -0.061439998680725694
+        ],
+        [
+          -0.1277529166545719,
+          0.03707500048039947,
+          -0.05855999863706529
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.1302480697555691,
+          0.03692400047327485,
+          -0.061440998680725695
+        ],
+        [
+          -0.1277519166545719,
+          0.03707600048039947,
+          -0.05855899863706529
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-030",
+      "meshName": "Deck_fastener_hex_recess002",
+      "sourceName": "Deck fastener hex recess.002",
+      "sourceNodeIndex": 30,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener hex recess.002",
+      "title": "Deck fastener hex recess 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.03700000047683716,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.1277529166545719,
+          0.03692500047327485,
+          0.05855999863706529
+        ],
+        [
+          0.1302470697555691,
+          0.03707500048039947,
+          0.061439998680725694
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.1277519166545719,
+          0.03692400047327485,
+          0.05855899863706529
+        ],
+        [
+          0.1302480697555691,
+          0.03707600048039947,
+          0.061440998680725695
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-031",
+      "meshName": "Deck_fastener_hex_recess003",
+      "sourceName": "Deck fastener hex recess.003",
+      "sourceNodeIndex": 31,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener hex recess.003",
+      "title": "Deck fastener hex recess 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.03700000047683716,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.1277529166545719,
+          0.03692500047327485,
+          -0.061439998680725694
+        ],
+        [
+          0.1302470697555691,
+          0.03707500048039947,
+          -0.05855999863706529
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.1277519166545719,
+          0.03692400047327485,
+          -0.061440998680725695
+        ],
+        [
+          0.1302480697555691,
+          0.03707600048039947,
+          -0.05855899863706529
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-032",
+      "meshName": "Deck_fastener_socket_head",
+      "sourceName": "Deck fastener socket head",
+      "sourceNodeIndex": 32,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener socket head",
+      "title": "Deck fastener socket head",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.0357000008225441,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.13199999323114753,
+          0.034450000850483775,
+          0.05699999863281846
+        ],
+        [
+          -0.12599999317899346,
+          0.03695000079460442,
+          0.06299999868497252
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13200099323114753,
+          0.034449000850483774,
+          0.05699899863281846
+        ],
+        [
+          -0.12599899317899346,
+          0.03695100079460442,
+          0.06300099868497253
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-033",
+      "meshName": "Deck_fastener_socket_head001",
+      "sourceName": "Deck fastener socket head.001",
+      "sourceNodeIndex": 33,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener socket head.001",
+      "title": "Deck fastener socket head 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.0357000008225441,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.13199999323114753,
+          0.034450000850483775,
+          -0.06299999868497252
+        ],
+        [
+          -0.12599999317899346,
+          0.03695000079460442,
+          -0.05699999863281846
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13200099323114753,
+          0.034449000850483774,
+          -0.06300099868497253
+        ],
+        [
+          -0.12599899317899346,
+          0.03695100079460442,
+          -0.05699899863281846
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-034",
+      "meshName": "Deck_fastener_socket_head002",
+      "sourceName": "Deck fastener socket head.002",
+      "sourceNodeIndex": 34,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener socket head.002",
+      "title": "Deck fastener socket head 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.0357000008225441,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.12599999317899346,
+          0.034450000850483775,
+          0.05699999863281846
+        ],
+        [
+          0.13199999323114753,
+          0.03695000079460442,
+          0.06299999868497252
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.12599899317899346,
+          0.034449000850483774,
+          0.05699899863281846
+        ],
+        [
+          0.13200099323114753,
+          0.03695100079460442,
+          0.06300099868497253
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-035",
+      "meshName": "Deck_fastener_socket_head003",
+      "sourceName": "Deck fastener socket head.003",
+      "sourceNodeIndex": 35,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener socket head.003",
+      "title": "Deck fastener socket head 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.0357000008225441,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.12599999317899346,
+          0.034450000850483775,
+          -0.06299999868497252
+        ],
+        [
+          0.13199999323114753,
+          0.03695000079460442,
+          -0.05699999863281846
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.12599899317899346,
+          0.034449000850483774,
+          -0.06300099868497253
+        ],
+        [
+          0.13200099323114753,
+          0.03695100079460442,
+          -0.05699899863281846
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-036",
+      "meshName": "Deck_fastener_washer",
+      "sourceName": "Deck fastener washer",
+      "sourceNodeIndex": 36,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener washer",
+      "title": "Deck fastener washer",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.03400000184774399,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.13319999305531383,
+          0.03350000182399526,
+          0.05579999880865216
+        ],
+        [
+          -0.12479999335482717,
+          0.034500001871492714,
+          0.06419999850913882
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13320099305531383,
+          0.03349900182399526,
+          0.05579899880865216
+        ],
+        [
+          -0.12479899335482716,
+          0.034501001871492715,
+          0.06420099850913882
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-037",
+      "meshName": "Deck_fastener_washer001",
+      "sourceName": "Deck fastener washer.001",
+      "sourceNodeIndex": 37,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener washer.001",
+      "title": "Deck fastener washer 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.03400000184774399,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.13319999305531383,
+          0.03350000182399526,
+          -0.06419999850913882
+        ],
+        [
+          -0.12479999335482717,
+          0.034500001871492714,
+          -0.05579999880865216
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.13320099305531383,
+          0.03349900182399526,
+          -0.06420099850913882
+        ],
+        [
+          -0.12479899335482716,
+          0.034501001871492715,
+          -0.05579899880865216
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-038",
+      "meshName": "Deck_fastener_washer002",
+      "sourceName": "Deck fastener washer.002",
+      "sourceNodeIndex": 38,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener washer.002",
+      "title": "Deck fastener washer 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.03400000184774399,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.12479999335482717,
+          0.03350000182399526,
+          0.05579999880865216
+        ],
+        [
+          0.13319999305531383,
+          0.034500001871492714,
+          0.06419999850913882
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.12479899335482716,
+          0.03349900182399526,
+          0.05579899880865216
+        ],
+        [
+          0.13320099305531383,
+          0.034501001871492715,
+          0.06420099850913882
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-039",
+      "meshName": "Deck_fastener_washer003",
+      "sourceName": "Deck fastener washer.003",
+      "sourceNodeIndex": 39,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck fastener washer.003",
+      "title": "Deck fastener washer 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.03400000184774399,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.12479999335482717,
+          0.03350000182399526,
+          -0.06419999850913882
+        ],
+        [
+          0.13319999305531383,
+          0.034500001871492714,
+          -0.05579999880865216
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.12479899335482716,
+          0.03349900182399526,
+          -0.06420099850913882
+        ],
+        [
+          0.13320099305531383,
+          0.034501001871492715,
+          -0.05579899880865216
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-040",
+      "meshName": "Deck_subtitle",
+      "sourceName": "Deck subtitle",
+      "sourceNodeIndex": 40,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck subtitle",
+      "title": "Deck subtitle",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.060115198604762554,
+        0.032999999821186066,
+        0.062363202870983514
+      ],
+      "bounds": [
+        [
+          0.04259759560227394,
+          0.03297499982181762,
+          0.060683202696964145
+        ],
+        [
+          0.07763280160725117,
+          0.03302499982055451,
+          0.06404320304500288
+        ]
+      ],
+      "triangles": 2048,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.04259659560227394,
+          0.03297399982181762,
+          0.060682202696964144
+        ],
+        [
+          0.07763380160725117,
+          0.033025999820554514,
+          0.06404420304500288
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-041",
+      "meshName": "Deck_title",
+      "sourceName": "Deck title",
+      "sourceNodeIndex": 41,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck title",
+      "title": "Deck title",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.08056249748915434,
+        0.032999999821186066,
+        0.06093100299403886
+      ],
+      "bounds": [
+        [
+          -0.10446199588477612,
+          0.03297499982181762,
+          0.05778100294992328
+        ],
+        [
+          -0.05666299909353256,
+          0.03302499982055451,
+          0.06408100303815445
+        ]
+      ],
+      "triangles": 968,
+      "sourceMaterial": "Structure | cobalt enamel",
+      "finishFamily": "structure",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.10446299588477612,
+          0.03297399982181762,
+          0.057780002949923276
+        ],
+        [
+          -0.05666199909353256,
+          0.033025999820554514,
+          0.06408200303815445
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-042",
+      "meshName": "Deck_|_brushed_insert",
+      "sourceName": "Deck | brushed insert",
+      "sourceNodeIndex": 42,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Deck | brushed insert",
+      "title": "Deck · brushed insert",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0,
+        0.03099999949336052,
+        0
+      ],
+      "bounds": [
+        [
+          -0.1459999978542328,
+          0.029499999480322003,
+          -0.07400000095367432
+        ],
+        [
+          0.1459999978542328,
+          0.032499999506399035,
+          0.07400000095367432
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Linkage | satin steel",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.1460009978542328,
+          0.029498999480322002,
+          -0.07400100095367432
+        ],
+        [
+          0.1460009978542328,
+          0.032500999506399036,
+          0.07400100095367432
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-043",
+      "meshName": "Guide_end_support",
+      "sourceName": "Guide end support",
+      "sourceNodeIndex": 43,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Guide end support",
+      "title": "Guide end support",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.04899999871850014,
+        0
+      ],
+      "bounds": [
+        [
+          -0.053499999921768904,
+          0.03199999779462814,
+          -0.04100000113248825
+        ],
+        [
+          -0.03850000025704503,
+          0.06599999964237213,
+          0.04100000113248825
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Structure | cobalt enamel",
+      "finishFamily": "structure",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.053500999921768905,
+          0.03199899779462814,
+          -0.04100100113248825
+        ],
+        [
+          -0.03849900025704503,
+          0.06600099964237213,
+          0.04100100113248825
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-044",
+      "meshName": "Guide_end_support001",
+      "sourceName": "Guide end support.001",
+      "sourceNodeIndex": 44,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Guide end support.001",
+      "title": "Guide end support 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.10700000077486038,
+        0.04899999871850014,
+        0
+      ],
+      "bounds": [
+        [
+          0.09950000094249845,
+          0.03199999779462814,
+          -0.04100000113248825
+        ],
+        [
+          0.11450000060722232,
+          0.06599999964237213,
+          0.04100000113248825
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Structure | cobalt enamel",
+      "finishFamily": "structure",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.09949900094249844,
+          0.03199899779462814,
+          -0.04100100113248825
+        ],
+        [
+          0.11450100060722232,
+          0.06600099964237213,
+          0.04100100113248825
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-045",
+      "meshName": "Guide_label",
+      "sourceName": "Guide label",
+      "sourceNodeIndex": 45,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Guide label",
+      "title": "Guide label",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.030101248994469643,
+        0.032999999821186066,
+        -0.053534501095782616
+      ],
+      "bounds": [
+        [
+          0.015667498111724854,
+          0.03297499982181762,
+          -0.05510950111784041
+        ],
+        [
+          0.04453499987721443,
+          0.03302499982055451,
+          -0.05195950107372482
+        ]
+      ],
+      "triangles": 1516,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.015666498111724853,
+          0.03297399982181762,
+          -0.05511050111784041
+        ],
+        [
+          0.04453599987721443,
+          0.033025999820554514,
+          -0.05195850107372482
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-046",
+      "meshName": "Guide_support_collar",
+      "sourceName": "Guide support collar",
+      "sourceNodeIndex": 46,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Guide support collar",
+      "title": "Guide support collar",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.07199999690055847,
+        0.027000000700354576
+      ],
+      "bounds": [
+        [
+          -0.05400000261912838,
+          0.06399999437083706,
+          0.019000000320374966
+        ],
+        [
+          -0.037999997559685555,
+          0.07999999943027988,
+          0.03500000108033419
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05400100261912838,
+          0.06399899437083706,
+          0.018999000320374965
+        ],
+        [
+          -0.037998997559685554,
+          0.08000099943027988,
+          0.03500100108033419
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-047",
+      "meshName": "Guide_support_collar001",
+      "sourceName": "Guide support collar.001",
+      "sourceNodeIndex": 47,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Guide support collar.001",
+      "title": "Guide support collar 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.07199999690055847,
+        -0.027000000700354576
+      ],
+      "bounds": [
+        [
+          -0.05400000261912838,
+          0.06399999437083706,
+          -0.03500000108033419
+        ],
+        [
+          -0.037999997559685555,
+          0.07999999943027988,
+          -0.019000000320374966
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05400100261912838,
+          0.06399899437083706,
+          -0.03500100108033419
+        ],
+        [
+          -0.037998997559685554,
+          0.08000099943027988,
+          -0.018999000320374965
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-048",
+      "meshName": "Guide_support_collar002",
+      "sourceName": "Guide support collar.002",
+      "sourceNodeIndex": 48,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Guide support collar.002",
+      "title": "Guide support collar 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.10700000077486038,
+        0.07199999690055847,
+        0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.09899999824513897,
+          0.06399999437083706,
+          0.019000000320374966
+        ],
+        [
+          0.1150000033045818,
+          0.07999999943027988,
+          0.03500000108033419
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.09899899824513897,
+          0.06399899437083706,
+          0.018999000320374965
+        ],
+        [
+          0.1150010033045818,
+          0.08000099943027988,
+          0.03500100108033419
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-049",
+      "meshName": "Guide_support_collar003",
+      "sourceName": "Guide support collar.003",
+      "sourceNodeIndex": 49,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Guide support collar.003",
+      "title": "Guide support collar 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.10700000077486038,
+        0.07199999690055847,
+        -0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.09899999824513897,
+          0.06399999437083706,
+          -0.03500000108033419
+        ],
+        [
+          0.1150000033045818,
+          0.07999999943027988,
+          -0.019000000320374966
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.09899899824513897,
+          0.06399899437083706,
+          -0.03500100108033419
+        ],
+        [
+          0.1150010033045818,
+          0.08000099943027988,
+          -0.018999000320374965
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-050",
+      "meshName": "Linear_guide_rail",
+      "sourceName": "Linear guide rail",
+      "sourceNodeIndex": 50,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Linear guide rail",
+      "title": "Linear guide rail",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.030500000342726707,
+        0.0729999989271164,
+        0.027000000700354576
+      ],
+      "bounds": [
+        [
+          -0.05550001473737777,
+          0.0684999869613546,
+          0.02250000089406967
+        ],
+        [
+          0.11650001542283119,
+          0.07750001089287818,
+          0.03150000050663948
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05550101473737777,
+          0.0684989869613546,
+          0.02249900089406967
+        ],
+        [
+          0.11650101542283119,
+          0.07750101089287818,
+          0.03150100050663948
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-051",
+      "meshName": "Linear_guide_rail001",
+      "sourceName": "Linear guide rail.001",
+      "sourceNodeIndex": 51,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Linear guide rail.001",
+      "title": "Linear guide rail 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.030500000342726707,
+        0.0729999989271164,
+        -0.027000000700354576
+      ],
+      "bounds": [
+        [
+          -0.05550001473737777,
+          0.0684999869613546,
+          -0.03150000050663948
+        ],
+        [
+          0.11650001542283119,
+          0.07750001089287818,
+          -0.02250000089406967
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05550101473737777,
+          0.0684989869613546,
+          -0.03150100050663948
+        ],
+        [
+          0.11650101542283119,
+          0.07750101089287818,
+          -0.02249900089406967
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-052",
+      "meshName": "Main_vertical_shaft",
+      "sourceName": "Main vertical shaft",
+      "sourceNodeIndex": 52,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Main vertical shaft",
+      "title": "Main vertical shaft",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.07900000363588333,
+        0
+      ],
+      "bounds": [
+        [
+          -0.09600000362843275,
+          0.0670000035315752,
+          -0.006000000052154064
+        ],
+        [
+          -0.08400000352412462,
+          0.09100000374019146,
+          0.006000000052154064
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.09600100362843275,
+          0.0669990035315752,
+          -0.006001000052154064
+        ],
+        [
+          -0.08399900352412462,
+          0.09100100374019146,
+          0.006001000052154064
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-053",
+      "meshName": "Rubber_isolator",
+      "sourceName": "Rubber isolator",
+      "sourceNodeIndex": 53,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Rubber isolator",
+      "title": "Rubber isolator",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.006000000052154064,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.14099999330937862,
+          0,
+          0.047999998554587364
+        ],
+        [
+          -0.11699999310076237,
+          0.012000000104308128,
+          0.07199999876320362
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "polymer",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.14100099330937862,
+          -0.000001,
+          0.04799899855458736
+        ],
+        [
+          -0.11699899310076237,
+          0.012001000104308128,
+          0.07200099876320362
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-054",
+      "meshName": "Rubber_isolator001",
+      "sourceName": "Rubber isolator.001",
+      "sourceNodeIndex": 54,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Rubber isolator.001",
+      "title": "Rubber isolator 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.1289999932050705,
+        0.006000000052154064,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          -0.14099999330937862,
+          0,
+          -0.07199999876320362
+        ],
+        [
+          -0.11699999310076237,
+          0.012000000104308128,
+          -0.047999998554587364
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "polymer",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.14100099330937862,
+          -0.000001,
+          -0.07200099876320362
+        ],
+        [
+          -0.11699899310076237,
+          0.012001000104308128,
+          -0.04799899855458736
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-055",
+      "meshName": "Rubber_isolator002",
+      "sourceName": "Rubber isolator.002",
+      "sourceNodeIndex": 55,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Rubber isolator.002",
+      "title": "Rubber isolator 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.006000000052154064,
+        0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.11699999310076237,
+          0,
+          0.047999998554587364
+        ],
+        [
+          0.14099999330937862,
+          0.012000000104308128,
+          0.07199999876320362
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "polymer",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.11699899310076237,
+          -0.000001,
+          0.04799899855458736
+        ],
+        [
+          0.14100099330937862,
+          0.012001000104308128,
+          0.07200099876320362
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-056",
+      "meshName": "Rubber_isolator003",
+      "sourceName": "Rubber isolator.003",
+      "sourceNodeIndex": 56,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Rubber isolator.003",
+      "title": "Rubber isolator 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.1289999932050705,
+        0.006000000052154064,
+        -0.05999999865889549
+      ],
+      "bounds": [
+        [
+          0.11699999310076237,
+          0,
+          -0.07199999876320362
+        ],
+        [
+          0.14099999330937862,
+          0.012000000104308128,
+          -0.047999998554587364
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "polymer",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.11699899310076237,
+          -0.000001,
+          -0.07200099876320362
+        ],
+        [
+          0.14100099330937862,
+          0.012001000104308128,
+          -0.04799899855458736
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-057",
+      "meshName": "Scale_tick_00",
+      "sourceName": "Scale tick 00",
+      "sourceNodeIndex": 57,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 00",
+      "title": "Scale tick 00",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        -0.039000000804662704,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          -0.03930000081891194,
+          0.034850000141886994,
+          0.04349999828264117
+        ],
+        [
+          -0.03870000079041347,
+          0.03515000015613623,
+          0.05049999849870801
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.03930100081891194,
+          0.03484900014188699,
+          0.04349899828264117
+        ],
+        [
+          -0.03869900079041347,
+          0.03515100015613623,
+          0.05050099849870801
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-058",
+      "meshName": "Scale_tick_01",
+      "sourceName": "Scale tick 01",
+      "sourceNodeIndex": 58,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 01",
+      "title": "Scale tick 01",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        -0.028999999165534973,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          -0.02929999917978421,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          -0.028699999151285738,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.02930099917978421,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          -0.028698999151285737,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-059",
+      "meshName": "Scale_tick_02",
+      "sourceName": "Scale tick 02",
+      "sourceNodeIndex": 59,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 02",
+      "title": "Scale tick 02",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        -0.01899999938905239,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          -0.019299999403301626,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          -0.018699999374803156,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.019300999403301627,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          -0.018698999374803155,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-060",
+      "meshName": "Scale_tick_03",
+      "sourceName": "Scale tick 03",
+      "sourceNodeIndex": 60,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 03",
+      "title": "Scale tick 03",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        -0.008999999612569809,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          -0.009299999626819044,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          -0.008699999598320574,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.009300999626819044,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          -0.008698999598320574,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-061",
+      "meshName": "Scale_tick_04",
+      "sourceName": "Scale tick 04",
+      "sourceNodeIndex": 61,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 04",
+      "title": "Scale tick 04",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.0010000000474974513,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.0007000000332482159,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.0013000000617466867,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.0006990000332482159,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.0013010000617466866,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-062",
+      "meshName": "Scale_tick_05",
+      "sourceName": "Scale tick 05",
+      "sourceNodeIndex": 62,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 05",
+      "title": "Scale tick 05",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.010999999940395355,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.01069999992614612,
+          0.034850000141886994,
+          0.04349999828264117
+        ],
+        [
+          0.01129999995464459,
+          0.03515000015613623,
+          0.05049999849870801
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.01069899992614612,
+          0.03484900014188699,
+          0.04349899828264117
+        ],
+        [
+          0.01130099995464459,
+          0.03515100015613623,
+          0.05050099849870801
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-063",
+      "meshName": "Scale_tick_06",
+      "sourceName": "Scale tick 06",
+      "sourceNodeIndex": 63,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 06",
+      "title": "Scale tick 06",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.020999999716877937,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.020699999702628702,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.021299999731127173,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.0206989997026287,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.021300999731127174,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-064",
+      "meshName": "Scale_tick_07",
+      "sourceName": "Scale tick 07",
+      "sourceNodeIndex": 64,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 07",
+      "title": "Scale tick 07",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.03099999949336052,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.030699999479111284,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.031299999507609755,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.030698999479111283,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.031300999507609756,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-065",
+      "meshName": "Scale_tick_08",
+      "sourceName": "Scale tick 08",
+      "sourceNodeIndex": 65,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 08",
+      "title": "Scale tick 08",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.04100000113248825,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.040700001118239015,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.041300001146737486,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.040699001118239014,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.04130100114673749,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-066",
+      "meshName": "Scale_tick_09",
+      "sourceName": "Scale tick 09",
+      "sourceNodeIndex": 66,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 09",
+      "title": "Scale tick 09",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.050999999046325684,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.05069999903207645,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.05129999906057492,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.05069899903207645,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.05130099906057492,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-067",
+      "meshName": "Scale_tick_10",
+      "sourceName": "Scale tick 10",
+      "sourceNodeIndex": 67,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 10",
+      "title": "Scale tick 10",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.061000000685453415,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.06070000067120418,
+          0.034850000141886994,
+          0.04349999828264117
+        ],
+        [
+          0.06130000069970265,
+          0.03515000015613623,
+          0.05049999849870801
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.06069900067120418,
+          0.03484900014188699,
+          0.04349899828264117
+        ],
+        [
+          0.06130100069970265,
+          0.03515100015613623,
+          0.05050099849870801
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-068",
+      "meshName": "Scale_tick_11",
+      "sourceName": "Scale tick 11",
+      "sourceNodeIndex": 68,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 11",
+      "title": "Scale tick 11",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.07100000232458115,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.07070000231033191,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.07130000233883038,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.07069900231033191,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.07130100233883038,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-069",
+      "meshName": "Scale_tick_12",
+      "sourceName": "Scale tick 12",
+      "sourceNodeIndex": 69,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 12",
+      "title": "Scale tick 12",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.08100000023841858,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.08070000022416934,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.08130000025266781,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.08069900022416934,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.08130100025266782,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-070",
+      "meshName": "Scale_tick_13",
+      "sourceName": "Scale tick 13",
+      "sourceNodeIndex": 70,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 13",
+      "title": "Scale tick 13",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.09099999815225601,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.09069999813800678,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.09129999816650525,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.09069899813800678,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.09130099816650525,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-071",
+      "meshName": "Scale_tick_14",
+      "sourceName": "Scale tick 14",
+      "sourceNodeIndex": 71,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Scale tick 14",
+      "title": "Scale tick 14",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.10100000351667404,
+        0.03500000014901161,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          0.1007000035024248,
+          0.034850000141886994,
+          0.04524999833665788
+        ],
+        [
+          0.10130000353092328,
+          0.03515000015613623,
+          0.0487499984446913
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.1006990035024248,
+          0.03484900014188699,
+          0.04524899833665788
+        ],
+        [
+          0.10130100353092328,
+          0.03515100015613623,
+          0.0487509984446913
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-072",
+      "meshName": "Carriage_mark",
+      "sourceName": "Carriage mark",
+      "sourceNodeIndex": 72,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage mark",
+      "title": "Carriage mark",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.05448999971849844,
+        0.08900000154972076,
+        0.019953999697463587
+      ],
+      "bounds": [
+        [
+          0.05217999964952469,
+          0.08897500155035232,
+          0.017853999510407448
+        ],
+        [
+          0.05679999978747219,
+          0.08902500154908921,
+          0.022053999884519726
+        ]
+      ],
+      "triangles": 396,
+      "sourceMaterial": "Lettering | ivory",
+      "finishFamily": "satin",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.01782099971717596,
+          0.08897400155035232,
+          0.017852999510407447
+        ],
+        [
+          0.05680099978747219,
+          0.08902600154908921,
+          0.022054999884519727
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-073",
+      "meshName": "Carriage_screw_hex_recess",
+      "sourceName": "Carriage screw hex recess",
+      "sourceNodeIndex": 73,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw hex recess",
+      "title": "Carriage screw hex recess",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.0429999977350235,
+        0.09200000017881393,
+        0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.04225175181636587,
+          0.09192500017525163,
+          0.016136000922415406
+        ],
+        [
+          0.04374824365368113,
+          0.09207500018237624,
+          0.017864000925328583
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.027749247550334782,
+          0.09192400017525162,
+          0.016135000922415405
+        ],
+        [
+          0.04374924365368113,
+          0.09207600018237624,
+          0.017865000925328584
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-074",
+      "meshName": "Carriage_screw_hex_recess001",
+      "sourceName": "Carriage screw hex recess.001",
+      "sourceNodeIndex": 74,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw hex recess.001",
+      "title": "Carriage screw hex recess 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.0429999977350235,
+        0.09200000017881393,
+        -0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.04225175181636587,
+          0.09192500017525163,
+          -0.017864000925328583
+        ],
+        [
+          0.04374824365368113,
+          0.09207500018237624,
+          -0.016136000922415406
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.027749247550334782,
+          0.09192400017525162,
+          -0.017865000925328584
+        ],
+        [
+          0.04374924365368113,
+          0.09207600018237624,
+          -0.016135000922415405
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-075",
+      "meshName": "Carriage_screw_hex_recess002",
+      "sourceName": "Carriage screw hex recess.002",
+      "sourceNodeIndex": 75,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw hex recess.002",
+      "title": "Carriage screw hex recess 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.06700000166893005,
+        0.09200000017881393,
+        0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.06625175575027242,
+          0.09192500017525163,
+          0.016136000922415406
+        ],
+        [
+          0.06774824758758768,
+          0.09207500018237624,
+          0.017864000925328583
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0037492436164282264,
+          0.09192400017525162,
+          0.016135000922415405
+        ],
+        [
+          0.06774924758758769,
+          0.09207600018237624,
+          0.017865000925328584
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-076",
+      "meshName": "Carriage_screw_hex_recess003",
+      "sourceName": "Carriage screw hex recess.003",
+      "sourceNodeIndex": 76,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw hex recess.003",
+      "title": "Carriage screw hex recess 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.06700000166893005,
+        0.09200000017881393,
+        -0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.06625175575027242,
+          0.09192500017525163,
+          -0.017864000925328583
+        ],
+        [
+          0.06774824758758768,
+          0.09207500018237624,
+          -0.016136000922415406
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0037492436164282264,
+          0.09192400017525162,
+          -0.017865000925328584
+        ],
+        [
+          0.06774924758758769,
+          0.09207600018237624,
+          -0.016135000922415405
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-077",
+      "meshName": "Carriage_screw_socket_head",
+      "sourceName": "Carriage screw socket head",
+      "sourceNodeIndex": 77,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw socket head",
+      "title": "Carriage screw socket head",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.0429999977350235,
+        0.09070000052452087,
+        0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.04119999776594341,
+          0.08945000055246055,
+          0.015200000954791903
+        ],
+        [
+          0.04479999770410359,
+          0.0919500004965812,
+          0.018800000892952085
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.028801001600757242,
+          0.08944900055246055,
+          0.015199000954791904
+        ],
+        [
+          0.04480099770410359,
+          0.0919510004965812,
+          0.018801000892952086
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-078",
+      "meshName": "Carriage_screw_socket_head001",
+      "sourceName": "Carriage screw socket head.001",
+      "sourceNodeIndex": 78,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw socket head.001",
+      "title": "Carriage screw socket head 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.0429999977350235,
+        0.09070000052452087,
+        -0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.04119999776594341,
+          0.08945000055246055,
+          -0.018800000892952085
+        ],
+        [
+          0.04479999770410359,
+          0.0919500004965812,
+          -0.015200000954791903
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.028801001600757242,
+          0.08944900055246055,
+          -0.018801000892952086
+        ],
+        [
+          0.04480099770410359,
+          0.0919510004965812,
+          -0.015199000954791904
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-079",
+      "meshName": "Carriage_screw_socket_head002",
+      "sourceName": "Carriage screw socket head.002",
+      "sourceNodeIndex": 79,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw socket head.002",
+      "title": "Carriage screw socket head 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.06700000166893005,
+        0.09070000052452087,
+        0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.06520000169984996,
+          0.08945000055246055,
+          0.015200000954791903
+        ],
+        [
+          0.06880000163801014,
+          0.0919500004965812,
+          0.018800000892952085
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.004800997666850686,
+          0.08944900055246055,
+          0.015199000954791904
+        ],
+        [
+          0.06880100163801015,
+          0.0919510004965812,
+          0.018801000892952086
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-080",
+      "meshName": "Carriage_screw_socket_head003",
+      "sourceName": "Carriage screw socket head.003",
+      "sourceNodeIndex": 80,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw socket head.003",
+      "title": "Carriage screw socket head 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.06700000166893005,
+        0.09070000052452087,
+        -0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.06520000169984996,
+          0.08945000055246055,
+          -0.018800000892952085
+        ],
+        [
+          0.06880000163801014,
+          0.0919500004965812,
+          -0.015200000954791903
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.004800997666850686,
+          0.08944900055246055,
+          -0.018801000892952086
+        ],
+        [
+          0.06880100163801015,
+          0.0919510004965812,
+          -0.015199000954791904
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-081",
+      "meshName": "Carriage_screw_washer",
+      "sourceName": "Carriage screw washer",
+      "sourceNodeIndex": 81,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw washer",
+      "title": "Carriage screw washer",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.0429999977350235,
+        0.08900000154972076,
+        0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.040479997638612986,
+          0.08850000152597204,
+          0.014480000827461481
+        ],
+        [
+          0.04551999783143401,
+          0.08950000157346949,
+          0.019520001020282507
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.029521001728087665,
+          0.08849900152597204,
+          0.014479000827461482
+        ],
+        [
+          0.04552099783143401,
+          0.08950100157346949,
+          0.019521001020282508
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-082",
+      "meshName": "Carriage_screw_washer001",
+      "sourceName": "Carriage screw washer.001",
+      "sourceNodeIndex": 82,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw washer.001",
+      "title": "Carriage screw washer 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.0429999977350235,
+        0.08900000154972076,
+        -0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.040479997638612986,
+          0.08850000152597204,
+          -0.019520001020282507
+        ],
+        [
+          0.04551999783143401,
+          0.08950000157346949,
+          -0.014480000827461481
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.029521001728087665,
+          0.08849900152597204,
+          -0.019521001020282508
+        ],
+        [
+          0.04552099783143401,
+          0.08950100157346949,
+          -0.014479000827461482
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-083",
+      "meshName": "Carriage_screw_washer002",
+      "sourceName": "Carriage screw washer.002",
+      "sourceNodeIndex": 83,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw washer.002",
+      "title": "Carriage screw washer 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.06700000166893005,
+        0.08900000154972076,
+        0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.06448000157251954,
+          0.08850000152597204,
+          0.014480000827461481
+        ],
+        [
+          0.06952000176534057,
+          0.08950000157346949,
+          0.019520001020282507
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.005520997794181109,
+          0.08849900152597204,
+          0.014479000827461482
+        ],
+        [
+          0.06952100176534057,
+          0.08950100157346949,
+          0.019521001020282508
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-084",
+      "meshName": "Carriage_screw_washer003",
+      "sourceName": "Carriage screw washer.003",
+      "sourceNodeIndex": 84,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Carriage screw washer.003",
+      "title": "Carriage screw washer 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.06700000166893005,
+        0.08900000154972076,
+        -0.017000000923871994
+      ],
+      "bounds": [
+        [
+          0.06448000157251954,
+          0.08850000152597204,
+          -0.019520001020282507
+        ],
+        [
+          0.06952000176534057,
+          0.08950000157346949,
+          -0.014480000827461481
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.005520997794181109,
+          0.08849900152597204,
+          -0.019521001020282508
+        ],
+        [
+          0.06952100176534057,
+          0.08950100157346949,
+          -0.014479000827461482
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-085",
+      "meshName": "Orange_slider_carriage",
+      "sourceName": "Orange slider carriage",
+      "sourceNodeIndex": 85,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Orange slider carriage",
+      "title": "Orange slider carriage",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.07599999755620956,
+        0
+      ],
+      "bounds": [
+        [
+          0.03700000047683716,
+          0.06349999736994505,
+          -0.03550000116229057
+        ],
+        [
+          0.0729999989271164,
+          0.08849999774247408,
+          0.03550000116229057
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Slider | signal orange",
+      "finishFamily": "indicator",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.03300099888986349,
+          0.06349899736994505,
+          -0.035501001162290574
+        ],
+        [
+          0.0730009989271164,
+          0.08850099774247408,
+          0.035501001162290574
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-086",
+      "meshName": "Slider_bushing_barrel",
+      "sourceName": "Slider bushing barrel",
+      "sourceNodeIndex": 86,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider bushing barrel",
+      "title": "Slider bushing barrel",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.0729999989271164,
+        0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.03549999567195626,
+          0.06549999546706531,
+          0.01950000086799264
+        ],
+        [
+          0.07450000373199729,
+          0.08050000238716748,
+          0.03450000053271651
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "bronze",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.03450100369474439,
+          0.06549899546706531,
+          0.01949900086799264
+        ],
+        [
+          0.07450100373199729,
+          0.08050100238716748,
+          0.034501000532716514
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-087",
+      "meshName": "Slider_bushing_barrel001",
+      "sourceName": "Slider bushing barrel.001",
+      "sourceNodeIndex": 87,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider bushing barrel.001",
+      "title": "Slider bushing barrel 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.0729999989271164,
+        -0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.03549999567195626,
+          0.06549999546706531,
+          -0.03450000053271651
+        ],
+        [
+          0.07450000373199729,
+          0.08050000238716748,
+          -0.01950000086799264
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "bronze",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.03450100369474439,
+          0.06549899546706531,
+          -0.034501000532716514
+        ],
+        [
+          0.07450100373199729,
+          0.08050100238716748,
+          -0.01949900086799264
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-088",
+      "meshName": "Slider_bushing_end_ring",
+      "sourceName": "Slider bushing end ring",
+      "sourceNodeIndex": 88,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider bushing end ring",
+      "title": "Slider bushing end ring",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.03500000014901161,
+        0.0729999989271164,
+        0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.03424999900716002,
+          0.06529999783350732,
+          0.019300000742077827
+        ],
+        [
+          0.035750001290863205,
+          0.08070000002072547,
+          0.034700000658631325
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.03575100035954063,
+          0.06529899783350732,
+          0.019299000742077826
+        ],
+        [
+          0.035751001290863206,
+          0.08070100002072547,
+          0.034701000658631326
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-089",
+      "meshName": "Slider_bushing_end_ring001",
+      "sourceName": "Slider bushing end ring.001",
+      "sourceNodeIndex": 89,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider bushing end ring.001",
+      "title": "Slider bushing end ring 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.07500000298023224,
+        0.0729999989271164,
+        0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.07425000183838065,
+          0.06529999783350732,
+          0.019300000742077827
+        ],
+        [
+          0.07575000412208382,
+          0.08070000002072547,
+          0.034700000658631325
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.004249002471679999,
+          0.06529899783350732,
+          0.019299000742077826
+        ],
+        [
+          0.07575100412208383,
+          0.08070100002072547,
+          0.034701000658631326
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-090",
+      "meshName": "Slider_bushing_end_ring002",
+      "sourceName": "Slider bushing end ring.002",
+      "sourceNodeIndex": 90,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider bushing end ring.002",
+      "title": "Slider bushing end ring 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.03500000014901161,
+        0.0729999989271164,
+        -0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.03424999900716002,
+          0.06529999783350732,
+          -0.034700000658631325
+        ],
+        [
+          0.035750001290863205,
+          0.08070000002072547,
+          -0.019300000742077827
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.03575100035954063,
+          0.06529899783350732,
+          -0.034701000658631326
+        ],
+        [
+          0.035751001290863206,
+          0.08070100002072547,
+          -0.019299000742077826
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-091",
+      "meshName": "Slider_bushing_end_ring003",
+      "sourceName": "Slider bushing end ring.003",
+      "sourceNodeIndex": 91,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider bushing end ring.003",
+      "title": "Slider bushing end ring 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.07500000298023224,
+        0.0729999989271164,
+        -0.027000000700354576
+      ],
+      "bounds": [
+        [
+          0.07425000183838065,
+          0.06529999783350732,
+          -0.034700000658631325
+        ],
+        [
+          0.07575000412208382,
+          0.08070000002072547,
+          -0.019300000742077827
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.004249002471679999,
+          0.06529899783350732,
+          -0.034701000658631326
+        ],
+        [
+          0.07575100412208383,
+          0.08070100002072547,
+          -0.019299000742077826
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-092",
+      "meshName": "Slider_pin_saddle",
+      "sourceName": "Slider pin saddle",
+      "sourceNodeIndex": 92,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider pin saddle",
+      "title": "Slider pin saddle",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.09200000017881393,
+        0
+      ],
+      "bounds": [
+        [
+          0.04299999959766865,
+          0.08750000037252903,
+          -0.011500000022351742
+        ],
+        [
+          0.0669999998062849,
+          0.09649999998509884,
+          0.011500000022351742
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.027000999769032002,
+          0.08749900037252903,
+          -0.011501000022351741
+        ],
+        [
+          0.0670009998062849,
+          0.09650099998509884,
+          0.011501000022351741
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-093",
+      "meshName": "Slider_pin_shaft",
+      "sourceName": "Slider pin shaft",
+      "sourceNodeIndex": 93,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Slider_Translation/Slider pin shaft",
+      "title": "Slider pin shaft",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "carriage",
+      "explode": [
+        0.045,
+        0.02,
+        0
+      ],
+      "center": [
+        0.054999999701976776,
+        0.0989999994635582,
+        0
+      ],
+      "bounds": [
+        [
+          0.05049999989569187,
+          0.0904999990016222,
+          -0.0044999998062849045
+        ],
+        [
+          0.05949999950826168,
+          0.1074999999254942,
+          0.0044999998062849045
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.01950099947100878,
+          0.0904989990016222,
+          -0.004500999806284905
+        ],
+        [
+          0.05950099950826168,
+          0.1075009999254942,
+          0.004500999806284905
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-096",
+      "meshName": "Spindle_bearing_housing",
+      "sourceName": "Spindle bearing housing",
+      "sourceNodeIndex": 96,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Spindle bearing housing",
+      "title": "Spindle bearing housing",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.06199999898672104,
+        0
+      ],
+      "bounds": [
+        [
+          -0.11000000312924385,
+          0.0544999991543591,
+          -0.019999999552965164
+        ],
+        [
+          -0.07000000402331352,
+          0.06949999881908298,
+          0.019999999552965164
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Structure | cobalt enamel",
+      "finishFamily": "structure",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11000100312924385,
+          0.0544989991543591,
+          -0.020000999552965165
+        ],
+        [
+          -0.06999900402331352,
+          0.06950099881908298,
+          0.020000999552965165
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-097",
+      "meshName": "Spindle_bearing_race",
+      "sourceName": "Spindle bearing race",
+      "sourceNodeIndex": 97,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Spindle bearing race",
+      "title": "Spindle bearing race",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.07000000029802322,
+        0
+      ],
+      "bounds": [
+        [
+          -0.10350000392645597,
+          0.06850000028498471,
+          -0.013500000350177288
+        ],
+        [
+          -0.0765000032261014,
+          0.07150000031106174,
+          0.013500000350177288
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.10350100392645598,
+          0.0684990002849847,
+          -0.013501000350177287
+        ],
+        [
+          -0.0764990032261014,
+          0.07150100031106174,
+          0.013501000350177287
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-098",
+      "meshName": "Spindle_bearing_seal",
+      "sourceName": "Spindle bearing seal",
+      "sourceNodeIndex": 98,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Spindle bearing seal",
+      "title": "Spindle bearing seal",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.07199999690055847,
+        0
+      ],
+      "bounds": [
+        [
+          -0.10050000343471766,
+          0.07099999685306102,
+          -0.010499999858438969
+        ],
+        [
+          -0.07950000371783972,
+          0.07299999694805592,
+          0.010499999858438969
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "polymer",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.10050100343471766,
+          0.07099899685306102,
+          -0.010500999858438968
+        ],
+        [
+          -0.07949900371783972,
+          0.07300099694805592,
+          0.010500999858438968
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-099",
+      "meshName": "Spindle_pedestal",
+      "sourceName": "Spindle pedestal",
+      "sourceNodeIndex": 99,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Spindle pedestal",
+      "title": "Spindle pedestal",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.09000000357627869,
+        0.04500000178813934,
+        0
+      ],
+      "bounds": [
+        [
+          -0.11300000362098217,
+          0.03200000151991844,
+          -0.030500000342726707
+        ],
+        [
+          -0.0670000035315752,
+          0.058000002056360245,
+          0.030500000342726707
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Structure | cobalt enamel",
+      "finishFamily": "structure",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11300100362098217,
+          0.03199900151991844,
+          -0.03050100034272671
+        ],
+        [
+          -0.0669990035315752,
+          0.058001002056360246,
+          0.03050100034272671
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-100",
+      "meshName": "Support_mount_hex_recess",
+      "sourceName": "Support mount hex recess",
+      "sourceNodeIndex": 100,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount hex recess",
+      "title": "Support mount hex recess",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.07000000029802322,
+        0.031860001385211945
+      ],
+      "bounds": [
+        [
+          -0.04695609211921692,
+          0.06992500029446092,
+          0.030756001360714436
+        ],
+        [
+          -0.045043908059597015,
+          0.07007500030158553,
+          0.032964001409709454
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04695709211921692,
+          0.06992400029446091,
+          0.030755001360714435
+        ],
+        [
+          -0.045042908059597014,
+          0.07007600030158553,
+          0.032965001409709455
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-101",
+      "meshName": "Support_mount_hex_recess001",
+      "sourceName": "Support mount hex recess.001",
+      "sourceNodeIndex": 101,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount hex recess.001",
+      "title": "Support mount hex recess 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.07000000029802322,
+        -0.031860001385211945
+      ],
+      "bounds": [
+        [
+          -0.04695609211921692,
+          0.06992500029446092,
+          -0.032964001409709454
+        ],
+        [
+          -0.045043908059597015,
+          0.07007500030158553,
+          -0.030756001360714436
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04695709211921692,
+          0.06992400029446091,
+          -0.032965001409709455
+        ],
+        [
+          -0.045042908059597014,
+          0.07007600030158553,
+          -0.030755001360714435
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-102",
+      "meshName": "Support_mount_hex_recess002",
+      "sourceName": "Support mount hex recess.002",
+      "sourceNodeIndex": 102,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount hex recess.002",
+      "title": "Support mount hex recess 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.10700000077486038,
+        0.07000000029802322,
+        0.031860001385211945
+      ],
+      "bounds": [
+        [
+          0.10604390874505043,
+          0.06992500029446092,
+          0.030756001360714436
+        ],
+        [
+          0.10795609280467033,
+          0.07007500030158553,
+          0.032964001409709454
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.10604290874505043,
+          0.06992400029446091,
+          0.030755001360714435
+        ],
+        [
+          0.10795709280467033,
+          0.07007600030158553,
+          0.032965001409709455
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-103",
+      "meshName": "Support_mount_hex_recess003",
+      "sourceName": "Support mount hex recess.003",
+      "sourceNodeIndex": 103,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount hex recess.003",
+      "title": "Support mount hex recess 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.10700000077486038,
+        0.07000000029802322,
+        -0.031860001385211945
+      ],
+      "bounds": [
+        [
+          0.10604390874505043,
+          0.06992500029446092,
+          -0.032964001409709454
+        ],
+        [
+          0.10795609280467033,
+          0.07007500030158553,
+          -0.030756001360714436
+        ]
+      ],
+      "triangles": 20,
+      "sourceMaterial": "Feet | dark rubber",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.10604290874505043,
+          0.06992400029446091,
+          -0.032965001409709455
+        ],
+        [
+          0.10795709280467033,
+          0.07007600030158553,
+          -0.030755001360714435
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-104",
+      "meshName": "Support_mount_socket_head",
+      "sourceName": "Support mount socket head",
+      "sourceNodeIndex": 104,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount socket head",
+      "title": "Support mount socket head",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.06870000064373016,
+        0.031860001385211945
+      ],
+      "bounds": [
+        [
+          -0.048300000140443444,
+          0.06745000067166984,
+          0.029560001334175467
+        ],
+        [
+          -0.04370000003837049,
+          0.06995000061579049,
+          0.03416000143624842
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.048301000140443445,
+          0.06744900067166984,
+          0.029559001334175466
+        ],
+        [
+          -0.04369900003837049,
+          0.06995100061579049,
+          0.03416100143624842
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-105",
+      "meshName": "Support_mount_socket_head001",
+      "sourceName": "Support mount socket head.001",
+      "sourceNodeIndex": 105,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount socket head.001",
+      "title": "Support mount socket head 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.06870000064373016,
+        -0.031860001385211945
+      ],
+      "bounds": [
+        [
+          -0.048300000140443444,
+          0.06745000067166984,
+          -0.03416000143624842
+        ],
+        [
+          -0.04370000003837049,
+          0.06995000061579049,
+          -0.029560001334175467
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.048301000140443445,
+          0.06744900067166984,
+          -0.03416100143624842
+        ],
+        [
+          -0.04369900003837049,
+          0.06995100061579049,
+          -0.029559001334175466
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-106",
+      "meshName": "Support_mount_socket_head002",
+      "sourceName": "Support mount socket head.002",
+      "sourceNodeIndex": 106,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount socket head.002",
+      "title": "Support mount socket head 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.10700000077486038,
+        0.06870000064373016,
+        0.031860001385211945
+      ],
+      "bounds": [
+        [
+          0.1047000007238239,
+          0.06745000067166984,
+          0.029560001334175467
+        ],
+        [
+          0.10930000082589686,
+          0.06995000061579049,
+          0.03416000143624842
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.1046990007238239,
+          0.06744900067166984,
+          0.029559001334175466
+        ],
+        [
+          0.10930100082589686,
+          0.06995100061579049,
+          0.03416100143624842
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-107",
+      "meshName": "Support_mount_socket_head003",
+      "sourceName": "Support mount socket head.003",
+      "sourceNodeIndex": 107,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount socket head.003",
+      "title": "Support mount socket head 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.10700000077486038,
+        0.06870000064373016,
+        -0.031860001385211945
+      ],
+      "bounds": [
+        [
+          0.1047000007238239,
+          0.06745000067166984,
+          -0.03416000143624842
+        ],
+        [
+          0.10930000082589686,
+          0.06995000061579049,
+          -0.029560001334175467
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.1046990007238239,
+          0.06744900067166984,
+          -0.03416100143624842
+        ],
+        [
+          0.10930100082589686,
+          0.06995100061579049,
+          -0.029559001334175466
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-108",
+      "meshName": "Support_mount_washer",
+      "sourceName": "Support mount washer",
+      "sourceNodeIndex": 108,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount washer",
+      "title": "Support mount washer",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.06700000166893005,
+        0.031860001385211945
+      ],
+      "bounds": [
+        [
+          -0.049220000160858035,
+          0.06650000164518133,
+          0.028640001313760877
+        ],
+        [
+          -0.0427800000179559,
+          0.06750000169267878,
+          0.03508000145666301
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.049221000160858036,
+          0.06649900164518133,
+          0.028639001313760876
+        ],
+        [
+          -0.0427790000179559,
+          0.06750100169267878,
+          0.035081001456663014
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-109",
+      "meshName": "Support_mount_washer001",
+      "sourceName": "Support mount washer.001",
+      "sourceNodeIndex": 109,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount washer.001",
+      "title": "Support mount washer 2",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        -0.04600000008940697,
+        0.06700000166893005,
+        -0.031860001385211945
+      ],
+      "bounds": [
+        [
+          -0.049220000160858035,
+          0.06650000164518133,
+          -0.03508000145666301
+        ],
+        [
+          -0.0427800000179559,
+          0.06750000169267878,
+          -0.028640001313760877
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.049221000160858036,
+          0.06649900164518133,
+          -0.035081001456663014
+        ],
+        [
+          -0.0427790000179559,
+          0.06750100169267878,
+          -0.028639001313760876
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-110",
+      "meshName": "Support_mount_washer002",
+      "sourceName": "Support mount washer.002",
+      "sourceNodeIndex": 110,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount washer.002",
+      "title": "Support mount washer 3",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.10700000077486038,
+        0.06700000166893005,
+        0.031860001385211945
+      ],
+      "bounds": [
+        [
+          0.10378000070340931,
+          0.06650000164518133,
+          0.028640001313760877
+        ],
+        [
+          0.11022000084631145,
+          0.06750000169267878,
+          0.03508000145666301
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.10377900070340931,
+          0.06649900164518133,
+          0.028639001313760876
+        ],
+        [
+          0.11022100084631145,
+          0.06750100169267878,
+          0.035081001456663014
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-111",
+      "meshName": "Support_mount_washer003",
+      "sourceName": "Support mount washer.003",
+      "sourceNodeIndex": 111,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Support mount washer.003",
+      "title": "Support mount washer 4",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "frame",
+      "explode": [
+        0,
+        -0.035,
+        -0.025
+      ],
+      "center": [
+        0.10700000077486038,
+        0.06700000166893005,
+        -0.031860001385211945
+      ],
+      "bounds": [
+        [
+          0.10378000070340931,
+          0.06650000164518133,
+          -0.03508000145666301
+        ],
+        [
+          0.11022000084631145,
+          0.06750000169267878,
+          -0.028640001313760877
+        ]
+      ],
+      "triangles": 1020,
+      "sourceMaterial": "Hardware | polished alloy",
+      "finishFamily": "polished",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.10377900070340931,
+          0.06649900164518133,
+          -0.035081001456663014
+        ],
+        [
+          0.11022100084631145,
+          0.06750100169267878,
+          -0.028639001313760876
+        ]
+      ]
+    },
+    {
+      "id": "kinetic-node-112",
+      "meshName": "Travel_scale",
+      "sourceName": "Travel scale",
+      "sourceNodeIndex": 112,
+      "sourcePath": "/CRANK_SLIDER_ASSEMBLY/Travel scale",
+      "title": "Travel scale",
+      "description": "A named component from the published Kinetic 01 mechanism study. Original geometry and authored motion are retained.",
+      "group": "guide",
+      "explode": [
+        0,
+        -0.01,
+        0.035
+      ],
+      "center": [
+        0.03099999949336052,
+        0.03400000184774399,
+        0.04699999839067459
+      ],
+      "bounds": [
+        [
+          -0.0494999997317791,
+          0.03325000184122473,
+          0.04099999833852053
+        ],
+        [
+          0.11149999871850014,
+          0.034750001854263246,
+          0.052999998442828655
+        ]
+      ],
+      "triangles": 188,
+      "sourceMaterial": "Hardware | graphite",
+      "finishFamily": "machined",
+      "finishBasis": "Curated engineering presentation finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0495009997317791,
+          0.03324900184122473,
+          0.040998998338520526
+        ],
+        [
+          0.11150099871850014,
+          0.03475100185426325,
+          0.053000998442828656
+        ]
+      ]
+    }
+  ]
+}

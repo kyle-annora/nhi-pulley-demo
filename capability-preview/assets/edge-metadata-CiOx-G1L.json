@@ -1,0 +1,1598 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "compressedFile": "model.glb.gz",
+    "compression": "gzip",
+    "sha256": "5356cb1e7dcf85874c1f2152795b7011f43f01c2bfc899a5fa75a198687204ad",
+    "attribution": "Kinetic 01 by Pradeep Kaushik, MIT. Original study produced with an AI agent; presentation metadata and technical edges adapted for Annora Explorer."
+  },
+  "edges": {
+    "file": "edges.bin",
+    "compressedFile": "edges.bin.gz",
+    "compression": "gzip",
+    "format": "float32-le",
+    "coordinates": "mesh-local",
+    "topology": "line-segments",
+    "creaseAngle": 25,
+    "sha256": "7a77a7926b24982c5f0db2e9014307ad3483513d39fb35736f760f754e3981dd",
+    "transform": "Apply the matching source mesh world matrix at the sampled animation time, then the common model normalization. Shared ranges are immutable."
+  },
+  "stats": {
+    "modelBytes": 2574332,
+    "modelGzipBytes": 595025,
+    "meshCount": 107,
+    "uniqueGeometryCount": 46,
+    "triangles": 74572,
+    "bytes": 211320,
+    "gzipBytes": 53084,
+    "uniqueSegments": 8805,
+    "referencedSegments": 19253
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 0,
+      "sourceGeometrySha256": "09fc5b78a79cc4423b8c24159fb47559e036608583264c3830b319ffebc6508e",
+      "edgeSha256": "31730b38dd21004e0c8f81a15af0b3048d79caf6976c123e91137374220e7faa",
+      "bounds": [
+        [
+          -0.1574999988079071,
+          -0.010999999940395355,
+          -0.08500000089406967
+        ],
+        [
+          0.1574999988079071,
+          0.010999999940395355,
+          0.08500000089406967
+        ]
+      ]
+    },
+    {
+      "byteOffset": 1728,
+      "vertexCount": 400,
+      "segmentCount": 200,
+      "geometryId": 1,
+      "sourceGeometrySha256": "818fc835145f0301e2ea7ed47604bca9f6eb46494d2fa3a17f789b0d32e75882",
+      "edgeSha256": "1802fda39da22595f5ae1ec5b4ed1a162b7f425a0f0b1de45dbb6aa322a23038",
+      "bounds": [
+        [
+          -0.007000000216066837,
+          -0.003000000026077032,
+          -0.007000000216066837
+        ],
+        [
+          0.11699999868869781,
+          0.003000000026077032,
+          0.007000000216066837
+        ]
+      ]
+    },
+    {
+      "byteOffset": 6528,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 2,
+      "sourceGeometrySha256": "6d8f3c5419e642a0e2bc12c597afe24f52de6a23462228a7418491a692f3127f",
+      "edgeSha256": "b281490023ead013daf89f67d0a970a6d7d044facab90b9afc54c68966c4d419",
+      "bounds": [
+        [
+          -0.006800000090152025,
+          -0.000750000006519258,
+          -0.006800000090152025
+        ],
+        [
+          0.006800000090152025,
+          0.000750000006519258,
+          0.006800000090152025
+        ]
+      ]
+    },
+    {
+      "byteOffset": 12672,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 3,
+      "sourceGeometrySha256": "44013770ea113ab34ddffdafdb99421a3be362d4de08b89b68f4415a09e85fe2",
+      "edgeSha256": "6b163cb2ebe80ba3d6169877d542aa6d1edc0c5d14031f9a3c4c7d5f395814a9",
+      "bounds": [
+        [
+          -0.0015796303050592542,
+          -0.00007500000356230885,
+          -0.0018240000354126096
+        ],
+        [
+          0.0015796303050592542,
+          0.00007500000356230885,
+          0.0018240000354126096
+        ]
+      ]
+    },
+    {
+      "byteOffset": 13104,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 4,
+      "sourceGeometrySha256": "256be143dc6c21496fb379c6e888b0f8bb755737d51a7ff8456a904da9034b6e",
+      "edgeSha256": "7ebadbd263f409d8eda81dea28d339cf90431e1352fdf756a3f4a9c350e1c2c8",
+      "bounds": [
+        [
+          -0.003800000064074993,
+          -0.0012499999720603228,
+          -0.003800000064074993
+        ],
+        [
+          0.003800000064074993,
+          0.0012499999720603228,
+          0.003800000064074993
+        ]
+      ]
+    },
+    {
+      "byteOffset": 19248,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 5,
+      "sourceGeometrySha256": "04a0d5c39ffb7437e3a7f6103d3359cd6f993fed3aa09ed8a79e692460a06113",
+      "edgeSha256": "5fd22a0d16d2e48388b8fb2532a8913988945d85fcebf08ab5f409c5718d4f42",
+      "bounds": [
+        [
+          -0.005319999996572733,
+          -0.0005000000237487257,
+          -0.005319999996572733
+        ],
+        [
+          0.005319999996572733,
+          0.0005000000237487257,
+          0.005319999996572733
+        ]
+      ]
+    },
+    {
+      "byteOffset": 25392,
+      "vertexCount": 160,
+      "segmentCount": 80,
+      "geometryId": 6,
+      "sourceGeometrySha256": "949d03cab432551109b466e3d96fb12e3268af9b848efff25f0a94d693afa6da",
+      "edgeSha256": "7815026dd76c651431e7240d5009da82a09d718aa5fe09d8435ff7ac7a7a7084",
+      "bounds": [
+        [
+          -0.039000000804662704,
+          -0.0003499999875202775,
+          -0.0020000000949949026
+        ],
+        [
+          0.039000000804662704,
+          0.0003499999875202775,
+          0.0020000000949949026
+        ]
+      ]
+    },
+    {
+      "byteOffset": 27312,
+      "vertexCount": 400,
+      "segmentCount": 200,
+      "geometryId": 7,
+      "sourceGeometrySha256": "28015875d7df1949d1be55849655710d6a6f27aa4c9fc7042ea0462a78171250",
+      "edgeSha256": "316c0dff935b2f7d4c4a7ac98de54b47086defd5b9b5009cc8d9d223b8c9e89c",
+      "bounds": [
+        [
+          -0.008999999612569809,
+          0.08349999785423279,
+          -0.008999999612569809
+        ],
+        [
+          0.04399999976158142,
+          0.09049999713897705,
+          0.008999999612569809
+        ]
+      ]
+    },
+    {
+      "byteOffset": 32112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 8,
+      "sourceGeometrySha256": "fdc7eb5335bf31f89593347502a0882eb9d76dc690e5a7336e06b7e1dd4b6ba2",
+      "edgeSha256": "2c89c9cd13ad7cdee1fd8136a270bc8783e6ccb1f25011a07889279541c49012",
+      "bounds": [
+        [
+          -0.028999999165534973,
+          -0.003000000026077032,
+          -0.028999999165534973
+        ],
+        [
+          0.028999999165534973,
+          0.003000000026077032,
+          0.028999999165534973
+        ]
+      ]
+    },
+    {
+      "byteOffset": 38256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 9,
+      "sourceGeometrySha256": "ef128f9ff1067a5ecfbf5b698910c18902d7747e9a5e10cd469a2e05bdb352c1",
+      "edgeSha256": "78e502c6887a733fa589092aa72f298d6aadee07fdb8a584b2248201a3e4f6f4",
+      "bounds": [
+        [
+          -0.006500000134110451,
+          -0.003000000026077032,
+          -0.006500000134110451
+        ],
+        [
+          0.006500000134110451,
+          0.003000000026077032,
+          0.006500000134110451
+        ]
+      ]
+    },
+    {
+      "byteOffset": 44400,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 10,
+      "sourceGeometrySha256": "bf714ecaec474ab420d9aaa0c7fc9f4f1293a8c57adf0ed1d8f8fee3e1264b84",
+      "edgeSha256": "1c7cb4879cf77ce4b8c887517666e4cf15a053c2ad6ce354a623b47a57deee1d",
+      "bounds": [
+        [
+          -0.0044999998062849045,
+          -0.010999999940395355,
+          -0.0044999998062849045
+        ],
+        [
+          0.0044999998062849045,
+          0.010999999940395355,
+          0.0044999998062849045
+        ]
+      ]
+    },
+    {
+      "byteOffset": 50544,
+      "vertexCount": 640,
+      "segmentCount": 320,
+      "geometryId": 11,
+      "sourceGeometrySha256": "60aac8263e95fd55afe2d823b0ac2e57d7beff765ef4af56caff8cb2bc782fcf",
+      "edgeSha256": "4a9069c4caedc268112162e7f7bba4a699d54b0252eaf890c770a0b45ee23155",
+      "bounds": [
+        [
+          -0.0032999999821186066,
+          -0.0003000000142492354,
+          -0.0032999999821186066
+        ],
+        [
+          0.0032999999821186066,
+          0.0003000000142492354,
+          0.0032999999821186066
+        ]
+      ]
+    },
+    {
+      "byteOffset": 58224,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 12,
+      "sourceGeometrySha256": "4dee700b85b628c5187bddd0c13a54415cc852f1fbdd776e996ce6c80a434f52",
+      "edgeSha256": "136dd700be169dc393154580ff1e1fb3af900e8c4e7b048b9153d9a39e3b138a",
+      "bounds": [
+        [
+          -0.0018706147093325853,
+          -0.00007500000356230885,
+          -0.00215999991632998
+        ],
+        [
+          0.0018706147093325853,
+          0.00007500000356230885,
+          0.00215999991632998
+        ]
+      ]
+    },
+    {
+      "byteOffset": 58656,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 13,
+      "sourceGeometrySha256": "c3250c25f6a395d7ee9f55fb2006fe27b35f7e2287b4ec1ea5c2f9aba218f54d",
+      "edgeSha256": "50f2f0f5ceba06bb5d08eb2e606942ab88d78720c1615607656648fa7624e573",
+      "bounds": [
+        [
+          -0.0044999998062849045,
+          -0.0012499999720603228,
+          -0.0044999998062849045
+        ],
+        [
+          0.0044999998062849045,
+          0.0012499999720603228,
+          0.0044999998062849045
+        ]
+      ]
+    },
+    {
+      "byteOffset": 64800,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 14,
+      "sourceGeometrySha256": "9ee2cd8030a237a6e876084f67e7d52396d7cabd1c51f044d79eae39cfda810b",
+      "edgeSha256": "1dbd8b55e1f55d2b1f5804da45d9b045dd36b8b50ca68d53f2e19235cc309dc7",
+      "bounds": [
+        [
+          -0.006300000008195639,
+          -0.0005000000237487257,
+          -0.006300000008195639
+        ],
+        [
+          0.006300000008195639,
+          0.0005000000237487257,
+          0.006300000008195639
+        ]
+      ]
+    },
+    {
+      "byteOffset": 70944,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 15,
+      "sourceGeometrySha256": "53ba017a057ba3db1d18b38abc89e9b685ff529bd3c125442c8853f8273ce464",
+      "edgeSha256": "e2a53e74b3d3cb6f8a2a21abf4044751839d4ff1fa7f536905cb711736818da0",
+      "bounds": [
+        [
+          -0.0012470765504986048,
+          -0.00007500000356230885,
+          -0.0014400000218302011
+        ],
+        [
+          0.0012470765504986048,
+          0.00007500000356230885,
+          0.0014400000218302011
+        ]
+      ]
+    },
+    {
+      "byteOffset": 71376,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 16,
+      "sourceGeometrySha256": "3c3841f8bb3ae3a4db60d26ff849099ff741dd7afee006faa167e58e2d511b63",
+      "edgeSha256": "dbfb6d79abf14b6e7fe16e6271cc1871c3187dae7d80cac2fd2c6823cb345883",
+      "bounds": [
+        [
+          -0.003000000026077032,
+          -0.0012499999720603228,
+          -0.003000000026077032
+        ],
+        [
+          0.003000000026077032,
+          0.0012499999720603228,
+          0.003000000026077032
+        ]
+      ]
+    },
+    {
+      "byteOffset": 77520,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 17,
+      "sourceGeometrySha256": "bf4f814a0d0a48981c173394be6c4ad44231d2404b9f8cd6a73fb54e9322e8ea",
+      "edgeSha256": "82bf079db11cce8f63252da93e7a8a84b8030e0215bf030e46f00f2a5f6fd66c",
+      "bounds": [
+        [
+          -0.00419999985024333,
+          -0.0005000000237487257,
+          -0.00419999985024333
+        ],
+        [
+          0.00419999985024333,
+          0.0005000000237487257,
+          0.00419999985024333
+        ]
+      ]
+    },
+    {
+      "byteOffset": 83664,
+      "vertexCount": 942,
+      "segmentCount": 471,
+      "geometryId": 18,
+      "sourceGeometrySha256": "b4ff50ee43572bc91bcd3df5d98a801cc85e18d9f9b1ad058a15593dc0e3d43f",
+      "edgeSha256": "8caf96716e5810ee8e5a951e9b4287fc27ba3be887f7d3f981f452a5fa71833d",
+      "bounds": [
+        [
+          -0.01740240305662155,
+          -0.00002499999936844688,
+          -0.003316800342872739
+        ],
+        [
+          0.017632802948355675,
+          0.00002499999936844688,
+          0.000043200005165999755
+        ]
+      ]
+    },
+    {
+      "byteOffset": 94968,
+      "vertexCount": 514,
+      "segmentCount": 257,
+      "geometryId": 19,
+      "sourceGeometrySha256": "de72d59cea937ac4eafceacf16b76b5e811e080b34b9514dbf6e898e181da6f2",
+      "edgeSha256": "e2cdcd9cb5daed1b46a024f1f0cdc8a47b741e0767f844232a7654889335c876",
+      "bounds": [
+        [
+          -0.02446199767291546,
+          -0.00002499999936844688,
+          -0.006219000089913607
+        ],
+        [
+          0.023336999118328094,
+          0.00002499999936844688,
+          0.00008099999831756577
+        ]
+      ]
+    },
+    {
+      "byteOffset": 101136,
+      "vertexCount": 160,
+      "segmentCount": 80,
+      "geometryId": 20,
+      "sourceGeometrySha256": "06bb9ffdbc2c31da8b40989f932c99606ecac191017f9dee73a6540eef2b53f7",
+      "edgeSha256": "2068859b174d749f9565ce0cf8196f6b666048b9826c0dce9fed7fbd34f6cb63",
+      "bounds": [
+        [
+          -0.1459999978542328,
+          -0.001500000013038516,
+          -0.07400000095367432
+        ],
+        [
+          0.1459999978542328,
+          0.001500000013038516,
+          0.07400000095367432
+        ]
+      ]
+    },
+    {
+      "byteOffset": 103056,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 21,
+      "sourceGeometrySha256": "ab9a30bb4f7ca5ab5877e978784c6c83ed30f5abd8fa7b2f7fbd5543d44adc97",
+      "edgeSha256": "6b24b1bb14f47e992d9884d510cadd02e34bf633a7efab7c02fa0170aae7ef06",
+      "bounds": [
+        [
+          -0.007499999832361937,
+          -0.017000000923871994,
+          -0.04100000113248825
+        ],
+        [
+          0.007499999832361937,
+          0.017000000923871994,
+          0.04100000113248825
+        ]
+      ]
+    },
+    {
+      "byteOffset": 104784,
+      "vertexCount": 694,
+      "segmentCount": 347,
+      "geometryId": 22,
+      "sourceGeometrySha256": "c945e11c90f2e012e3d4924e90c1da7fca75f4b197919731ddcc534ca9a906f3",
+      "edgeSha256": "e8f1b922f3cceab4e2a17497cc5d4e25e52512af3be40b3aef4070b82f7129e9",
+      "bounds": [
+        [
+          -0.014332501217722893,
+          -0.00002499999936844688,
+          -0.0031095000449568033
+        ],
+        [
+          0.014535000547766685,
+          0.00002499999936844688,
+          0.000040499999158782884
+        ]
+      ]
+    },
+    {
+      "byteOffset": 113112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 23,
+      "sourceGeometrySha256": "ec269a27d00fab3d49394bab64f9bd24db955413eca5b3b865432e2b78d847b7",
+      "edgeSha256": "02a4ad946481762cfd2c34b461346cb7022198eba0f61c0277415addc2e0fb5f",
+      "bounds": [
+        [
+          -0.00800000037997961,
+          -0.00800000037997961,
+          -0.00800000037997961
+        ],
+        [
+          0.00800000037997961,
+          0.00800000037997961,
+          0.00800000037997961
+        ]
+      ]
+    },
+    {
+      "byteOffset": 119256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 24,
+      "sourceGeometrySha256": "15fe5f41cd1a50a784958f10be2be0cab245f1e60761aead16616f8bab158fd7",
+      "edgeSha256": "a1f88ee7d09d0dff25cf129d0ec84fcd3c75504bcf19067d480cc47483cb2113",
+      "bounds": [
+        [
+          -0.0044999998062849045,
+          -0.0860000029206276,
+          -0.0044999998062849045
+        ],
+        [
+          0.0044999998062849045,
+          0.0860000029206276,
+          0.0044999998062849045
+        ]
+      ]
+    },
+    {
+      "byteOffset": 125400,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 25,
+      "sourceGeometrySha256": "b38a0011069a2ba82c1adb3f1b8dab31b1e27b5cfb8a22c8411e33d3d70a2a92",
+      "edgeSha256": "89fed9e43320305bb5283f738256ed810e4904aabdc800294aa7b9f29815fd23",
+      "bounds": [
+        [
+          -0.006000000052154064,
+          -0.012000000104308128,
+          -0.006000000052154064
+        ],
+        [
+          0.006000000052154064,
+          0.012000000104308128,
+          0.006000000052154064
+        ]
+      ]
+    },
+    {
+      "byteOffset": 131544,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 26,
+      "sourceGeometrySha256": "7c5a8058b8c8062966165bdd79d0b68ff75bcb7b554497201d813d460115934f",
+      "edgeSha256": "c8e586b7aa5b0b671835dde8c7cd023d8a9fb698beb54539a48d285d821998b9",
+      "bounds": [
+        [
+          -0.012000000104308128,
+          -0.006000000052154064,
+          -0.012000000104308128
+        ],
+        [
+          0.012000000104308128,
+          0.006000000052154064,
+          0.012000000104308128
+        ]
+      ]
+    },
+    {
+      "byteOffset": 137688,
+      "vertexCount": 96,
+      "segmentCount": 48,
+      "geometryId": 27,
+      "sourceGeometrySha256": "21dfffd52c382c87d7bc32e0d31f69e90f05793c1f5801b0dc671016b8fe6769",
+      "edgeSha256": "847ea6b83a3f3a8e2bebc77dbfc82a84b8990ac48a5cd447c0ea455f3f89762c",
+      "bounds": [
+        [
+          -0.0003000000142492354,
+          -0.0001500000071246177,
+          -0.0035000001080334187
+        ],
+        [
+          0.0003000000142492354,
+          0.0001500000071246177,
+          0.0035000001080334187
+        ]
+      ]
+    },
+    {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28,
+      "sourceGeometrySha256": "86459dde3a1d2e1b8cc93daee7c2c7620718a6e31b2a3977220582b5dcbadfa3",
+      "edgeSha256": "c8b48d5f704dc78188f6c412b2bc901da30f70508675bc4155136e063daeeba6",
+      "bounds": [
+        [
+          -0.0003000000142492354,
+          -0.0001500000071246177,
+          -0.0017500000540167093
+        ],
+        [
+          0.0003000000142492354,
+          0.0001500000071246177,
+          0.0017500000540167093
+        ]
+      ]
+    },
+    {
+      "byteOffset": 139512,
+      "vertexCount": 200,
+      "segmentCount": 100,
+      "geometryId": 29,
+      "sourceGeometrySha256": "c638c9bcad116e193bdb3620d859d6c041781f833547cf0c44e71df7bc20b528",
+      "edgeSha256": "e9a23f98b8cd7c7b8a2d630d1ea178cdc7c2d97704ad2a05ee588ccd6a752f3c",
+      "bounds": [
+        [
+          -0.0028200000524520874,
+          -0.00002499999936844688,
+          -0.004146000370383263
+        ],
+        [
+          0.0018000000854954123,
+          0.00002499999936844688,
+          0.00005400000372901559
+        ]
+      ]
+    },
+    {
+      "byteOffset": 141912,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 30,
+      "sourceGeometrySha256": "ffb771b7341c1709bfa32537536fabe124cc0902d6deaf71e921385a6e0cbe89",
+      "edgeSha256": "0aea118b334517cd9ef3a8da6341ac5c22c659ebe432c91fa201dc53815050f3",
+      "bounds": [
+        [
+          -0.0007482459186576307,
+          -0.00007500000356230885,
+          -0.0008640000014565885
+        ],
+        [
+          0.0007482459186576307,
+          0.00007500000356230885,
+          0.0008640000014565885
+        ]
+      ]
+    },
+    {
+      "byteOffset": 142344,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 31,
+      "sourceGeometrySha256": "b44437345d9da32f3d7d5e66d9bde14e721c2c1541600f8d71441e7f9aa25be7",
+      "edgeSha256": "ad5b271b30fec5f04fd905415f8a07b5a1d249ff78fef97aa2be376c62699fd0",
+      "bounds": [
+        [
+          -0.0017999999690800905,
+          -0.0012499999720603228,
+          -0.0017999999690800905
+        ],
+        [
+          0.0017999999690800905,
+          0.0012499999720603228,
+          0.0017999999690800905
+        ]
+      ]
+    },
+    {
+      "byteOffset": 148488,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 32,
+      "sourceGeometrySha256": "e24a54cf79f2ab9caa7e0598dbb64832f9da58fbf910f60b3172c76f9ce195e3",
+      "edgeSha256": "d05867529b889d8498dcf54ccb982de4b4878eba54bbec5ee1cb7044eb41b549",
+      "bounds": [
+        [
+          -0.002520000096410513,
+          -0.0005000000237487257,
+          -0.002520000096410513
+        ],
+        [
+          0.002520000096410513,
+          0.0005000000237487257,
+          0.002520000096410513
+        ]
+      ]
+    },
+    {
+      "byteOffset": 154632,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 33,
+      "sourceGeometrySha256": "506311cd7ff4d04b04cf36308d6a3863450b3e4e241fa784f30deba1008401e3",
+      "edgeSha256": "df8b47b8d1c5bbea3a81d37582b2b4a4826c329abf5ee9813489d4f8d940037c",
+      "bounds": [
+        [
+          -0.017999999225139618,
+          -0.012500000186264515,
+          -0.03550000116229057
+        ],
+        [
+          0.017999999225139618,
+          0.012500000186264515,
+          0.03550000116229057
+        ]
+      ]
+    },
+    {
+      "byteOffset": 156360,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 34,
+      "sourceGeometrySha256": "ccfce8f59706b967aa38af3bb29d522e75a35318e3acb13e3d6eb911ce39bfc0",
+      "edgeSha256": "4c6ad8b0b9803b8b000c72db31203d84f502a41394fcb799fab45af257b15190",
+      "bounds": [
+        [
+          -0.007499999832361937,
+          -0.019500000402331352,
+          -0.007499999832361937
+        ],
+        [
+          0.007499999832361937,
+          0.019500000402331352,
+          0.007499999832361937
+        ]
+      ]
+    },
+    {
+      "byteOffset": 162504,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 35,
+      "sourceGeometrySha256": "47a8490f838128c40bcb22d26bddf1941b3ca9b240d7250a770ea15ef85fa510",
+      "edgeSha256": "674d98fecc93c867d4a37574f4acc634da4461792e0510dcf59e54166e55ecde",
+      "bounds": [
+        [
+          -0.007699999958276749,
+          -0.000750000006519258,
+          -0.007699999958276749
+        ],
+        [
+          0.007699999958276749,
+          0.000750000006519258,
+          0.007699999958276749
+        ]
+      ]
+    },
+    {
+      "byteOffset": 168648,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 36,
+      "sourceGeometrySha256": "0d55edf9e0d877467af2d9e518356e0e240d100b33ca9272258698b4091de8ca",
+      "edgeSha256": "2a613613f5be3b1b9bc5f78e93e7c6c1ef8fa451fe33d91375e2217391e6bf77",
+      "bounds": [
+        [
+          -0.012000000104308128,
+          -0.0044999998062849045,
+          -0.011500000022351742
+        ],
+        [
+          0.012000000104308128,
+          0.0044999998062849045,
+          0.011500000022351742
+        ]
+      ]
+    },
+    {
+      "byteOffset": 170376,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 37,
+      "sourceGeometrySha256": "2efa9e9f776e721b71c178b1443d661fdaf1d64e75c40691f029f42cfec05524",
+      "edgeSha256": "03cfa709151cdb2a463a1e5a7eec785b5881bb3f06540ca9eca92d5e5e2e3d1e",
+      "bounds": [
+        [
+          -0.0044999998062849045,
+          -0.008500000461935997,
+          -0.0044999998062849045
+        ],
+        [
+          0.0044999998062849045,
+          0.008500000461935997,
+          0.0044999998062849045
+        ]
+      ]
+    },
+    {
+      "byteOffset": 176520,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 38,
+      "sourceGeometrySha256": "e94c8665ebf818829150dec10ae3c61229fbf812b3d8835de002f893103fc976",
+      "edgeSha256": "e6bba378f74f6391f9146757774ce25716c15c42f07244d25fcbe35ea19dc113",
+      "bounds": [
+        [
+          -0.019999999552965164,
+          -0.007499999832361937,
+          -0.019999999552965164
+        ],
+        [
+          0.019999999552965164,
+          0.007499999832361937,
+          0.019999999552965164
+        ]
+      ]
+    },
+    {
+      "byteOffset": 182664,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 39,
+      "sourceGeometrySha256": "bb4a10c6e5a730e1b08e18df4f3f3a9ccd88a8840eb0990741cf3730278bbd94",
+      "edgeSha256": "573ccd8fd49e74a9e02c175d496512a4f069b5939220b031c9c223e147fb1633",
+      "bounds": [
+        [
+          -0.013500000350177288,
+          -0.001500000013038516,
+          -0.013500000350177288
+        ],
+        [
+          0.013500000350177288,
+          0.001500000013038516,
+          0.013500000350177288
+        ]
+      ]
+    },
+    {
+      "byteOffset": 188808,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 40,
+      "sourceGeometrySha256": "fba47047ae269b01a085d7d45ea3afebb7a67c3fd34d56f6db305f2d0600707d",
+      "edgeSha256": "86462e904055de15d782518de83f71fb7879c85030608cc90ec8f7c298f7ce68",
+      "bounds": [
+        [
+          -0.010499999858438969,
+          -0.0010000000474974513,
+          -0.010499999858438969
+        ],
+        [
+          0.010499999858438969,
+          0.0010000000474974513,
+          0.010499999858438969
+        ]
+      ]
+    },
+    {
+      "byteOffset": 194952,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 41,
+      "sourceGeometrySha256": "ec508706f010a74b1262137ef5bd6fbae0d11eb3a7dfaa46e645b2a3d6961352",
+      "edgeSha256": "a2c7f565061f99ca4df48d1d1d567cc60e85ede0dd0d08e46bd79b703402a71f",
+      "bounds": [
+        [
+          -0.023000000044703484,
+          -0.013000000268220901,
+          -0.030500000342726707
+        ],
+        [
+          0.023000000044703484,
+          0.013000000268220901,
+          0.030500000342726707
+        ]
+      ]
+    },
+    {
+      "byteOffset": 196680,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 42,
+      "sourceGeometrySha256": "6b7f25332d0e62338697701b85aed879f66263a737865a65041a168eacedabfa",
+      "edgeSha256": "4510bf433f2773b484bb8df2bc7672c8bc4321747e5e7029b7c15365e7ed02a8",
+      "bounds": [
+        [
+          -0.0009560920298099518,
+          -0.00007500000356230885,
+          -0.001104000024497509
+        ],
+        [
+          0.0009560920298099518,
+          0.00007500000356230885,
+          0.001104000024497509
+        ]
+      ]
+    },
+    {
+      "byteOffset": 197112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 43,
+      "sourceGeometrySha256": "b4a4191ba1bb5795d3aefdbe4693dc59676337f72b93c32a26e0f154ee0308c1",
+      "edgeSha256": "463008c870357626b88d9e64afac9f70ee5445a60785a7327af946e403af6fea",
+      "bounds": [
+        [
+          -0.002300000051036477,
+          -0.0012499999720603228,
+          -0.002300000051036477
+        ],
+        [
+          0.002300000051036477,
+          0.0012499999720603228,
+          0.002300000051036477
+        ]
+      ]
+    },
+    {
+      "byteOffset": 203256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 44,
+      "sourceGeometrySha256": "60a052a5b21e6cf4a8928608c09b7efdce2ff329ac63de6e3dbc655ceedae63c",
+      "edgeSha256": "161d54819934cbe69dba00e0ad3cbd07827a0df1c8d718b6f23bd107367a871d",
+      "bounds": [
+        [
+          -0.003220000071451068,
+          -0.0005000000237487257,
+          -0.003220000071451068
+        ],
+        [
+          0.003220000071451068,
+          0.0005000000237487257,
+          0.003220000071451068
+        ]
+      ]
+    },
+    {
+      "byteOffset": 209400,
+      "vertexCount": 160,
+      "segmentCount": 80,
+      "geometryId": 45,
+      "sourceGeometrySha256": "68d61b8d429bf7b78eb98ed0b69016d2c138127c45c22bc3a6e0cd5bb976936d",
+      "edgeSha256": "d87843b43d642e9e378511219bc21be73990c94fa1ea90ea4c8077e8abd601f6",
+      "bounds": [
+        [
+          -0.08049999922513962,
+          -0.000750000006519258,
+          -0.006000000052154064
+        ],
+        [
+          0.08049999922513962,
+          0.000750000006519258,
+          0.006000000052154064
+        ]
+      ]
+    }
+  ],
+  "meshes": {
+    "Base_|_cobalt_plinth": {
+      "byteOffset": 0,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 0
+    },
+    "Connecting_rod": {
+      "byteOffset": 1728,
+      "vertexCount": 400,
+      "segmentCount": 200,
+      "geometryId": 1
+    },
+    "Rod_bearing_bronze_seat": {
+      "byteOffset": 6528,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 2
+    },
+    "Rod_bearing_bronze_seat001": {
+      "byteOffset": 6528,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 2
+    },
+    "Rod_pivot_hex_recess": {
+      "byteOffset": 12672,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 3
+    },
+    "Rod_pivot_hex_recess001": {
+      "byteOffset": 12672,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 3
+    },
+    "Rod_pivot_socket_head": {
+      "byteOffset": 13104,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 4
+    },
+    "Rod_pivot_socket_head001": {
+      "byteOffset": 13104,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 4
+    },
+    "Rod_pivot_washer": {
+      "byteOffset": 19248,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 5
+    },
+    "Rod_pivot_washer001": {
+      "byteOffset": 19248,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 5
+    },
+    "Rod_recessed_spine": {
+      "byteOffset": 25392,
+      "vertexCount": 160,
+      "segmentCount": 80,
+      "geometryId": 6
+    },
+    "Crank_arm": {
+      "byteOffset": 27312,
+      "vertexCount": 400,
+      "segmentCount": 200,
+      "geometryId": 7
+    },
+    "Crank_balance_disk": {
+      "byteOffset": 32112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 8
+    },
+    "Crank_pin_lower_spacer": {
+      "byteOffset": 38256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 9
+    },
+    "Crank_pin_shaft": {
+      "byteOffset": 44400,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 10
+    },
+    "Disk_silver_pocket": {
+      "byteOffset": 50544,
+      "vertexCount": 640,
+      "segmentCount": 320,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket001": {
+      "byteOffset": 50544,
+      "vertexCount": 640,
+      "segmentCount": 320,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket002": {
+      "byteOffset": 50544,
+      "vertexCount": 640,
+      "segmentCount": 320,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket003": {
+      "byteOffset": 50544,
+      "vertexCount": 640,
+      "segmentCount": 320,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket004": {
+      "byteOffset": 50544,
+      "vertexCount": 640,
+      "segmentCount": 320,
+      "geometryId": 11
+    },
+    "Disk_silver_pocket005": {
+      "byteOffset": 50544,
+      "vertexCount": 640,
+      "segmentCount": 320,
+      "geometryId": 11
+    },
+    "Spindle_cap_hex_recess": {
+      "byteOffset": 58224,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 12
+    },
+    "Spindle_cap_socket_head": {
+      "byteOffset": 58656,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 13
+    },
+    "Spindle_cap_washer": {
+      "byteOffset": 64800,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 14
+    },
+    "Deck_fastener_hex_recess": {
+      "byteOffset": 70944,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_hex_recess001": {
+      "byteOffset": 70944,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_hex_recess002": {
+      "byteOffset": 70944,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_hex_recess003": {
+      "byteOffset": 70944,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 15
+    },
+    "Deck_fastener_socket_head": {
+      "byteOffset": 71376,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 16
+    },
+    "Deck_fastener_socket_head001": {
+      "byteOffset": 71376,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 16
+    },
+    "Deck_fastener_socket_head002": {
+      "byteOffset": 71376,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 16
+    },
+    "Deck_fastener_socket_head003": {
+      "byteOffset": 71376,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 16
+    },
+    "Deck_fastener_washer": {
+      "byteOffset": 77520,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 17
+    },
+    "Deck_fastener_washer001": {
+      "byteOffset": 77520,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 17
+    },
+    "Deck_fastener_washer002": {
+      "byteOffset": 77520,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 17
+    },
+    "Deck_fastener_washer003": {
+      "byteOffset": 77520,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 17
+    },
+    "Deck_subtitle": {
+      "byteOffset": 83664,
+      "vertexCount": 942,
+      "segmentCount": 471,
+      "geometryId": 18
+    },
+    "Deck_title": {
+      "byteOffset": 94968,
+      "vertexCount": 514,
+      "segmentCount": 257,
+      "geometryId": 19
+    },
+    "Deck_|_brushed_insert": {
+      "byteOffset": 101136,
+      "vertexCount": 160,
+      "segmentCount": 80,
+      "geometryId": 20
+    },
+    "Guide_end_support": {
+      "byteOffset": 103056,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 21
+    },
+    "Guide_end_support001": {
+      "byteOffset": 103056,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 21
+    },
+    "Guide_label": {
+      "byteOffset": 104784,
+      "vertexCount": 694,
+      "segmentCount": 347,
+      "geometryId": 22
+    },
+    "Guide_support_collar": {
+      "byteOffset": 113112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 23
+    },
+    "Guide_support_collar001": {
+      "byteOffset": 113112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 23
+    },
+    "Guide_support_collar002": {
+      "byteOffset": 113112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 23
+    },
+    "Guide_support_collar003": {
+      "byteOffset": 113112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 23
+    },
+    "Linear_guide_rail": {
+      "byteOffset": 119256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 24
+    },
+    "Linear_guide_rail001": {
+      "byteOffset": 119256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 24
+    },
+    "Main_vertical_shaft": {
+      "byteOffset": 125400,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 25
+    },
+    "Rubber_isolator": {
+      "byteOffset": 131544,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 26
+    },
+    "Rubber_isolator001": {
+      "byteOffset": 131544,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 26
+    },
+    "Rubber_isolator002": {
+      "byteOffset": 131544,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 26
+    },
+    "Rubber_isolator003": {
+      "byteOffset": 131544,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 26
+    },
+    "Scale_tick_00": {
+      "byteOffset": 137688,
+      "vertexCount": 96,
+      "segmentCount": 48,
+      "geometryId": 27
+    },
+    "Scale_tick_01": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_02": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_03": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_04": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_05": {
+      "byteOffset": 137688,
+      "vertexCount": 96,
+      "segmentCount": 48,
+      "geometryId": 27
+    },
+    "Scale_tick_06": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_07": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_08": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_09": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_10": {
+      "byteOffset": 137688,
+      "vertexCount": 96,
+      "segmentCount": 48,
+      "geometryId": 27
+    },
+    "Scale_tick_11": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_12": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_13": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Scale_tick_14": {
+      "byteOffset": 138840,
+      "vertexCount": 56,
+      "segmentCount": 28,
+      "geometryId": 28
+    },
+    "Carriage_mark": {
+      "byteOffset": 139512,
+      "vertexCount": 200,
+      "segmentCount": 100,
+      "geometryId": 29
+    },
+    "Carriage_screw_hex_recess": {
+      "byteOffset": 141912,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_hex_recess001": {
+      "byteOffset": 141912,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_hex_recess002": {
+      "byteOffset": 141912,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_hex_recess003": {
+      "byteOffset": 141912,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 30
+    },
+    "Carriage_screw_socket_head": {
+      "byteOffset": 142344,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 31
+    },
+    "Carriage_screw_socket_head001": {
+      "byteOffset": 142344,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 31
+    },
+    "Carriage_screw_socket_head002": {
+      "byteOffset": 142344,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 31
+    },
+    "Carriage_screw_socket_head003": {
+      "byteOffset": 142344,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 31
+    },
+    "Carriage_screw_washer": {
+      "byteOffset": 148488,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 32
+    },
+    "Carriage_screw_washer001": {
+      "byteOffset": 148488,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 32
+    },
+    "Carriage_screw_washer002": {
+      "byteOffset": 148488,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 32
+    },
+    "Carriage_screw_washer003": {
+      "byteOffset": 148488,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 32
+    },
+    "Orange_slider_carriage": {
+      "byteOffset": 154632,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 33
+    },
+    "Slider_bushing_barrel": {
+      "byteOffset": 156360,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 34
+    },
+    "Slider_bushing_barrel001": {
+      "byteOffset": 156360,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 34
+    },
+    "Slider_bushing_end_ring": {
+      "byteOffset": 162504,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 35
+    },
+    "Slider_bushing_end_ring001": {
+      "byteOffset": 162504,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 35
+    },
+    "Slider_bushing_end_ring002": {
+      "byteOffset": 162504,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 35
+    },
+    "Slider_bushing_end_ring003": {
+      "byteOffset": 162504,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 35
+    },
+    "Slider_pin_saddle": {
+      "byteOffset": 168648,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 36
+    },
+    "Slider_pin_shaft": {
+      "byteOffset": 170376,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 37
+    },
+    "Spindle_bearing_housing": {
+      "byteOffset": 176520,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 38
+    },
+    "Spindle_bearing_race": {
+      "byteOffset": 182664,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 39
+    },
+    "Spindle_bearing_seal": {
+      "byteOffset": 188808,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 40
+    },
+    "Spindle_pedestal": {
+      "byteOffset": 194952,
+      "vertexCount": 144,
+      "segmentCount": 72,
+      "geometryId": 41
+    },
+    "Support_mount_hex_recess": {
+      "byteOffset": 196680,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_hex_recess001": {
+      "byteOffset": 196680,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_hex_recess002": {
+      "byteOffset": 196680,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_hex_recess003": {
+      "byteOffset": 196680,
+      "vertexCount": 36,
+      "segmentCount": 18,
+      "geometryId": 42
+    },
+    "Support_mount_socket_head": {
+      "byteOffset": 197112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 43
+    },
+    "Support_mount_socket_head001": {
+      "byteOffset": 197112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 43
+    },
+    "Support_mount_socket_head002": {
+      "byteOffset": 197112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 43
+    },
+    "Support_mount_socket_head003": {
+      "byteOffset": 197112,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 43
+    },
+    "Support_mount_washer": {
+      "byteOffset": 203256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 44
+    },
+    "Support_mount_washer001": {
+      "byteOffset": 203256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 44
+    },
+    "Support_mount_washer002": {
+      "byteOffset": 203256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 44
+    },
+    "Support_mount_washer003": {
+      "byteOffset": 203256,
+      "vertexCount": 512,
+      "segmentCount": 256,
+      "geometryId": 44
+    },
+    "Travel_scale": {
+      "byteOffset": 209400,
+      "vertexCount": 160,
+      "segmentCount": 80,
+      "geometryId": 45
+    }
+  }
+}

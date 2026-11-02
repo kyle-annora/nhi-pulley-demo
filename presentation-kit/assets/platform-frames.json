@@ -1,0 +1,16 @@
+[
+  {
+    "file": "07-annora-explorer.png",
+    "source": "docs/round29/platform-motion-playing.png",
+    "caption": "Separate Annora crank sample: captured during authored motion. This is a still image, not a moving F-4412.",
+    "sample": "Annora crank / Studio \u00b7 Separate from NHI",
+    "sha256": "fe26e5da89a739c512daccdf92ae5ca5c1c26350e704b0ab28e3001d810fabe7"
+  },
+  {
+    "file": "08-annora-studio.png",
+    "source": "docs/round29/platform-studio-release-desktop.png",
+    "caption": "Separate Annora Studio sample: reviewed content published locally. It is not an NHI supplier portal.",
+    "sample": "Annora crank / Studio \u00b7 Separate from NHI",
+    "sha256": "caf91bb73f254ef796309a7bb8607602de01aca72921dad11d0815491feb1e7e"
+  }
+]

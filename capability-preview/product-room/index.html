@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="../storage-isolation.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#181a1c">
+  <meta name="description" content="Explore an assembly, understand its working relationships and start a product conversation. An Annora Product Room demonstration.">
+  <title>Product Room · Annora</title>
+  <script type="module">if(window.__NHI_CAPABILITY_STORAGE__?.ready){import("../assets/room-M4EFCzuh.js");}</script>
+  <link rel="modulepreload" crossorigin href="../assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="../assets/preload-helper-PPVm8Dsz.js">
+  <link rel="modulepreload" crossorigin href="../assets/content-CBAb4k90.js">
+  <link rel="modulepreload" crossorigin href="../assets/catalog-C4NcA1Aj.js">
+  <link rel="modulepreload" crossorigin href="../assets/embed-bridge-BuKhgJh_.js">
+  <link rel="modulepreload" crossorigin href="../assets/embed-client-GE4iyqML.js">
+  <link rel="modulepreload" crossorigin href="../assets/project-repository-D6sfa1es.js">
+  <link rel="modulepreload" crossorigin href="../assets/release-content-gpQjBliF.js">
+  <link rel="modulepreload" crossorigin href="../assets/flow-CV4HIf-p.js">
+  <link rel="modulepreload" crossorigin href="../assets/session-D4jrgh9f.js">
+  <link rel="modulepreload" crossorigin href="../assets/actions-DP_rjrNd.js">
+  <link rel="modulepreload" crossorigin href="../assets/chrome-DHar4VyN.js">
+  <link rel="modulepreload" crossorigin href="../assets/navigation-Dj_wUAgi.js">
+  <link rel="stylesheet" crossorigin href="../assets/flow-B_0kGOZh.css">
+  <link rel="stylesheet" crossorigin href="../assets/room-CeG7Xxx9.css">
+</head>
+<body>
+  <a class="room-skip" href="#room-main">Skip to product</a>
+  <header class="room-header">
+    <a class="room-brand" href="#explore" aria-label="Annora Product Room, explore"><span class="room-mark" aria-hidden="true">a</span><span>annora <small>Product Room</small></span></a>
+    <label class="room-product"><span class="sr-only">Choose product room</span><select id="room-product"><option value="kinetic-01">Crank-slider</option><option value="apollo">Apollo hatch</option></select></label>
+    <nav class="room-nav" aria-label="Product pages"><a href="#explore" data-page="explore">Explore <span>3D</span></a><a href="#overview" data-page="overview">Overview</a><a href="#specs" data-page="specs">Specs & docs</a><a href="#projects" data-page="projects" class="room-projects-link">My projects</a></nav>
+    <button class="room-button room-button-primary room-discuss" id="room-discuss"><span class="room-discuss-full">Request a quote</span><span class="room-discuss-short">Inquire</span><span aria-hidden="true">↗</span></button>
+  </header>
+  <aside id="room-part-information" class="room-part-information" hidden></aside>
+  <main id="room-main" tabindex="-1">
+    <section id="page-explore" class="room-explore" aria-label="Interactive product exploration">
+      <div id="room-viewer" class="room-viewer"></div>
+      <div id="room-loading" class="room-loading" role="status"><span class="room-loading-indicator" aria-hidden="true"></span><h1>Preparing your product.</h1><p>The 3D assembly will appear here.</p></div>
+      <div id="room-error" class="room-loading" hidden><h1>3D is unavailable right now.</h1><p id="room-error-message">You can still explore the product information and documents.</p><div class="room-actions"><button id="room-retry" class="room-button room-button-primary">Try loading again</button><a class="room-button room-button-secondary" href="#overview">Read product overview</a></div></div>
+    </section>
+    <section id="page-overview" class="room-page" aria-label="Product overview" hidden></section>
+    <section id="page-specs" class="room-page" aria-label="Specifications and documents" hidden></section>
+    <section id="page-workspace" class="room-page" aria-label="Customer projects" hidden><div id="room-workspace"></div></section>
+  </main>
+  <p id="room-notice" class="room-notice" role="status" hidden></p>
+  <dialog id="room-request"></dialog>
+</body>
+</html>

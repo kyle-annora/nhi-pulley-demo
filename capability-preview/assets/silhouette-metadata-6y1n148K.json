@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "sha256": "c29032b59d0274c6617e2919f613694e87c8f12982f0ea29e8929a2d6bbdc199"
+  },
+  "contours": {
+    "file": "silhouettes.bin",
+    "compressedFile": "silhouettes.bin.gz",
+    "format": "uint32-oct16-le",
+    "coordinates": "original-mesh-local",
+    "bytesPerSegment": 16,
+    "sha256": "b2cf8ae232cdb583b9819982d400471c9da3928680b15331e51187e14b9b21a9"
+  },
+  "stats": {
+    "meshCount": 1,
+    "uniqueGeometryCount": 1,
+    "bytes": 279248,
+    "uniqueSegments": 17453
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "segmentCount": 17453,
+      "geometryId": 0,
+      "sourceGeometrySha256": "76118610243569d310342d09ba61a0c520b24f098b0d1a3aee96f16c0af64180",
+      "sha256": "b2cf8ae232cdb583b9819982d400471c9da3928680b15331e51187e14b9b21a9"
+    }
+  ],
+  "meshes": {
+    "linkrod_body": {
+      "byteOffset": 0,
+      "segmentCount": 17453,
+      "geometryId": 0
+    }
+  }
+}

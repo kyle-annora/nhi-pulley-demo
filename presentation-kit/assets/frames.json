@@ -1,0 +1,44 @@
+[
+  {
+    "scene": 1,
+    "file": "01-inspection.png",
+    "source": "docs/round29/mounting-desktop.png",
+    "caption": "Live demo capture: illustrative mounting inspection, before saving a requirement.",
+    "sha256": "6494db8ae852ac9c82226d0aaabc3edddc98ff82d00b27ccbc94393ebbee864a"
+  },
+  {
+    "scene": 2,
+    "file": "02-question.png",
+    "source": "docs/round29/inquiry-desktop.png",
+    "caption": "Live demo capture: the saved original mounting question carried into the inquiry draft.",
+    "sha256": "2d579f88598da19df3ed0e638c8397f0a2329d88e18d851e66addc843b6b62cf"
+  },
+  {
+    "scene": 3,
+    "file": "03-rfq.png",
+    "source": "docs/round29/rfq-review-desktop.png",
+    "caption": "Live demo capture: review of the exact 200-unit inquiry before explicit RFQ confirmation.",
+    "sha256": "afa51e7ce20d07df3edd4dfb218e52b4fa4eca7fcb6890f1f23d2e7b1810b838"
+  },
+  {
+    "scene": 4,
+    "file": "04-seller.png",
+    "source": "docs/round29/seller-review-desktop.png",
+    "caption": "Live demo capture: seller review of the private v1 draft before explicit issue.",
+    "sha256": "d1be87de1e66294bff5b3b63e228a56319698c1a07fb686fdfab7a0dbf7bddcc"
+  },
+  {
+    "scene": 5,
+    "file": "05-v2.png",
+    "source": "docs/round29/v2-desktop.png",
+    "caption": "Live demo capture: issued example v2 at 250 units, with v1 comparison and the original question retained.",
+    "sha256": "e5203a8b5c916e7cda4bbbfde2ec0dccd7357a7acaf70add930110f61bd371e8"
+  },
+  {
+    "scene": 6,
+    "file": "06-next-step.png",
+    "source": "docs/round29/complete-desktop.png",
+    "caption": "Live demo capture: acknowledged engineering-review plan; findings and application fit remain unconfirmed.",
+    "sha256": "68c5631032c2c214775d5eb4a7797408be8e78fe0b1208336f5fcdcfa417ad8c"
+  }
+]

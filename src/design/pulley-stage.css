@@ -1,0 +1,39 @@
+/* NHI hosts the shared renderer; all outer controls use the existing component contract. */
+.nhi-ui .n-pulley-stage{min-width:0;border:1px solid var(--n-line);background:var(--n-canvas)}
+.nhi-ui .n-pulley-stage-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px;border-bottom:1px solid var(--n-line)}
+.nhi-ui .n-pulley-stage-title{min-width:0;color:var(--n-muted);font-size:12px;font-variant-numeric:tabular-nums}
+.nhi-ui .n-pulley-stage-title .n-eyebrow{margin-bottom:4px}
+.nhi-ui .n-pulley-stage-toolbar .n-choice{font-size:14px;min-height:46px}
+.nhi-ui .n-pulley-viewport{height:clamp(400px,42vw,560px);width:100%;position:relative;isolation:isolate;overflow:hidden;background:var(--n-canvas)}
+.nhi-ui .n-pulley-stage-compact .n-pulley-viewport{height:clamp(340px,32vw,440px)}
+.nhi-ui .n-shared-explorer{display:block;width:100%;height:100%;border:0;background:var(--n-canvas)}
+.nhi-ui .n-stage-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:12px;padding:24px;background:var(--n-canvas);color:var(--n-muted);font-size:14px;pointer-events:none}
+.nhi-ui .n-pulley-drawing .technical-drawing{display:block;width:100%;height:100%;padding:16px 8px}
+.nhi-ui .n-pulley-drawing text{font-family:var(--n-font);font-variant-numeric:tabular-nums}
+.nhi-ui .n-inspection-guide{padding:20px 24px;border-top:1px solid var(--n-line);display:grid;gap:16px}
+.nhi-ui .n-inspection-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px 16px;flex-wrap:wrap}
+.nhi-ui .n-inspection-head .n-eyebrow{margin:0}
+.nhi-ui .n-inspection-guide>.n-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.nhi-ui .n-inspection-guide>.n-choices .n-choice{min-width:0;padding:12px 10px;gap:6px;text-align:left;font-size:14px}
+.nhi-ui .n-inspection-guide .n-choice-indicator{flex-shrink:0}
+.nhi-ui .n-inspection-navigation{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.nhi-ui .n-inspection-navigation .n-control{max-width:100%}
+.nhi-ui .n-inspection-navigation .n-evidence{white-space:normal}
+.nhi-ui .n-pulley-stage-caption{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:16px 24px 20px;border-top:1px solid var(--n-line)}
+.nhi-ui .n-pulley-stage-caption .n-evidence{font-size:12px;white-space:normal;text-align:left}
+.nhi-ui .n-pulley-stage-caption .n-help{font-size:12px}
+.nhi-ui .n-pulley-fallback{padding:16px 24px}
+@media(max-width:700px){
+  .nhi-ui .n-pulley-stage-toolbar{padding:12px 16px;gap:12px;flex-wrap:wrap}
+  .nhi-ui .n-pulley-stage-toolbar .n-choice{min-height:48px}
+  .nhi-ui .n-pulley-viewport,.nhi-ui .n-pulley-stage-compact .n-pulley-viewport{height:380px}
+  .nhi-ui .n-inspection-guide{padding:16px;gap:16px}
+  .nhi-ui .n-inspection-guide>.n-choices{grid-template-columns:1fr}
+  .nhi-ui .n-inspection-guide>.n-choices .n-choice{min-height:48px;padding:12px 14px}
+  .nhi-ui .n-inspection-navigation{align-items:stretch;flex-direction:column;gap:8px}
+  .nhi-ui .n-inspection-navigation .n-control{justify-content:space-between}
+  .nhi-ui .n-pulley-stage-caption{padding:16px}
+  .nhi-ui .n-pulley-fallback{padding:16px}
+}
+
+@media(max-width:700px){.nhi-ui .n-inspection-guide>.n-choices{grid-template-columns:repeat(3,minmax(0,1fr))}.nhi-ui .n-inspection-guide>.n-choices .n-choice{font-size:14px;min-height:88px;padding:10px 6px;align-items:flex-start;gap:4px}.nhi-ui .n-inspection-guide>.n-choices .n-choice-indicator{width:14px;height:14px}}

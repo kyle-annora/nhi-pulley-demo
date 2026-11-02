@@ -1,0 +1,16 @@
+.nhi-ui {
+  --n-background:#fff; --n-canvas:#f2f4f2; --n-foreground:#202622; --n-muted:#606b63;
+  --n-line:#d9dfd8; --n-input-border:#89958b; --n-soft:#f2f4f2; --n-selected:#e5e9e5;
+  --n-action:#83bf3e; --n-action-text:#14230e; --n-action-hover:#96ce54; --n-action-pressed:#75ad35;
+  --n-focus:#303833; --n-disabled-bg:#e8ebe7; --n-disabled-text:#737b73;
+  --n-error:#9c382c; --n-error-bg:#fcf1ed; --n-example:#75511e; --n-example-bg:#faf4e8; --n-example-border:#dfcba7;
+  --n-danger:#9c382c; --n-danger-text:#fff; --n-danger-hover:#852e24; --n-danger-pressed:#70271f;
+  --n-radius:4px; --n-control-height:46px; --n-control-inset:18px; --n-gap:10px;
+  --n-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  --n-mono:var(--n-font); /* Compatibility alias: identifiers use the same UI family. */
+  --n-type-title:36px; --n-type-section:22px; --n-type-subhead:16px; --n-type-body:14px; --n-type-caption:12px;
+  --n-space-section:32px; --n-space-field:20px;
+  --n-fast:120ms;
+  color:var(--n-foreground); font-family:var(--n-font); font-size:var(--n-type-body); line-height:1.55;
+  --background:var(--n-background); --foreground:var(--n-foreground); --secondary:var(--n-soft);
+}

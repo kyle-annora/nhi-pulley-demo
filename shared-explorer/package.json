@@ -1,0 +1,29 @@
+{
+  "name": "nhi-f4412-shared-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:project": "node scripts/configure.mjs",
+    "import:model": "node scripts/import-model.mjs",
+    "generate:model": "node source/generate.mjs",
+    "build": "npm run prepare:project && vite build",
+    "test": "npm run prepare:project && node --test tests/f4412.test.mjs tests/runtime/embed-transport.test.js tests/runtime/themes-and-view.test.js",
+    "check": "node scripts/check-project.mjs",
+    "verify": "npm run check && npm test && npm run build"
+  },
+  "dependencies": {
+    "@base-ui/react": "1.9.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  },
+  "description": "Pinned Annora Explorer runtime with an illustrative F-4412 inspection package",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

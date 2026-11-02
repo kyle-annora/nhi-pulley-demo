@@ -1,0 +1,40 @@
+.nhi-ui .n-saved-request-context{margin-top:22px;border-top:1px solid var(--n-line)}
+.nhi-ui .n-saved-request-context>summary{padding:15px 0;cursor:pointer;font-size:14px;font-weight:600;color:var(--n-foreground)}
+.nhi-ui .n-saved-request-content{padding:4px 0 18px}
+.nhi-ui .n-saved-catalog-dimensions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.nhi-ui .n-saved-catalog-dimensions dt,.nhi-ui .n-saved-application-facts dt{font-size:12px;color:var(--n-muted)}
+.nhi-ui .n-saved-catalog-dimensions dd{font-size:14px;margin:5px 0 0}
+.nhi-ui .n-saved-catalog-dimensions dd span{font-size:12px;color:var(--n-muted)}
+.nhi-ui .n-saved-application-facts{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 26px}
+.nhi-ui .n-saved-application-facts dd{font-size:13px;margin:3px 0 0}
+.nhi-ui .n-saved-request-note{display:flex;flex-direction:column;gap:5px;font-size:13px;margin:18px 0}
+.nhi-ui .n-original-questions{margin-top:20px}
+.nhi-ui .n-original-questions>h3,.nhi-ui .n-saved-request-files>h3{font-size:14px;font-weight:600;margin:0 0 9px}
+.nhi-ui .n-original-question{border-top:1px solid var(--n-line)}
+.nhi-ui .n-original-question>summary{display:grid;grid-template-columns:110px minmax(0,1fr) auto;align-items:baseline;gap:12px;cursor:pointer;padding:12px 0;font-size:13px;list-style:none}
+.nhi-ui .n-original-question>summary::-webkit-details-marker{display:none}
+.nhi-ui .n-original-question-region{font-weight:600}
+.nhi-ui .n-original-question-preview{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--n-muted);text-decoration:underline;text-underline-offset:3px}
+.nhi-ui .n-original-question-status{font-size:11px;color:var(--n-muted)}
+.nhi-ui .n-original-question[open]>summary{grid-template-columns:110px minmax(0,1fr)}
+.nhi-ui .n-original-question[open] .n-original-question-status{justify-self:end}
+.nhi-ui .n-original-question>div{padding:0 0 12px 122px}
+.nhi-ui .n-original-question>div>p{font-size:13px;margin:0 0 8px;overflow-wrap:anywhere}
+.nhi-ui .n-original-question>div>p.n-help{font-size:11px;margin-bottom:0;color:var(--n-muted)}
+.nhi-ui .n-original-question>summary:focus-visible,.nhi-ui .n-saved-request-context>summary:focus-visible{outline:2px solid var(--n-focus);outline-offset:3px}
+.nhi-ui .n-saved-request-files{margin-top:20px}
+.nhi-ui .n-saved-request-files ul{list-style:none;margin:0;padding:0}
+.nhi-ui .n-saved-request-files li{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:8px 0;border-top:1px solid var(--n-line)}
+.nhi-ui .n-saved-request-files li>div{min-width:0;display:grid;gap:3px}
+.nhi-ui .n-saved-request-files li strong{font-size:13px;font-weight:500;overflow-wrap:anywhere}
+.nhi-ui .n-saved-request-files li span{font-size:11px;color:var(--n-muted)}
+.nhi-ui .n-saved-request-boundary{margin:4px 0 0;font-size:11px}
+.nhi-ui .n-quote-attachments{margin:0 0 18px;border-block:1px solid var(--n-line)}
+.nhi-ui .n-quote-attachments>summary{display:flex;align-items:center;min-height:44px;padding:11px 0;cursor:pointer;font-size:13px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.nhi-ui .n-quote-attachments>div{padding:0 0 14px}
+.nhi-ui .n-quote-attachments>div>.n-help{font-size:11px;margin:0 0 9px;color:var(--n-muted)}
+.nhi-ui .n-quote-attachments .n-saved-request-files{margin-top:0}
+.nhi-ui .n-quote-attachments .n-saved-request-files>h3{display:none}
+.nhi-ui .n-quote-attachments>summary:focus-visible{outline:2px solid var(--n-focus);outline-offset:3px}
+@media(max-width:700px){.nhi-ui .n-saved-catalog-dimensions{grid-template-columns:1fr;gap:8px}.nhi-ui .n-saved-catalog-dimensions>div{display:flex;justify-content:space-between;gap:12px}.nhi-ui .n-saved-catalog-dimensions dd{margin:0;text-align:right}.nhi-ui .n-saved-application-facts{grid-template-columns:1fr;gap:12px}.nhi-ui .n-original-question>summary{grid-template-columns:minmax(0,1fr) auto;gap:5px 10px}.nhi-ui .n-original-question-preview{grid-column:1/-1;grid-row:2;font-size:12px}.nhi-ui .n-original-question-status{font-size:10px;max-width:170px;text-align:right}.nhi-ui .n-original-question>div{padding-left:0}.nhi-ui .n-saved-request-files li{align-items:flex-start}}
+@media(max-width:700px){.nhi-ui .n-original-question[open]>summary{grid-template-columns:minmax(0,1fr) auto}.nhi-ui .n-quote-attachments{margin-bottom:14px}}

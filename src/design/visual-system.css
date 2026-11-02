@@ -1,0 +1,96 @@
+/* Round 27 sample: silver work surfaces, graphite equipment stage, lime actions.
+   Applied by the host only to Current work, the exact quote document and Explorer.
+   The shared runtime, illustration, records and all other routes are unchanged. */
+.nhi-ui[data-visual-system="silver"]{
+  --n-canvas:#f4f5f6;--n-background:#fff;--n-foreground:#20262b;--n-muted:#626b73;
+  --n-line:#dadee2;--n-input-border:#89939b;--n-soft:#edf0f2;--n-selected:#e4e8eb;
+  --n-focus:#27343e;--n-disabled-bg:#e9ecee;--n-disabled-text:#727b82;
+  --n-action:#83bf3e;--n-action-text:#14230e;--n-action-hover:#96ce54;--n-action-pressed:#75ad35;
+  --n-example:#59636d;--n-example-bg:#edf0f2;--n-example-border:#cfd6dc;
+  --n-wait:#275b86;--n-wait-bg:#edf4fa;--n-wait-border:#d5e3ef;
+  --n-stage:#151b20;--n-stage-text:#edf2f6;--n-stage-muted:#b2bdc6;--n-stage-line:#39444e;
+  --n-radius:6px;
+  -webkit-font-smoothing:antialiased;
+}
+.nhi-ui[data-visual-system="silver"] .n-evidence-example{font-weight:400}
+.nhi-ui[data-visual-system="silver"] .n-room-topbar{background:#fff}
+.nhi-ui[data-visual-system="silver"] .n-room-journey,.nhi-ui[data-visual-system="silver"] .n-case-navigation{border-color:var(--n-line)}
+.nhi-ui[data-visual-system="silver"] .n-case-identity strong{color:var(--n-foreground);font-weight:600}
+
+/* The host frame and controls belong to the same dark equipment stage. Drawing
+   mode stays on the light work surface; no CSS reaches inside the shared iframe. */
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer){
+  --n-background:#253039;--n-canvas:var(--n-stage);--n-soft:#303b44;--n-selected:#3a4650;
+  --n-foreground:var(--n-stage-text);--n-muted:var(--n-stage-muted);--n-line:var(--n-stage-line);
+  --n-input-border:#788892;--n-focus:#e1edf5;
+  --n-example:#c7d0d7;--n-example-bg:#222c34;--n-example-border:#46535e;
+  color:var(--n-foreground);background:var(--n-stage);border-radius:6px;overflow:clip;
+}
+.nhi-ui[data-visual-system="silver"] .n-room-scene .n-pulley-stage:has(.n-shared-explorer) .n-pulley-stage-toolbar{
+  background:var(--n-stage);border:1px solid var(--n-stage-line);border-bottom:0;
+}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-pulley-stage-title{color:var(--n-stage-text);font-weight:500}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-room-view-modes{background:#222d35;border:1px solid var(--n-stage-line);padding:2px}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-room-view-modes .n-choice{
+  color:#bec8d0;background:transparent;box-shadow:none;
+}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-room-view-modes .n-choice[data-checked]{
+  background:#3a4650;color:#fff;box-shadow:0 0 0 1px #65727c;
+}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-pulley-stage-caption{
+  background:var(--n-stage);border-color:var(--n-stage-line);padding-block:12px;
+}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-room-model-help{color:var(--n-stage-muted)}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-pulley-stage-caption .n-evidence-example{background:transparent;border-color:var(--n-stage-line);color:#c7d0d7}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) :is(.n-choice,summary,.n-control):focus-visible{
+  outline-color:#e1edf5;outline-offset:3px;box-shadow:0 0 0 2px var(--n-stage);
+}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-control[data-variant=primary]{color:var(--n-action-text)}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-control:disabled{background:#28323b;color:#a6b0b8;border-color:#46535e}
+.nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-stage-loading{background:var(--n-stage);color:var(--n-stage-muted)}
+.nhi-ui[data-visual-system="silver"] .n-pulley-drawing{background:#fff}
+.nhi-ui[data-visual-system="silver"] .n-room-task-heading h2{color:var(--n-foreground)}
+.nhi-ui[data-visual-system="silver"] .n-room-task-heading>.n-room-catalog-reference{border-color:var(--n-line)}
+@media(hover:hover){
+  .nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-room-view-modes .n-choice:hover{background:#303c46;color:#fff}
+  .nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer) .n-room-view-modes .n-choice[data-checked]:hover{background:#46535e}
+}
+
+/* An exact quote reads as paper; the surrounding controls remain workspace UI. */
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace{max-width:1120px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace>.n-heading{margin-bottom:20px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace>.n-heading h1{font-size:32px;font-weight:600;letter-spacing:-.03em}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-doc-controls{border-top:0;padding-top:2px;padding-bottom:18px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace>.n-document{
+  background:#fff;border:1px solid var(--n-line);border-radius:6px;padding:32px 36px;
+  box-shadow:0 3px 10px #20262b05;
+}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-document-header{padding-bottom:26px;border-bottom:1px solid var(--n-line);margin-bottom:22px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-document-header h2{font-size:23px;font-weight:500}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-record-meta{min-width:215px;gap:6px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-price-table thead th{background:var(--n-soft);font-weight:500}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-price-table tbody th{font-weight:500}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-price-table :is(td,th){padding-block:15px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-totals{max-width:390px;background:var(--n-canvas);border-radius:4px;padding:18px 20px;margin-top:22px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-totals>div:first-child{padding-bottom:12px;border-bottom:1px solid var(--n-line)}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-totals strong{font-size:27px;font-weight:600;color:var(--n-foreground)}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-totals>.n-help{border:0;padding-top:4px;font-size:12px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-section{margin-top:26px;padding-top:22px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-section>h2{font-size:17px;font-weight:600}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-disclaimer{color:var(--n-muted);font-size:12px}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-quote-attachments{margin-bottom:18px;border-color:var(--n-line)}
+.nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-doc-comparison{border-radius:6px;background:#fff}
+@media(max-width:700px){
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace>.n-heading h1{font-size:26px}
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace>.n-document{padding:22px 16px}
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-document-header{padding-bottom:20px;margin-bottom:18px}
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-record-meta{min-width:0;margin-top:18px;font-size:12px}
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-totals{max-width:100%;padding:16px;margin-top:20px}
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-totals strong{font-size:24px}
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-doc-actions{background:#fff;border-top-color:var(--n-line)}
+  .nhi-ui[data-visual-system="silver"] .n-pulley-stage:has(.n-shared-explorer){border-radius:4px}
+}
+@media print{
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace>.n-document{box-shadow:none;border:0;border-radius:0}
+  .nhi-ui[data-visual-system="silver"] .n-quote-document-workspace .n-totals{background:#fff;border:1px solid var(--n-line)}
+}

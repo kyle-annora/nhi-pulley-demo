@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "sha256": "c29032b59d0274c6617e2919f613694e87c8f12982f0ea29e8929a2d6bbdc199"
+  },
+  "edges": {
+    "file": "edges.bin",
+    "compressedFile": "edges.bin.gz",
+    "compression": "gzip",
+    "format": "float32-le",
+    "coordinates": "mesh-local",
+    "topology": "line-segments",
+    "creaseAngle": 35,
+    "sha256": "c9bc1f6893660a557276b1da30728971c9e13bd8388c36bca3d85f8ea8a44798"
+  },
+  "stats": {
+    "meshCount": 1,
+    "uniqueGeometryCount": 1,
+    "bytes": 7488,
+    "uniqueSegments": 312
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "vertexCount": 624,
+      "segmentCount": 312,
+      "geometryId": 0,
+      "sourceGeometrySha256": "76118610243569d310342d09ba61a0c520b24f098b0d1a3aee96f16c0af64180",
+      "edgeSha256": "c9bc1f6893660a557276b1da30728971c9e13bd8388c36bca3d85f8ea8a44798",
+      "bounds": [
+        [
+          0.0031250000465661287,
+          0,
+          -0.004000000189989805
+        ],
+        [
+          0.008145284838974476,
+          0.0020000000949949026,
+          -0.0024999999441206455
+        ]
+      ]
+    }
+  ],
+  "meshes": {
+    "linkrod_body": {
+      "byteOffset": 0,
+      "vertexCount": 624,
+      "segmentCount": 312,
+      "geometryId": 0
+    }
+  }
+}

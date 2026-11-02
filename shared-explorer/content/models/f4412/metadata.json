@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "root": {
+    "id": "f4412",
+    "title": "F-4412 · illustrative pulley",
+    "description": "Original presentation geometry based on the catalog A/B/D dimensions; the hub, seals and stamped contours are reconstructed illustrations."
+  },
+  "source": {
+    "author": "Annora",
+    "license": "MIT",
+    "attribution": "Annora · illustrative F-4412 study · MIT · 2026",
+    "description": "Original presentation geometry based on the catalog A/B/D dimensions; the hub, seals and stamped contours are reconstructed illustrations.",
+    "note": "Not manufacturer CAD. Inspection regions are not a verified BOM. No bore, tolerance, mounting fit, speed, load or operating motion is established.",
+    "file": "model.glb",
+    "preserved": [
+      "geometry",
+      "source hierarchy",
+      "materials",
+      "pivots",
+      "authored animation channels"
+    ],
+    "sha256": "c27ba681dbf70527a92274019ad1ed74ec889ef31d12541e1130a01c08ab106a"
+  },
+  "bounds": [
+    [
+      -1.5625,
+      -1.5625,
+      -0.5299999713897705
+    ],
+    [
+      1.5625,
+      1.5625,
+      0.5299999713897705
+    ]
+  ],
+  "orientation": {
+    "up": "+Y",
+    "sourceUnits": "unverified",
+    "defaultDirection": [
+      1.3,
+      0.6,
+      1.7
+    ]
+  },
+  "groups": [
+    {
+      "id": "belt",
+      "title": "Belt-running region",
+      "description": "Inspection region: catalog B is 2.75 in; catalog D is 0.75 in. Viewing does not confirm belt compatibility.",
+      "meshNames": [
+        "belt_surface"
+      ],
+      "children": []
+    },
+    {
+      "id": "flange",
+      "title": "Flange region",
+      "description": "Inspection region: catalog A is 3.125 in across the outside edges. Stamped contours are illustrative.",
+      "meshNames": [
+        "flange_front",
+        "flange_rear"
+      ],
+      "children": []
+    },
+    {
+      "id": "mount",
+      "title": "Mounting region",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "meshNames": [
+        "mounting_hub",
+        "seal_rear",
+        "seal_front"
+      ],
+      "children": []
+    }
+  ],
+  "parts": [
+    {
+      "id": "belt-surface",
+      "meshName": "belt_surface",
+      "sourceName": "belt_surface",
+      "sourceNodeIndex": 1,
+      "sourcePath": "/F4412IllustrativePulley/belt_surface",
+      "title": "Belt-running surface (illustrative)",
+      "description": "Inspection region: catalog B is 2.75 in; catalog D is 0.75 in. Viewing does not confirm belt compatibility.",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          -1.375,
+          -1.375,
+          -0.375
+        ],
+        [
+          1.375,
+          1.375,
+          0.375
+        ]
+      ],
+      "triangles": 768,
+      "sourceMaterial": "Dark machined",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "group": "belt",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification."
+    },
+    {
+      "id": "flange-front",
+      "meshName": "flange_front",
+      "sourceName": "flange_front",
+      "sourceNodeIndex": 2,
+      "sourcePath": "/F4412IllustrativePulley/flange_front",
+      "title": "Front flange region (illustrative contour)",
+      "description": "Inspection region: catalog A is 3.125 in across the outside edges. Stamped contours are illustrative.",
+      "center": [
+        0,
+        0,
+        0.3399999961256981
+      ],
+      "bounds": [
+        [
+          -1.5625,
+          -1.5625,
+          0.23999999463558197
+        ],
+        [
+          1.5625,
+          1.5625,
+          0.4399999976158142
+        ]
+      ],
+      "triangles": 3072,
+      "sourceMaterial": "Satin silver",
+      "finishFamily": "satin",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "group": "flange",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification."
+    },
+    {
+      "id": "flange-rear",
+      "meshName": "flange_rear",
+      "sourceName": "flange_rear",
+      "sourceNodeIndex": 3,
+      "sourcePath": "/F4412IllustrativePulley/flange_rear",
+      "title": "Rear flange region (illustrative contour)",
+      "description": "Inspection region: catalog A is 3.125 in across the outside edges. Stamped contours are illustrative.",
+      "center": [
+        0,
+        0,
+        -0.3399999961256981
+      ],
+      "bounds": [
+        [
+          -1.5625,
+          -1.5625,
+          -0.4399999976158142
+        ],
+        [
+          1.5625,
+          1.5625,
+          -0.23999999463558197
+        ]
+      ],
+      "triangles": 3072,
+      "sourceMaterial": "Satin silver",
+      "finishFamily": "satin",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "group": "flange",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification."
+    },
+    {
+      "id": "mounting-hub",
+      "meshName": "mounting_hub",
+      "sourceName": "mounting_hub",
+      "sourceNodeIndex": 4,
+      "sourcePath": "/F4412IllustrativePulley/mounting_hub",
+      "title": "Illustrative mounting hub",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          -0.27000001072883606,
+          -0.27000001072883606,
+          -0.5299999713897705
+        ],
+        [
+          0.27000001072883606,
+          0.27000001072883606,
+          0.5299999713897705
+        ]
+      ],
+      "triangles": 1152,
+      "sourceMaterial": "Bright hardware",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "group": "mount",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification."
+    },
+    {
+      "id": "seal-rear",
+      "meshName": "seal_rear",
+      "sourceName": "seal_rear",
+      "sourceNodeIndex": 5,
+      "sourcePath": "/F4412IllustrativePulley/seal_rear",
+      "title": "Rear illustrative seal region",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "center": [
+        0,
+        0,
+        -0.3149999976158142
+      ],
+      "bounds": [
+        [
+          -0.4000000059604645,
+          -0.4000000059604645,
+          -0.32499998807907104
+        ],
+        [
+          0.4000000059604645,
+          0.4000000059604645,
+          -0.3050000071525574
+        ]
+      ],
+      "triangles": 768,
+      "sourceMaterial": "Polymer and seals",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "group": "mount",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification."
+    },
+    {
+      "id": "seal-front",
+      "meshName": "seal_front",
+      "sourceName": "seal_front",
+      "sourceNodeIndex": 6,
+      "sourcePath": "/F4412IllustrativePulley/seal_front",
+      "title": "Front illustrative seal region",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "center": [
+        0,
+        0,
+        0.3149999976158142
+      ],
+      "bounds": [
+        [
+          -0.4000000059604645,
+          -0.4000000059604645,
+          0.3050000071525574
+        ],
+        [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.32499998807907104
+        ]
+      ],
+      "triangles": 768,
+      "sourceMaterial": "Polymer and seals",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "group": "mount",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification."
+    }
+  ],
+  "stats": {
+    "meshCount": 6,
+    "nodeCount": 7,
+    "triangles": 9600,
+    "vertices": 5432,
+    "animationClips": 0,
+    "bytes": 238224,
+    "gzipBytes": 77407
+  }
+}

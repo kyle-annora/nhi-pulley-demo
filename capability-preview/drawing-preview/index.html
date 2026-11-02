@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <script src="../storage-isolation.js"></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#181a1c" />
+    <meta
+      name="description"
+      content="Explore a connecting rod and its paired engineering drawing. Carry the exact selected detail and drawing version into a reviewed inquiry."
+    />
+    <title>3D / Drawings · Annora</title>
+    <script type="module">if(window.__NHI_CAPABILITY_STORAGE__?.ready){import("../assets/drawingPreview-CR6GYP-7.js");}</script>
+    <link rel="modulepreload" crossorigin href="../assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="../assets/preload-helper-PPVm8Dsz.js">
+    <link rel="modulepreload" crossorigin href="../assets/project-repository-D6sfa1es.js">
+    <link rel="modulepreload" crossorigin href="../assets/drawing-overview-ZZ1L35A8.js">
+    <link rel="modulepreload" crossorigin href="../assets/embed-bridge-BuKhgJh_.js">
+    <link rel="modulepreload" crossorigin href="../assets/embed-client-GE4iyqML.js">
+    <link rel="modulepreload" crossorigin href="../assets/release-content-gpQjBliF.js">
+    <link rel="modulepreload" crossorigin href="../assets/catalog-C4NcA1Aj.js">
+    <link rel="modulepreload" crossorigin href="../assets/catalog-CyynXCNw.js">
+    <link rel="modulepreload" crossorigin href="../assets/drawing-repository-WoiKAYK4.js">
+    <link rel="modulepreload" crossorigin href="../assets/context-Ds61qeSn.js">
+    <link rel="modulepreload" crossorigin href="../assets/navigation-Dj_wUAgi.js">
+    <link rel="stylesheet" crossorigin href="../assets/drawing-overview-01itqqL_.css">
+    <link rel="stylesheet" crossorigin href="../assets/drawingPreview-Db3IWTC4.css">
+  </head>
+  <body class="drawing-host">
+    <a class="room-skip" href="#drawing-main">Skip to preview</a>
+    <header class="dp-header" data-workspace-header>
+      <a
+        href="#explore"
+        class="room-brand"
+        id="dp-home"
+        aria-label="Annora drawing preview"
+        ><span class="room-mark" aria-hidden="true">///</span
+        ><span>ANNORA <small>3D / DRAWINGS</small></span></a
+      >
+      <label class="dp-product"
+        ><span class="sr-only">Prepared product</span
+        ><select id="dp-product-select" aria-label="Prepared product"></select
+      ></label>
+      <nav class="dp-modes" aria-label="Preview views">
+        <button data-view="3d" aria-pressed="false">3D</button
+        ><button data-view="drawings" aria-pressed="false">Drawings</button
+        ><button data-view="compare" aria-pressed="false">Compare</button>
+      </nav>
+      <button id="dp-projects" class="dp-button dp-outline">
+        My inquiries
+      </button>
+      <button id="dp-inquire" class="dp-button dp-primary">
+        Ask about this detail <span aria-hidden="true">↗</span>
+      </button>
+    </header>
+    <main id="drawing-main" tabindex="-1">
+      <div
+        id="dp-version-warning"
+        class="dp-version-warning"
+        role="status"
+        hidden
+      >
+        <div>
+          <strong>The requested reference is unavailable.</strong>
+          <p>
+            The current drawing is shown for viewing only. Existing inquiries
+            keep their saved reference.
+          </p>
+        </div>
+        <button id="dp-use-current" class="dp-button dp-outline">
+          Use current reference
+        </button>
+      </div>
+      <section id="dp-preview" aria-label="Linked CAD and engineering drawing">
+        <div class="dp-reference-bar">
+          <label
+            >Selected detail
+            <select id="dp-detail" aria-label="Selected drawing detail"></select
+          ></label>
+          <span id="dp-dimension"></span>
+          <button id="dp-source" class="dp-text">
+            <span class="dp-source-short">Source info</span>
+            <span
+              ><span id="dp-source-label">Source reference</span
+              ><small class="dp-mobile-status"
+                >Unreviewed reference</small
+              ></span
+            >
+            <span aria-hidden="true">ⓘ</span>
+          </button>
+          <span class="dp-status">Reference · unreviewed</span>
+        </div>
+        <div class="dp-stage" id="dp-stage" data-view="compare">
+          <section
+            class="dp-model-pane"
+            id="dp-model-pane"
+            aria-label="3D model"
+          >
+            <div id="dp-viewer"></div>
+            <div id="dp-loading" class="dp-loading" role="status">
+              <span class="room-loading-indicator" aria-hidden="true"></span>
+              <p>Loading paired model…</p>
+            </div>
+            <div id="dp-model-error" class="dp-loading" hidden>
+              <p>3D could not load. The drawing is still available.</p>
+              <button id="dp-retry" class="dp-button dp-outline">
+                Retry 3D
+              </button>
+            </div>
+          </section>
+          <section
+            class="dp-drawing-pane"
+            id="dp-drawing-pane"
+            aria-label="Engineering drawing"
+          >
+            <div class="dp-presentation" id="dp-presentation" hidden>
+              <div class="dp-reading-heading">
+                <button id="dp-back-overview" data-presentation="overview" hidden>← Drawing overview</button>
+                <strong id="dp-overview-title">Drawing overview</strong>
+              </div>
+              <div class="dp-reading-tools">
+                <select id="dp-overview-sheet" aria-label="Overview sheet"></select>
+                <span id="dp-technical-unit"></span>
+                <button id="dp-source-pdf" data-presentation="source">Source PDF</button>
+              </div>
+            </div>
+            <div class="dp-drawing-toolbar">
+              <select id="dp-sheet-select" aria-label="Drawing sheet"></select>
+              <div>
+                <button id="dp-zoom-out" class="dp-icon" aria-label="Zoom out">
+                  −</button
+                ><output id="dp-zoom" aria-label="Drawing zoom">Fit</output
+                ><button id="dp-zoom-in" class="dp-icon" aria-label="Zoom in">
+                  +</button
+                ><button id="dp-fit" class="dp-text">Fit sheet</button
+                ><button
+                  id="dp-rotate"
+                  class="dp-icon"
+                  aria-label="Rotate sheet clockwise"
+                >
+                  ↻
+                </button>
+              </div>
+              <a
+                id="dp-pdf"
+                class="dp-icon"
+                aria-label="Open original PDF"
+                target="_blank"
+                rel="noopener"
+                >↗</a
+              >
+            </div>
+            <div id="dp-technical-context" class="dp-technical-context" hidden>
+              <div><span class="dp-kicker" id="dp-technical-kicker">TECHNICAL VIEW</span><strong id="dp-technical-title"></strong><label id="dp-technical-view-label" class="dp-technical-view-label"><span class="sr-only">Technical view</span><select id="dp-technical-view-select" aria-label="Technical view"></select></label></div>
+              <div class="dp-zoom-presets" role="group" aria-label="Technical view zoom">
+                <button data-technical-zoom="1" aria-pressed="true">1×</button>
+                <button data-technical-zoom="2" aria-pressed="false">2×</button>
+                <button data-technical-zoom="4" aria-pressed="false">4×</button>
+              </div>
+            </div>
+            <div id="dp-sheet"></div>
+            <div id="dp-technical-legend" class="dp-technical-legend" hidden>
+              <span><i class="dp-line-visible" aria-hidden="true"></i>Visible edge</span>
+              <span><i class="dp-line-hidden" aria-hidden="true"></i>Hidden edge</span>
+              <span><i class="dp-line-center" aria-hidden="true"></i>Center</span>
+              <small>Source-derived · reference only</small>
+            </div>
+            <div id="dp-sheet-error" class="dp-sheet-error" role="alert" hidden>
+              <strong>The drawing could not load.</strong>
+              <p>Your selected reference is preserved.</p>
+              <button id="dp-sheet-retry" class="dp-button dp-outline">
+                Retry drawing</button
+              ><a
+                id="dp-error-original"
+                class="dp-text"
+                target="_blank"
+                rel="noopener"
+                >Open original PDF ↗</a
+              >
+            </div>
+            <p class="dp-paper-hint" id="dp-paper-hint">
+              Select a highlighted detail · drag to pan · pinch to zoom
+            </p>
+          </section>
+        </div>
+        <div class="dp-selection" id="dp-selection">
+          <div>
+            <span class="dp-kicker">LINKED DETAIL</span
+            ><strong id="dp-detail-name">Part overview</strong>
+            <p id="dp-detail-note">One solid. Four linked drawing regions.</p>
+          </div>
+          <div class="dp-locate-actions">
+            <button id="dp-return-project" class="dp-text" hidden>
+              ← Back to inquiry</button
+            ><button id="dp-show-3d" class="dp-button dp-outline">
+              Locate in 3D <span aria-hidden="true">↗</span></button
+            ><button id="dp-show-drawing" class="dp-button dp-outline">
+              Locate in drawing <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        id="dp-workspace-page"
+        class="room-page"
+        hidden
+        aria-label="Drawing inquiries"
+      >
+        <div class="dp-workspace-return">
+          <button id="dp-back" class="dp-text">← Back to 3D / Drawings</button
+          ><span>Demo · saved in this browser</span>
+        </div>
+        <div id="dp-workspace" class="room-workspace"></div>
+      </section>
+    </main>
+    <dialog id="dp-source-dialog" class="dp-source-dialog">
+      <div class="dp-dialog-heading">
+        <div>
+          <span class="dp-kicker">PAIRED SOURCE FILES</span>
+          <h2>One source. One drawing.</h2>
+        </div>
+        <button
+          id="dp-source-close"
+          class="dp-icon"
+          aria-label="Close source information"
+        >
+          ×
+        </button>
+      </div>
+      <p>
+        The STEP model and original drawing are pinned to the same source
+        geometry. This preview uses the drawing’s source snapshot because no
+        manufacturer revision is supplied.
+      </p>
+      <dl>
+        <div>
+          <dt>Drawing version</dt>
+          <dd id="dp-source-version"></dd>
+        </div>
+        <div>
+          <dt>Model</dt>
+          <dd id="dp-source-model"></dd>
+        </div>
+        <div>
+          <dt>Source units</dt>
+          <dd id="dp-source-units"></dd>
+        </div>
+        <div>
+          <dt>Association version</dt>
+          <dd id="dp-map-version"></dd>
+        </div>
+        <div>
+          <dt>Review status</dt>
+          <dd>Automatic, unreviewed reference</dd>
+        </div>
+      </dl>
+      <p class="dp-source-note" id="dp-source-note">
+        No manufacturing approval or general tolerances are supplied. Viewed
+        dimensions do not become inquiry requirements automatically.
+      </p>
+      <div class="dp-downloads">
+        <a
+          id="dp-original"
+          class="dp-button dp-outline"
+          target="_blank"
+          rel="noopener"
+          >Original PDF ↗</a
+        ><a id="dp-step" class="dp-button dp-outline" download="linkrods.step"
+          >Download STEP ↓</a
+        ><a id="dp-studio" class="dp-text">Edit drawing associations ↗</a
+        ><a id="dp-provenance" class="dp-text" target="_blank" rel="noopener"
+          >Source & attribution ↗</a
+        >
+      </div>
+    </dialog>
+    <p id="dp-notice" class="room-notice" role="status" hidden></p>
+  </body>
+</html>

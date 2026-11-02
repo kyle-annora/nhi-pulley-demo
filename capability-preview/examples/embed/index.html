@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="../../storage-isolation.js"></script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Explorer Kit · Independent host</title>
+  <meta name="description" content="An independent page using the Explorer's public control interface.">
+  <script type="module">if(window.__NHI_CAPABILITY_STORAGE__?.ready){import("../../assets/embed-BPfL3uvx.js");}</script>
+  <link rel="modulepreload" crossorigin href="../../assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="../../assets/catalog-C4NcA1Aj.js">
+  <link rel="modulepreload" crossorigin href="../../assets/model-catalog-BJ-SBjKk.js">
+  <link rel="modulepreload" crossorigin href="../../assets/embed-bridge-BuKhgJh_.js">
+  <link rel="modulepreload" crossorigin href="../../assets/embed-client-GE4iyqML.js">
+  <link rel="stylesheet" crossorigin href="../../assets/embed-CH2f62VN.css">
+</head>
+<body>
+  <header class="page-header">
+    <div><p class="eyebrow" id="host-brand">ASSEMBLY EXPLORER</p><h1>One Explorer. Your experience.</h1></div>
+    <a id="open-explorer" target="_blank" rel="noopener" href="../../">Open Explorer <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <div class="workspace">
+      <section class="viewer" aria-label="Interactive model">
+        <div id="viewer-mount"></div>
+        <div id="viewer-empty" hidden><p>Explorer disconnected.</p><button type="button" id="empty-remount">Connect Explorer</button></div>
+      </section>
+      <aside class="controls" aria-label="Explorer controls">
+        <div class="control-heading"><h2>Explore the assembly</h2><p id="connection-status" role="status">Connecting…</p></div>
+        <label for="model">Model</label>
+        <select id="model"><option>Loading project models…</option></select>
+        <fieldset id="model-controls" disabled>
+          <div class="control-section">
+            <label for="component">Component</label><select id="component"><option>Loading components…</option></select>
+            <div class="button-pair"><button type="button" id="focus-component">Focus component</button><button type="button" id="root-component">Whole model</button></div>
+          </div>
+          <div class="control-section">
+            <span class="field-label" id="render-label">Render style</span>
+            <div class="segmented" role="group" aria-labelledby="render-label"><button type="button" data-render="engineering" aria-pressed="true">Engineering</button><button type="button" data-render="linework" aria-pressed="false">Linework</button><button type="button" data-render="flat" aria-pressed="false">Flat</button></div>
+            <label class="range-label" for="explosion">Exploded view <output id="explosion-value">0%</output></label>
+            <input id="explosion" aria-label="Exploded view" type="range" min="0" max="100" step="1" value="0">
+          </div>
+          <div class="control-section" id="tour-section">
+            <div class="section-topline"><h3>Guided tour</h3><span id="tour-time">0:00</span></div>
+            <button type="button" id="tour-start" class="primary">Start the tour <span aria-hidden="true">→</span></button>
+            <div class="button-pair" id="tour-playback" hidden><button type="button" id="tour-toggle">Pause tour</button><button type="button" id="tour-exit">Exit tour</button></div>
+            <label for="chapter" class="sr-only">Tour chapter</label><select id="chapter"><option value="">Choose a chapter</option></select>
+          </div>
+          <details class="saved-view"><summary>Save a view</summary><p>Keep a settled view, then return to it.</p><div class="button-pair"><button type="button" id="capture-view">Capture view</button><button type="button" id="restore-view" disabled>Restore view</button></div><label for="bookmark" class="sr-only">View bookmark JSON</label><textarea id="bookmark" rows="4" spellcheck="false" placeholder="Your view bookmark appears here."></textarea></details>
+        </fieldset>
+        <div class="current-view"><p class="eyebrow">CURRENT VIEW</p><p id="actual-state">Waiting for the Explorer.</p></div>
+        <p id="action-message" role="status" aria-live="polite"></p>
+      </aside>
+    </div>
+    <footer class="integration-footer"><p>A separate host page. The same Explorer and controls.</p><div class="button-pair"><button type="button" id="remount">Remount</button><button type="button" id="destroy">Disconnect</button></div></footer>
+    <details class="integration-details"><summary>Integration details</summary><p id="transport-details"></p><p>No backend or account is involved. Commands and state cross the iframe boundary through the public API.</p><ol id="event-log" aria-label="Recent integration events"></ol></details>
+  </main>
+</body>
+</html>

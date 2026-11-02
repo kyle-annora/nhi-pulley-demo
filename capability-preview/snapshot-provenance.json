@@ -1,0 +1,15 @@
+{
+  "sourceCommit": "bc53527164c5a18268a5dbd6f4cd01d21e2be9b4",
+  "source": "Local annora-explorer dist snapshot",
+  "adaptedEntries": [
+    "index.html",
+    "studio/index.html",
+    "walkthrough/index.html",
+    "drawing-preview/index.html",
+    "product-room/index.html",
+    "examples/embed/index.html",
+    "design-preview/index.html"
+  ],
+  "storagePrefix": "nhi-patrick-capability-v1:",
+  "runtimeAssetsUnchanged": true
+}

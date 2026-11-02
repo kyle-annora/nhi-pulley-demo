@@ -1,0 +1,81 @@
+/* Case sample: one commercial change, its wait, then the unchanged quote basis. */
+.nhi-ui[data-visual-system=silver] .n-quote-followup{max-width:1160px}
+.nhi-ui[data-visual-system=silver] .n-quote-room-header{border:0;padding:8px 0 26px;align-items:center}
+.nhi-ui[data-visual-system=silver] .n-quote-room-header h1{font-size:30px;letter-spacing:-.03em}
+.nhi-ui[data-visual-system=silver] .n-quote-identity{margin-top:8px}
+.nhi-ui[data-visual-system=silver] .n-quote-decision{grid-template-columns:minmax(0,1fr) 340px;gap:28px;padding-top:0;align-items:start}
+.nhi-ui[data-visual-system=silver] .n-quote-current-task{padding:28px 32px;border-radius:8px;border:1px solid var(--n-line);box-shadow:0 2px 5px #20262b03}
+.nhi-ui[data-visual-system=silver] .n-quote-current-task>.n-eyebrow{font-size:11px;margin:0 0 8px;color:var(--n-muted);font-weight:500}
+.nhi-ui[data-visual-system=silver] .n-quote-current-task h2{font-size:28px;line-height:1.2;letter-spacing:-.025em;margin-bottom:8px;font-weight:600}
+.nhi-ui[data-visual-system=silver] .n-case-change-source{font-size:12px;color:var(--n-muted);margin:0 0 24px;overflow-wrap:anywhere}
+.nhi-ui[data-visual-system=silver] .n-case-change+.n-case-change{margin-top:24px;padding-top:20px;border-top:1px solid var(--n-line)}
+.nhi-ui[data-visual-system=silver] .n-case-change-field+.n-case-change-field{margin-top:16px}
+.nhi-ui[data-visual-system=silver] .n-case-change-field h3{font-size:14px;font-weight:500;margin:0 0 8px}
+.nhi-ui[data-visual-system=silver] .n-case-change-values{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:500px;margin:0;gap:0}
+.nhi-ui[data-visual-system=silver] .n-case-change-values>div{min-width:0;padding:0 24px 2px 0}
+.nhi-ui[data-visual-system=silver] .n-case-change-values>div[data-requested]{border-left:1px solid var(--n-line);padding:0 0 2px 24px}
+.nhi-ui[data-visual-system=silver] .n-case-change-values dt{font-size:13px;color:var(--n-muted);margin-bottom:6px}
+.nhi-ui[data-visual-system=silver] .n-case-change-values dd{font-size:34px;line-height:1.3;letter-spacing:-.035em;font-weight:500;margin:0;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.nhi-ui[data-visual-system=silver] .n-case-change-values dd>span{font-size:14px;font-weight:400;letter-spacing:0;color:var(--n-muted)}
+.nhi-ui[data-visual-system=silver] .n-case-change-field:not([data-field=quantity]) .n-case-change-values dd{font-size:21px;letter-spacing:-.015em}
+.nhi-ui[data-visual-system=silver] .n-case-wait{margin-top:26px;padding:16px 18px;border-radius:5px;background:var(--n-wait-bg);color:var(--n-wait)}
+.nhi-ui[data-visual-system=silver] .n-case-wait p{font-size:13px;line-height:1.55;margin:0;max-width:58ch}
+.nhi-ui[data-visual-system=silver] .n-case-wait .n-case-wait-title{font-size:14px;font-weight:600;margin-bottom:4px}
+.nhi-ui[data-visual-system=silver] .n-quote-current-task>.n-case-quote-unchanged{font-size:12px;line-height:1.6;color:var(--n-muted);margin:14px 0 0;max-width:63ch}
+.nhi-ui[data-visual-system=silver] .n-case-task-actions{display:flex;align-items:flex-start;gap:12px 24px;margin-top:22px;flex-wrap:wrap}
+.nhi-ui[data-visual-system=silver] .n-quote-next-action{margin:0}
+.nhi-ui[data-visual-system=silver] .n-quote-other-actions{margin:0;font-size:12px;align-self:center}
+.nhi-ui[data-visual-system=silver] .n-quote-other-actions>summary{min-height:42px}
+.nhi-ui[data-visual-system=silver] .n-quote-current-task>.n-help{font-size:11px;margin-top:22px;color:var(--n-muted)}
+.nhi-ui[data-visual-system=silver] .n-quote-basis{padding:24px;background:var(--n-background);border:1px solid var(--n-line);border-radius:8px}
+.nhi-ui[data-visual-system=silver] .n-case-quote-heading{display:flex;justify-content:space-between;gap:8px;align-items:baseline;padding-bottom:18px;border-bottom:1px solid var(--n-line)}
+.nhi-ui[data-visual-system=silver] .n-case-quote-heading h2{font-size:15px;font-weight:600;margin:0}
+.nhi-ui[data-visual-system=silver] .n-case-quote-heading p{font-size:11px;color:var(--n-muted);margin:0}
+.nhi-ui[data-visual-system=silver] .n-case-quote-total{padding:20px 0}
+.nhi-ui[data-visual-system=silver] .n-case-quote-total>p{font-size:12px;color:var(--n-muted);margin:0}
+.nhi-ui[data-visual-system=silver] .n-case-quote-total>strong{display:block;font-size:30px;font-weight:500;letter-spacing:-.03em;line-height:1.25;font-variant-numeric:tabular-nums;margin:6px 0}
+.nhi-ui[data-visual-system=silver] .n-quote-basis dl{display:grid;grid-template-columns:1fr;gap:16px}
+.nhi-ui[data-visual-system=silver] .n-quote-basis dt{font-size:12px}
+.nhi-ui[data-visual-system=silver] .n-quote-basis dd{font-size:13px;line-height:1.55;font-weight:400}
+.nhi-ui[data-visual-system=silver] .n-quote-basis dd p{font-size:11px}
+.nhi-ui[data-visual-system=silver] .n-case-total-condition{font-size:11px;line-height:1.55;color:var(--n-muted);margin:18px 0;padding-top:16px;border-top:1px solid var(--n-line)}
+.nhi-ui[data-visual-system=silver] .n-quote-basis>.n-control{padding:0;min-height:40px;margin:0;text-decoration:underline;text-underline-offset:4px;font-size:13px}
+.nhi-ui[data-visual-system=silver] .n-quote-provenance{font-size:11px;margin-top:12px}
+.nhi-ui[data-visual-system=silver] .n-quote-technical-context{padding:0 4px;margin-top:22px}
+.nhi-ui[data-visual-system=silver] .n-quote-technical-context .n-original-questions>h3{font-size:12px;font-weight:500;margin-bottom:10px}
+.nhi-ui[data-visual-system=silver] .n-quote-technical-context .n-original-question-status{color:var(--n-wait)}
+@media(max-width:1000px){
+ .nhi-ui[data-visual-system=silver] .n-quote-decision{grid-template-columns:minmax(0,1fr) 300px;gap:20px}
+ .nhi-ui[data-visual-system=silver] .n-quote-current-task{padding:24px}
+ .nhi-ui[data-visual-system=silver] .n-quote-basis{padding:22px}
+}
+@media(max-width:700px){
+ .nhi-ui[data-visual-system=silver] .n-quote-room-header{padding:2px 0 20px;display:block}
+ .nhi-ui[data-visual-system=silver] .n-quote-room-header h1{font-size:24px}
+ .nhi-ui[data-visual-system=silver] .n-quote-room-header>.n-evidence{margin-top:10px}
+ .nhi-ui[data-visual-system=silver] .n-quote-decision{grid-template-columns:minmax(0,1fr);gap:20px}
+ .nhi-ui[data-visual-system=silver] .n-quote-current-task{padding:22px 20px}
+ .nhi-ui[data-visual-system=silver] .n-quote-current-task h2{font-size:26px}
+ .nhi-ui[data-visual-system=silver] .n-case-change-source{font-size:11px;margin-bottom:22px}
+ .nhi-ui[data-visual-system=silver] .n-case-change-values>div{padding-right:16px}
+ .nhi-ui[data-visual-system=silver] .n-case-change-values>div[data-requested]{padding-left:16px}
+ .nhi-ui[data-visual-system=silver] .n-case-change-values dd{font-size:30px}
+ .nhi-ui[data-visual-system=silver] .n-case-change-values dd>span{font-size:12px}
+ .nhi-ui[data-visual-system=silver] .n-case-wait{padding:14px;margin-top:24px}
+ .nhi-ui[data-visual-system=silver] .n-case-wait p{font-size:12px}
+ .nhi-ui[data-visual-system=silver] .n-case-wait .n-case-wait-title{font-size:13px}
+ .nhi-ui[data-visual-system=silver] .n-case-task-actions{display:block;margin-top:18px}
+ .nhi-ui[data-visual-system=silver] .n-quote-next-action .n-actions{width:100%}
+ .nhi-ui[data-visual-system=silver] .n-quote-other-actions{margin-top:4px}
+ .nhi-ui[data-visual-system=silver] .n-quote-current-task>.n-help{font-size:11px;margin-top:14px}
+ .nhi-ui[data-visual-system=silver] .n-quote-basis{padding:22px;grid-row:2;border:1px solid var(--n-line)}
+ .nhi-ui[data-visual-system=silver] .n-case-quote-total>strong{font-size:30px}
+ .nhi-ui[data-visual-system=silver] .n-quote-technical-context{padding:0 2px;margin-top:20px}
+}
+@media print{.nhi-ui[data-visual-system=silver] .n-case-task-actions{display:none}}
+@media(max-width:360px){
+ .nhi-ui[data-visual-system=silver] .n-room-header-inner{gap:8px;flex-wrap:nowrap}
+ .nhi-ui[data-visual-system=silver] .n-room-topbar .n-workspace-brand img{width:120px;height:auto}
+ .nhi-ui[data-visual-system=silver] .n-room-demo-label .n-evidence{font-size:10px;padding:3px 5px}
+ .nhi-ui[data-visual-system=silver] .n-case-section-select{flex:0 0 132px;width:132px;max-width:none;padding-left:8px}
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "sha256": "c27ba681dbf70527a92274019ad1ed74ec889ef31d12541e1130a01c08ab106a"
+  },
+  "edges": {
+    "file": "edges.bin",
+    "compressedFile": "edges.bin.gz",
+    "compression": "gzip",
+    "format": "float32-le",
+    "coordinates": "mesh-local",
+    "topology": "line-segments",
+    "creaseAngle": 35,
+    "sha256": "ee08dc7c7cba05ecc90b5961e3e1dd308de574ba8c19fc12b45b9d5b458202c7"
+  },
+  "stats": {
+    "meshCount": 6,
+    "uniqueGeometryCount": 6,
+    "bytes": 64512,
+    "uniqueSegments": 2688
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "vertexCount": 768,
+      "segmentCount": 384,
+      "geometryId": 0,
+      "sourceGeometrySha256": "c3ba1997246faaafe8682af4941da28368777b696a2f139e9350825efa58a0dc",
+      "edgeSha256": "71d142f6d7e997a5a9cd6c3ae7c079639c5d01204d428153f66236d880397085",
+      "bounds": [
+        [
+          -1.375,
+          -1.375,
+          -0.375
+        ],
+        [
+          1.375,
+          1.375,
+          0.375
+        ]
+      ]
+    },
+    {
+      "byteOffset": 9216,
+      "vertexCount": 960,
+      "segmentCount": 480,
+      "geometryId": 1,
+      "sourceGeometrySha256": "aa6ab9953c8458a631fcb6ad6feefaf91a9ab69b73cc064b63e43ce959729f3c",
+      "edgeSha256": "9704485f16f926aa909f189881b6be240644195093f1cfa01db35b239bd5a1f5",
+      "bounds": [
+        [
+          -1.5625,
+          -1.5625,
+          0.23999999463558197
+        ],
+        [
+          1.5625,
+          1.5625,
+          0.4399999976158142
+        ]
+      ]
+    },
+    {
+      "byteOffset": 20736,
+      "vertexCount": 960,
+      "segmentCount": 480,
+      "geometryId": 2,
+      "sourceGeometrySha256": "4ae547ac6cb8cb2e978498b0128f267f9a5f9d88277551b0ae74019288496b7c",
+      "edgeSha256": "2f94faf555631c7de25d0d84855ac73857fa6ec06a225b26e626176015535c3e",
+      "bounds": [
+        [
+          -1.5625,
+          -1.5625,
+          -0.4399999976158142
+        ],
+        [
+          1.5625,
+          1.5625,
+          -0.23999999463558197
+        ]
+      ]
+    },
+    {
+      "byteOffset": 32256,
+      "vertexCount": 1152,
+      "segmentCount": 576,
+      "geometryId": 3,
+      "sourceGeometrySha256": "97f42a8ae54735d25b6256bd9667690b2fad9f7725712ff55bc4f8e380ee3753",
+      "edgeSha256": "f1796a788905346b7dc170110122d047214f242a857955129e87f975efa06925",
+      "bounds": [
+        [
+          -0.27000001072883606,
+          -0.27000001072883606,
+          -0.5299999713897705
+        ],
+        [
+          0.27000001072883606,
+          0.27000001072883606,
+          0.5299999713897705
+        ]
+      ]
+    },
+    {
+      "byteOffset": 46080,
+      "vertexCount": 768,
+      "segmentCount": 384,
+      "geometryId": 4,
+      "sourceGeometrySha256": "26f373eeb15cd5c6892c35a2d20b8f496509ffef78850dad4d63a35ab0a6c6e9",
+      "edgeSha256": "1865c39ad6b8ff0fe3928fd0b61f0f3b1a8fed4c2b4cf4330549412beec5b082",
+      "bounds": [
+        [
+          -0.4000000059604645,
+          -0.4000000059604645,
+          -0.32499998807907104
+        ],
+        [
+          0.4000000059604645,
+          0.4000000059604645,
+          -0.3050000071525574
+        ]
+      ]
+    },
+    {
+      "byteOffset": 55296,
+      "vertexCount": 768,
+      "segmentCount": 384,
+      "geometryId": 5,
+      "sourceGeometrySha256": "7037ccad677d5f3c122c78963348a6cc1b92ccd2a5253815486feb5eff3e202e",
+      "edgeSha256": "bb96884d153c0466bb1b94d18a053c6995f1e43a6deec94ae3e698556b26acfa",
+      "bounds": [
+        [
+          -0.4000000059604645,
+          -0.4000000059604645,
+          0.3050000071525574
+        ],
+        [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.32499998807907104
+        ]
+      ]
+    }
+  ],
+  "meshes": {
+    "belt_surface": {
+      "byteOffset": 0,
+      "vertexCount": 768,
+      "segmentCount": 384,
+      "geometryId": 0
+    },
+    "flange_front": {
+      "byteOffset": 9216,
+      "vertexCount": 960,
+      "segmentCount": 480,
+      "geometryId": 1
+    },
+    "flange_rear": {
+      "byteOffset": 20736,
+      "vertexCount": 960,
+      "segmentCount": 480,
+      "geometryId": 2
+    },
+    "mounting_hub": {
+      "byteOffset": 32256,
+      "vertexCount": 1152,
+      "segmentCount": 576,
+      "geometryId": 3
+    },
+    "seal_rear": {
+      "byteOffset": 46080,
+      "vertexCount": 768,
+      "segmentCount": 384,
+      "geometryId": 4
+    },
+    "seal_front": {
+      "byteOffset": 55296,
+      "vertexCount": 768,
+      "segmentCount": 384,
+      "geometryId": 5
+    }
+  }
+}

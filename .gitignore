@@ -1,0 +1,9 @@
+node_modules/
+_site/
+work/
+/index.html
+/patrick.html
+.DS_Store
+*.log
+.env
+.env.*

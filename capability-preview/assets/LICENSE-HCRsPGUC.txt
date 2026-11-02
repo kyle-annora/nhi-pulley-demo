@@ -1,0 +1,7 @@
+Apollo 11 Crew Hatch — Project Egress
+
+Source: Smithsonian Institution / Andrew Barth
+The Smithsonian source download identifies this 3D model as public domain (CC0).
+https://3d.si.edu/object/3d/hatch-crew-apollo-11-cad-model:936d1822-b237-4431-bb3f-a1f9d39a2e90
+
+This prepared geometry is an adaptation for interactive illustration. The source credit does not imply Smithsonian endorsement. Presentation finishes, spatial grouping and explosion offsets are illustrative.

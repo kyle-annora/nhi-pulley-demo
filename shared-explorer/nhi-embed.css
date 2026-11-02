@@ -1,0 +1,37 @@
+/* NHI host owns product context, inspection themes and business navigation.
+   Keep the shared renderer, tour player and native camera/display controls.
+   This optional host presentation never changes model state or capabilities. */
+html[data-host="nhi"]{
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:var(--sans);
+}
+html[data-host="nhi"] .app-header,
+html[data-host="nhi"] .stage-heading,
+html[data-host="nhi"] .assembly-region,
+html[data-host="nhi"] .detail-panel,
+html[data-host="nhi"] .appearance-control,
+html[data-host="nhi"] #tour-panel,
+html[data-host="nhi"] .viewport-hint,
+html[data-host="nhi"] .axis-marker,
+html[data-host="nhi"] .footer-status,
+html[data-host="nhi"] #perf-toggle,
+html[data-host="nhi"] .dock-label,
+html[data-host="nhi"] .display-modes,
+html[data-host="nhi"] .tool-divider,
+html[data-host="nhi"] #operation-availability {display:none!important;}
+html[data-host="nhi"] .stage-tools{
+  left:12px;right:12px;bottom:42px;transform:none;width:max-content;min-width:0;max-width:calc(100vw - 24px);margin:auto;padding:3px;
+}
+html[data-host="nhi"] .dock-toolbar{gap:4px;justify-content:center;flex-wrap:wrap;}
+html[data-host="nhi"] .dock-toolbar button{font-size:12px;min-height:40px;}
+html[data-host="nhi"] .display-panel{bottom:calc(100% + 8px);left:0;right:auto;max-width:calc(100vw - 24px);}
+html[data-host="nhi"] .app-footer{left:12px;right:12px;bottom:2px;height:36px;justify-content:flex-end;font-size:11px;}
+html[data-host="nhi"] .source-button{min-height:36px;max-width:calc(100vw - 24px);font-size:11px;}
+html[data-host="nhi"] .source-button span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+html[data-host="nhi"] .tour-annotation{font-family:var(--sans);}
+html[data-host="nhi"] .source-dialog{max-width:calc(100vw - 24px);}
+@media(max-width:480px){
+  html[data-host="nhi"] .stage-tools{left:8px;right:8px;max-width:calc(100vw - 16px);}
+  html[data-host="nhi"] .dock-toolbar{gap:2px;}
+  html[data-host="nhi"] .dock-toolbar button{padding-left:9px;padding-right:9px;}
+}

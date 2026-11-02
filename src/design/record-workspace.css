@@ -1,0 +1,73 @@
+/* One record, one reading task. Question detail never expands a long transcript. */
+.nhi-ui .n-record-workspace{max-width:1200px;margin-inline:auto}
+.nhi-ui .n-record-return{margin-bottom:12px}
+.nhi-ui .n-record-return .n-control{padding-inline:0;min-height:40px;font-size:13px}
+.nhi-ui .n-record-workspace>.n-heading{margin-bottom:24px;align-items:start}
+.nhi-ui .n-record-workspace>.n-heading h1{font-size:32px;font-weight:500;letter-spacing:-.025em}
+.nhi-ui .n-record-workspace>.n-heading .n-lede{font-size:14px}
+.nhi-ui :is(.n-question-filters,.n-reference-tabs){display:flex;gap:24px;border-bottom:1px solid var(--n-line);margin-bottom:24px;overflow-x:auto}
+.nhi-ui :is(.n-question-filters,.n-reference-tabs) .n-control{font-size:13px;min-height:46px;padding:10px 0;border-radius:0;white-space:nowrap;border-bottom:2px solid transparent}
+.nhi-ui :is(.n-question-filters,.n-reference-tabs) .n-control[aria-current=page]{border-bottom-color:var(--n-foreground);color:var(--n-foreground);font-weight:600}
+.nhi-ui .n-question-filters .n-control-label>span{font-size:12px;color:var(--n-muted);margin-left:8px;font-variant-numeric:tabular-nums}
+.nhi-ui .n-question-layout{display:grid;grid-template-columns:300px minmax(0,1fr);gap:32px;align-items:start}
+.nhi-ui .n-question-index>.n-help{margin:0 0 12px;font-size:12px}
+.nhi-ui .n-question-index ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--n-line)}
+.nhi-ui .n-question-index li{border-bottom:1px solid var(--n-line)}
+.nhi-ui .n-question-index .n-control{display:flex;flex-direction:column;align-items:flex-start;gap:5px;width:100%;min-height:76px;padding:16px;border-radius:0;text-align:left;white-space:normal}
+.nhi-ui .n-question-index .n-control>.n-control-label{display:flex;flex-direction:column;gap:5px;align-items:flex-start;width:100%;text-decoration:none}
+.nhi-ui .n-question-index .n-control strong{font-size:14px;font-weight:500;line-height:1.45}
+.nhi-ui .n-question-index .n-control span{font-size:12px;font-weight:400;color:var(--n-muted);line-height:1.5}
+.nhi-ui .n-question-index .n-control[aria-current=page]{background:var(--n-selected);box-shadow:inset 2px 0 var(--n-foreground);text-decoration:none}
+.nhi-ui .n-question-reading{min-width:0}
+.nhi-ui .n-question-detail{background:var(--n-background);border:1px solid var(--n-line);padding:28px 32px;max-width:800px}
+.nhi-ui .n-question-detail>.n-eyebrow{font-size:11px;letter-spacing:.05em;line-height:1.6}
+.nhi-ui .n-question-detail h2{font-size:24px;font-weight:500;letter-spacing:-.02em;line-height:1.3;margin:8px 0 24px}
+.nhi-ui .n-question-detail h3{font-size:13px;font-weight:500;line-height:1.5;margin:0 0 8px;color:var(--n-muted)}
+.nhi-ui .n-question-detail p{font-size:14px;line-height:1.65;overflow-wrap:anywhere;white-space:pre-wrap;max-width:66ch}
+.nhi-ui .n-question-detail .n-help{font-size:12px;color:var(--n-muted);margin-top:14px}
+.nhi-ui .n-question-next{border-top:1px solid var(--n-line);margin-top:24px;padding-top:20px}
+.nhi-ui .n-question-response{margin-top:20px}
+.nhi-ui .n-question-detail .n-question-source{font-size:12px;color:var(--n-muted);margin-top:24px}
+.nhi-ui .n-question-action{border-top:1px solid var(--n-line);padding-top:20px;margin-top:20px}
+.nhi-ui .n-question-empty{padding:56px 32px;border:1px solid var(--n-line);max-width:800px}
+.nhi-ui .n-question-empty h2{font-size:22px;font-weight:500;margin-bottom:8px}
+.nhi-ui .n-question-empty p{font-size:14px;color:var(--n-muted)}
+.nhi-ui .n-question-list-return{display:none}
+.nhi-ui .n-reference-document{max-width:880px;padding:28px 32px;border:1px solid var(--n-line);background:var(--n-background)}
+.nhi-ui .n-reference-document h2{font-size:22px;line-height:1.4;font-weight:500;margin:0 0 20px}
+.nhi-ui .n-reference-document h3{font-size:15px;font-weight:500;margin:0 0 8px}
+.nhi-ui .n-reference-document p{font-size:14px;line-height:1.6;overflow-wrap:anywhere}
+.nhi-ui .n-reference-document .n-help{font-size:12px;margin-top:14px}
+.nhi-ui .n-reference-document .n-control{font-size:13px}
+.nhi-ui .n-reference-rows{margin:20px 0}
+.nhi-ui .n-reference-rows>div{display:grid;grid-template-columns:210px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--n-line);font-size:14px;line-height:1.5}
+.nhi-ui .n-reference-rows dt{color:var(--n-muted);font-size:13px}
+.nhi-ui .n-reference-rows dd{overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.nhi-ui .n-reference-input{margin:20px 0;padding:20px 0;border-top:1px solid var(--n-line)}
+.nhi-ui .n-record-files{margin:0;padding:0;list-style:none}
+.nhi-ui .n-record-files li{display:flex;justify-content:space-between;gap:20px;padding:20px 0;border-top:1px solid var(--n-line);align-items:center}
+.nhi-ui .n-record-files strong{font-weight:500;font-size:14px;overflow-wrap:anywhere}
+.nhi-ui .n-rfq-support-links{display:flex;gap:12px 24px;flex-wrap:wrap;border-top:1px solid var(--n-line);padding-top:12px}
+.nhi-ui .n-rfq-support-links .n-control{font-size:13px;padding-inline:0;min-height:44px}
+.nhi-ui .n-rfq-question-links{display:flex;gap:12px 24px;flex-wrap:wrap}
+.nhi-ui .n-rfq-question-links .n-control{padding-inline:0;font-size:13px;min-height:44px;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){
+ .nhi-ui .n-record-workspace[data-question-detail]>.n-record-return,.nhi-ui .n-record-workspace[data-question-detail]>.n-heading .n-lede{display:none}
+ .nhi-ui .n-record-workspace>.n-heading{display:block;margin-bottom:20px}
+ .nhi-ui .n-record-workspace>.n-heading h1{font-size:28px}
+ .nhi-ui .n-record-workspace>.n-heading .n-lede{font-size:13px}
+ .nhi-ui .n-record-workspace>.n-heading .n-heading-tools{margin-top:10px}
+ .nhi-ui :is(.n-question-filters,.n-reference-tabs){gap:20px;margin-bottom:20px}
+ .nhi-ui .n-question-layout{display:block}
+ .nhi-ui .n-question-browser:not([data-detail]) .n-question-reading{display:none}
+ .nhi-ui .n-question-browser[data-detail] :is(.n-question-index,.n-question-filters){display:none}
+ .nhi-ui .n-question-list-return{display:block;margin-bottom:12px}
+ .nhi-ui .n-question-list-return .n-control{padding-inline:0;font-size:13px;min-height:44px}
+ .nhi-ui .n-question-detail{padding:22px 20px}
+ .nhi-ui .n-question-detail h2{font-size:22px}
+ .nhi-ui .n-reference-document{padding:22px 20px}
+ .nhi-ui .n-reference-document h2{font-size:20px}
+ .nhi-ui .n-reference-rows>div{grid-template-columns:minmax(0,1fr);gap:5px}
+ .nhi-ui .n-record-files li{align-items:start;flex-wrap:wrap;gap:10px}
+ .nhi-ui .n-rfq-support-links{gap:0;flex-direction:column;align-items:flex-start}
+}

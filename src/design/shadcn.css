@@ -1,0 +1,23 @@
+/* No global preflight: the legacy workspace remains independently styled. */
+@layer theme, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@source "../components/ui";
+@theme inline {
+  --color-background: var(--n-background);
+  --color-foreground: var(--n-foreground);
+  --color-primary: var(--n-action);
+  --color-primary-foreground: var(--n-action-text);
+  --color-secondary: var(--n-soft);
+  --color-secondary-foreground: var(--n-foreground);
+  --color-muted: var(--n-soft);
+  --color-muted-foreground: var(--n-muted);
+  --color-accent: var(--n-soft);
+  --color-accent-foreground: var(--n-foreground);
+  --color-destructive: var(--n-error);
+  --color-border: var(--n-line);
+  --color-input: var(--n-input-border);
+  --color-ring: var(--n-focus);
+  --radius-md: var(--n-radius);
+  --radius-lg: var(--n-radius);
+}

@@ -1,0 +1,19 @@
+{
+  "model": "f4412",
+  "sourceUnits": "inches",
+  "sourceBytes": 238224,
+  "sha256": "c27ba681dbf70527a92274019ad1ed74ec889ef31d12541e1130a01c08ab106a",
+  "meshes": 6,
+  "triangles": 9600,
+  "catalogDimensions": {
+    "A": 3.125,
+    "B": 2.75,
+    "D": 0.75
+  },
+  "inspectionRegions": [
+    "belt",
+    "flange",
+    "mount"
+  ],
+  "animations": 0
+}

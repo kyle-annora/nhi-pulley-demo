@@ -1,0 +1,17 @@
+import {execFileSync} from 'node:child_process';
+import {build} from 'esbuild';
+import {readFile,writeFile,copyFile,mkdir} from 'node:fs/promises';
+await mkdir('work',{recursive:true});
+execFileSync(process.execPath,['node_modules/@tailwindcss/cli/dist/index.mjs','-i','src/design/shadcn.css','-o','work/nhi-ui.css','--minify'],{stdio:'inherit'});
+const result=await build({entryPoints:['src/app.js'],bundle:true,format:'iife',target:['es2022'],jsx:'automatic',define:{'process.env.NODE_ENV':'"production"'},minify:true,write:false,legalComments:'eof'});
+const css=(await Promise.all(['src/style.css','work/nhi-ui.css','src/design/tokens.css','src/design/components.css','src/design/pulley-stage.css','src/design/selection.css','src/design/response.css','src/design/workspace-shell.css','src/design/dialogs.css','src/design/mobile-continue.css','src/design/quote-summary.css','src/design/history.css','src/design/commercial.css','src/design/product-room-shell.css','src/design/inspection-task.css','src/design/product-room.css','src/design/inquiry-worksheet.css','src/design/rfq-workspace.css','src/design/record-workspace.css','src/design/quote-documents.css','src/design/walkthrough.css','src/design/pulley-reveal.css','src/design/saved-request-context.css','src/design/visual-system.css','src/design/case-layout.css'].map(p=>readFile(p,'utf8')))).join('\n');
+const logo=(await readFile('assets/nhi-logo.png')).toString('base64');
+const html=`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#83bf3e"><meta name="description" content="An interactive, local NHI pulley selection and quotation demonstration. All commercial data is illustrative."><title>NHI · Pulley workspace</title><style>${css}</style></head><body><a class="skip" href="#main">Skip to workspace</a><div id="app"></div><div id="toast" role="status" aria-live="polite"></div><script>window.NHI_LOGO='data:image/png;base64,${logo}';</script><script>${result.outputFiles[0].text.replace(/<\/script/gi,'<\\/script')}</script></body></html>`;
+await writeFile('index.html',html);
+const presentation=await build({entryPoints:['src/patrick-entry.jsx'],bundle:true,format:'iife',target:['es2022'],jsx:'automatic',define:{'process.env.NODE_ENV':'"production"'},minify:true,write:false,legalComments:'eof'});
+const presentationCSS=css+'\n'+await readFile('src/design/patrick.css','utf8')+'\n'+await readFile('src/design/patrick-capabilities.css','utf8');
+const presentationHTML=`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f5f6"><title>NHI · Patrick's pulley demonstration</title><meta name="description" content="A three-act F-4412 demonstration for Patrick. All customer and commercial data are illustrative."><style>${presentationCSS}</style></head><body><div id="app"></div><script>window.NHI_LOGO='data:image/png;base64,${logo}';</script><script>${presentation.outputFiles[0].text.replace(/<\/script/gi,'<\\/script')}</script></body></html>`;
+await writeFile('patrick.html',presentationHTML);
+await copyFile('node_modules/three/LICENSE','assets/three-LICENSE.txt');
+console.log(`Built NHI host index.html (${Math.round(Buffer.byteLength(html)/1024)} KB); serve with shared-explorer/dist/`);
+console.log(`Built Patrick presentation patrick.html (${Math.round(Buffer.byteLength(presentationHTML)/1024)} KB); optional platform preview is capability-preview/`);

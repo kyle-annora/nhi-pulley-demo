@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f4412",
+  "rootId": "f4412",
+  "title": "F-4412 · illustrative pulley",
+  "shortTitle": "F-4412",
+  "assets": {
+    "model": "model.glb",
+    "compressedModel": "model.glb.gz",
+    "metadata": "metadata.json",
+    "edges": "edges.bin",
+    "compressedEdges": "edges.bin.gz",
+    "edgeMetadata": "edge-metadata.json",
+    "silhouettes": "silhouettes.bin",
+    "compressedSilhouettes": "silhouettes.bin.gz",
+    "silhouetteMetadata": "silhouette-metadata.json",
+    "license": "LICENSE.txt"
+  },
+  "view": {
+    "direction": [
+      1.3,
+      0.6,
+      1.7
+    ],
+    "normalizedWidth": 4.2,
+    "labels": [
+      "Overview",
+      "Reverse"
+    ],
+    "facts": [
+      {
+        "label": "Catalog A",
+        "value": "3.125 in"
+      },
+      {
+        "label": "Catalog B",
+        "value": "2.75 in"
+      },
+      {
+        "label": "Catalog D",
+        "value": "0.75 in"
+      }
+    ]
+  },
+  "provenance": {
+    "author": "Annora",
+    "license": "MIT",
+    "attribution": "Annora · illustrative F-4412 study · MIT · 2026",
+    "description": "Original presentation geometry based on the catalog A/B/D dimensions; the hub, seals and stamped contours are reconstructed illustrations.",
+    "note": "Not manufacturer CAD. Inspection regions are not a verified BOM. No bore, tolerance, mounting fit, speed, load or operating motion is established."
+  },
+  "tour": "tour.json"
+}

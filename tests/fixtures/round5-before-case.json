@@ -1,0 +1,1470 @@
+{
+  "schema": 1,
+  "caseId": "DEMO-4412",
+  "selected": "F-4412",
+  "step": "components",
+  "unit": "mm",
+  "mode": "3d",
+  "interests": [
+    "belt",
+    "flange",
+    "mount"
+  ],
+  "draft": {
+    "quantity": "200",
+    "annual": "3000",
+    "timing": "6 weeks from order",
+    "application": "Idler for a compact mower deck; back side of a V-belt.",
+    "belt": "Back side of V-belt",
+    "finish": "zinc",
+    "mounting": "Confirm mounting dimensions",
+    "speed": "",
+    "load": "",
+    "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+    "company": "Fieldwork Equipment",
+    "name": "Alex Morgan",
+    "email": "alex@fieldwork.example",
+    "attachments": [
+      {
+        "name": "demo-application-sketch.svg",
+        "size": 1007,
+        "sample": true,
+        "type": "image/svg+xml",
+        "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "selectionBasis": {
+      "productId": "F-4412",
+      "context": {
+        "purpose": "Replace an existing pulley",
+        "belt": "Back side of V-belt",
+        "od": "3-1/8",
+        "flat": "2-3/4",
+        "width": "3/4",
+        "unit": "in"
+      },
+      "assessment": {
+        "dimensions": [
+          {
+            "key": "od",
+            "label": "A · Outside diameter",
+            "input": "3-1/8",
+            "unit": "in",
+            "valid": true,
+            "matches": true,
+            "catalog": "3-1/8″"
+          },
+          {
+            "key": "flat",
+            "label": "B · Belt-running diameter",
+            "input": "2-3/4",
+            "unit": "in",
+            "valid": true,
+            "matches": true,
+            "catalog": "2-3/4″"
+          },
+          {
+            "key": "width",
+            "label": "D · Belt-running width",
+            "input": "3/4",
+            "unit": "in",
+            "valid": true,
+            "matches": true,
+            "catalog": "3/4″"
+          }
+        ],
+        "matches": 3,
+        "mismatches": 0,
+        "status": "Entered dimensions match",
+        "fitConfirmed": false
+      },
+      "source": "Public catalog, page 6; customer-entered dimensions. Application fit is unverified."
+    },
+    "explorerRequirements": [
+      {
+        "id": "F-4412:mount",
+        "productId": "F-4412",
+        "feature": "mount",
+        "dimension": null,
+        "kind": "review",
+        "value": null,
+        "unit": "mm",
+        "note": "Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.",
+        "confirmedAt": "2026-11-01T07:16:58.330Z",
+        "matchesCatalog": null,
+        "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+      },
+      {
+        "id": "F-4412:belt",
+        "productId": "F-4412",
+        "feature": "belt",
+        "dimension": "width",
+        "kind": "measurement",
+        "value": 19.05,
+        "unit": "mm",
+        "note": "Example measurement between the flanges of the existing pulley.",
+        "confirmedAt": "2026-11-01T07:56:14.689Z",
+        "matchesCatalog": true,
+        "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+      }
+    ]
+  },
+  "rfqs": [
+    {
+      "id": "RFQ-DEMO-001",
+      "version": 1,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T06:54:00.573Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "200",
+        "annual": "3000",
+        "timing": "6 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ]
+      },
+      "interests": [
+        "belt"
+      ],
+      "openItems": [
+        "Operating speed is unknown.",
+        "Radial load is unknown.",
+        "Mounting dimensions need review.",
+        "Requested finish needs feasibility and price review."
+      ],
+      "fingerprint": "{\"selected\":\"F-4412\",\"draft\":{\"quantity\":\"200\",\"annual\":\"3000\",\"timing\":\"6 weeks from order\",\"application\":\"Idler for a compact mower deck; back side of a V-belt.\",\"belt\":\"Back side of V-belt\",\"finish\":\"zinc\",\"mounting\":\"Confirm mounting dimensions\",\"speed\":\"\",\"load\":\"\",\"notes\":\"\",\"company\":\"Fieldwork Equipment\",\"name\":\"Alex Morgan\",\"email\":\"alex@fieldwork.example\",\"attachments\":[{\"name\":\"demo-application-sketch.svg\",\"size\":1007,\"sample\":true,\"type\":\"image/svg+xml\",\"data\":\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4=\"}]}}"
+    },
+    {
+      "id": "RFQ-DEMO-002",
+      "version": 2,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T07:05:05.512Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "200",
+        "annual": "3000",
+        "timing": "6 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ]
+      },
+      "interests": [
+        "belt",
+        "flange",
+        "mount"
+      ],
+      "openItems": [
+        "Operating speed is unknown.",
+        "Radial load is unknown.",
+        "Mounting dimensions need review.",
+        "Requested finish needs feasibility and price review."
+      ],
+      "fingerprint": "{\"selected\":\"F-4412\",\"draft\":{\"quantity\":\"200\",\"annual\":\"3000\",\"timing\":\"6 weeks from order\",\"application\":\"Idler for a compact mower deck; back side of a V-belt.\",\"belt\":\"Back side of V-belt\",\"finish\":\"zinc\",\"mounting\":\"Confirm mounting dimensions\",\"speed\":\"\",\"load\":\"\",\"notes\":\"Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.\",\"company\":\"Fieldwork Equipment\",\"name\":\"Alex Morgan\",\"email\":\"alex@fieldwork.example\",\"attachments\":[{\"name\":\"demo-application-sketch.svg\",\"size\":1007,\"sample\":true,\"type\":\"image/svg+xml\",\"data\":\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4=\"}]}}"
+    },
+    {
+      "id": "RFQ-DEMO-003",
+      "version": 3,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T07:17:16.214Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "200",
+        "annual": "3000",
+        "timing": "6 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ],
+        "selectionBasis": {
+          "productId": "F-4412",
+          "context": {
+            "purpose": "Replace an existing pulley",
+            "belt": "Back side of V-belt",
+            "od": "3-1/8",
+            "flat": "2-3/4",
+            "width": "3/4",
+            "unit": "in"
+          },
+          "assessment": {
+            "dimensions": [
+              {
+                "key": "od",
+                "label": "A · Outside diameter",
+                "input": "3-1/8",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3-1/8″"
+              },
+              {
+                "key": "flat",
+                "label": "B · Belt-running diameter",
+                "input": "2-3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "2-3/4″"
+              },
+              {
+                "key": "width",
+                "label": "D · Belt-running width",
+                "input": "3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3/4″"
+              }
+            ],
+            "matches": 3,
+            "mismatches": 0,
+            "status": "Entered dimensions match",
+            "fitConfirmed": false
+          },
+          "source": "Public catalog, page 6; customer-entered dimensions. Application fit is unverified."
+        },
+        "explorerRequirements": [
+          {
+            "id": "F-4412:belt",
+            "productId": "F-4412",
+            "feature": "belt",
+            "dimension": "width",
+            "kind": "measurement",
+            "value": 19.05,
+            "unit": "mm",
+            "note": "Example measurement between the flanges of the existing pulley.",
+            "confirmedAt": "2026-11-01T07:16:52.171Z",
+            "matchesCatalog": true,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          },
+          {
+            "id": "F-4412:mount",
+            "productId": "F-4412",
+            "feature": "mount",
+            "dimension": null,
+            "kind": "review",
+            "value": null,
+            "unit": "mm",
+            "note": "Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.",
+            "confirmedAt": "2026-11-01T07:16:58.330Z",
+            "matchesCatalog": null,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          }
+        ]
+      },
+      "interests": [
+        "belt",
+        "flange",
+        "mount"
+      ],
+      "openItems": [
+        "Operating speed is unknown.",
+        "Radial load is unknown.",
+        "Mounting dimensions need review.",
+        "Requested finish needs feasibility and price review."
+      ],
+      "fingerprint": "{\"selected\":\"F-4412\",\"draft\":{\"quantity\":\"200\",\"annual\":\"3000\",\"timing\":\"6 weeks from order\",\"application\":\"Idler for a compact mower deck; back side of a V-belt.\",\"belt\":\"Back side of V-belt\",\"finish\":\"zinc\",\"mounting\":\"Confirm mounting dimensions\",\"speed\":\"\",\"load\":\"\",\"notes\":\"Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.\",\"company\":\"Fieldwork Equipment\",\"name\":\"Alex Morgan\",\"email\":\"alex@fieldwork.example\",\"attachments\":[{\"name\":\"demo-application-sketch.svg\",\"size\":1007,\"sample\":true,\"type\":\"image/svg+xml\",\"data\":\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4=\"}],\"selectionBasis\":{\"productId\":\"F-4412\",\"context\":{\"purpose\":\"Replace an existing pulley\",\"belt\":\"Back side of V-belt\",\"od\":\"3-1/8\",\"flat\":\"2-3/4\",\"width\":\"3/4\",\"unit\":\"in\"},\"assessment\":{\"dimensions\":[{\"key\":\"od\",\"label\":\"A · Outside diameter\",\"input\":\"3-1/8\",\"unit\":\"in\",\"valid\":true,\"matches\":true,\"catalog\":\"3-1/8″\"},{\"key\":\"flat\",\"label\":\"B · Belt-running diameter\",\"input\":\"2-3/4\",\"unit\":\"in\",\"valid\":true,\"matches\":true,\"catalog\":\"2-3/4″\"},{\"key\":\"width\",\"label\":\"D · Belt-running width\",\"input\":\"3/4\",\"unit\":\"in\",\"valid\":true,\"matches\":true,\"catalog\":\"3/4″\"}],\"matches\":3,\"mismatches\":0,\"status\":\"Entered dimensions match\",\"fitConfirmed\":false},\"source\":\"Public catalog, page 6; customer-entered dimensions. Application fit is unverified.\"},\"explorerRequirements\":[{\"id\":\"F-4412:belt\",\"productId\":\"F-4412\",\"feature\":\"belt\",\"dimension\":\"width\",\"kind\":\"measurement\",\"value\":19.05,\"unit\":\"mm\",\"note\":\"Example measurement between the flanges of the existing pulley.\",\"confirmedAt\":\"2026-11-01T07:16:52.171Z\",\"matchesCatalog\":true,\"source\":\"Explicit customer entry in Explorer; not a manufacturer validation\"},{\"id\":\"F-4412:mount\",\"productId\":\"F-4412\",\"feature\":\"mount\",\"dimension\":null,\"kind\":\"review\",\"value\":null,\"unit\":\"mm\",\"note\":\"Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.\",\"confirmedAt\":\"2026-11-01T07:16:58.330Z\",\"matchesCatalog\":null,\"source\":\"Explicit customer entry in Explorer; not a manufacturer validation\"}]}}"
+    },
+    {
+      "id": "RFQ-DEMO-004",
+      "version": 4,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T07:56:38.662Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "200",
+        "annual": "3000",
+        "timing": "6 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ],
+        "selectionBasis": {
+          "productId": "F-4412",
+          "context": {
+            "purpose": "Replace an existing pulley",
+            "belt": "Back side of V-belt",
+            "od": "3-1/8",
+            "flat": "2-3/4",
+            "width": "3/4",
+            "unit": "in"
+          },
+          "assessment": {
+            "dimensions": [
+              {
+                "key": "od",
+                "label": "A · Outside diameter",
+                "input": "3-1/8",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3-1/8″"
+              },
+              {
+                "key": "flat",
+                "label": "B · Belt-running diameter",
+                "input": "2-3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "2-3/4″"
+              },
+              {
+                "key": "width",
+                "label": "D · Belt-running width",
+                "input": "3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3/4″"
+              }
+            ],
+            "matches": 3,
+            "mismatches": 0,
+            "status": "Entered dimensions match",
+            "fitConfirmed": false
+          },
+          "source": "Public catalog, page 6; customer-entered dimensions. Application fit is unverified."
+        },
+        "explorerRequirements": [
+          {
+            "id": "F-4412:mount",
+            "productId": "F-4412",
+            "feature": "mount",
+            "dimension": null,
+            "kind": "review",
+            "value": null,
+            "unit": "mm",
+            "note": "Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.",
+            "confirmedAt": "2026-11-01T07:16:58.330Z",
+            "matchesCatalog": null,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          },
+          {
+            "id": "F-4412:belt",
+            "productId": "F-4412",
+            "feature": "belt",
+            "dimension": "width",
+            "kind": "measurement",
+            "value": 19.05,
+            "unit": "mm",
+            "note": "Example measurement between the flanges of the existing pulley.",
+            "confirmedAt": "2026-11-01T07:56:14.689Z",
+            "matchesCatalog": true,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          }
+        ]
+      },
+      "interests": [
+        "belt",
+        "flange",
+        "mount"
+      ],
+      "openItems": [
+        "Operating speed is unknown.",
+        "Radial load is unknown.",
+        "Mounting dimensions need review.",
+        "Requested finish needs feasibility and price review."
+      ],
+      "fingerprint": "{\"selected\":\"F-4412\",\"draft\":{\"quantity\":\"200\",\"annual\":\"3000\",\"timing\":\"6 weeks from order\",\"application\":\"Idler for a compact mower deck; back side of a V-belt.\",\"belt\":\"Back side of V-belt\",\"finish\":\"zinc\",\"mounting\":\"Confirm mounting dimensions\",\"speed\":\"\",\"load\":\"\",\"notes\":\"Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.\",\"company\":\"Fieldwork Equipment\",\"name\":\"Alex Morgan\",\"email\":\"alex@fieldwork.example\",\"attachments\":[{\"name\":\"demo-application-sketch.svg\",\"size\":1007,\"sample\":true,\"type\":\"image/svg+xml\",\"data\":\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4=\"}],\"selectionBasis\":{\"productId\":\"F-4412\",\"context\":{\"purpose\":\"Replace an existing pulley\",\"belt\":\"Back side of V-belt\",\"od\":\"3-1/8\",\"flat\":\"2-3/4\",\"width\":\"3/4\",\"unit\":\"in\"},\"assessment\":{\"dimensions\":[{\"key\":\"od\",\"label\":\"A · Outside diameter\",\"input\":\"3-1/8\",\"unit\":\"in\",\"valid\":true,\"matches\":true,\"catalog\":\"3-1/8″\"},{\"key\":\"flat\",\"label\":\"B · Belt-running diameter\",\"input\":\"2-3/4\",\"unit\":\"in\",\"valid\":true,\"matches\":true,\"catalog\":\"2-3/4″\"},{\"key\":\"width\",\"label\":\"D · Belt-running width\",\"input\":\"3/4\",\"unit\":\"in\",\"valid\":true,\"matches\":true,\"catalog\":\"3/4″\"}],\"matches\":3,\"mismatches\":0,\"status\":\"Entered dimensions match\",\"fitConfirmed\":false},\"source\":\"Public catalog, page 6; customer-entered dimensions. Application fit is unverified.\"},\"explorerRequirements\":[{\"id\":\"F-4412:mount\",\"productId\":\"F-4412\",\"feature\":\"mount\",\"dimension\":null,\"kind\":\"review\",\"value\":null,\"unit\":\"mm\",\"note\":\"Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.\",\"confirmedAt\":\"2026-11-01T07:16:58.330Z\",\"matchesCatalog\":null,\"source\":\"Explicit customer entry in Explorer; not a manufacturer validation\"},{\"id\":\"F-4412:belt\",\"productId\":\"F-4412\",\"feature\":\"belt\",\"dimension\":\"width\",\"kind\":\"measurement\",\"value\":19.05,\"unit\":\"mm\",\"note\":\"Example measurement between the flanges of the existing pulley.\",\"confirmedAt\":\"2026-11-01T07:56:14.689Z\",\"matchesCatalog\":true,\"source\":\"Explicit customer entry in Explorer; not a manufacturer validation\"}]}}"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "Q-DEMO-001",
+      "version": 1,
+      "rfqId": "RFQ-DEMO-001",
+      "rfqVersion": 1,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T06:54:07.640Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "200",
+        "annual": "3000",
+        "timing": "6 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ]
+      },
+      "lines": [
+        {
+          "label": "F-4412 · standard iron phosphate",
+          "qty": 200,
+          "unit": "each",
+          "unitCents": 860
+        },
+        {
+          "label": "Example packing allowance",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": 3500
+        },
+        {
+          "label": "Finish change: Zinc finish — request for review",
+          "qty": 200,
+          "unit": "each",
+          "unitCents": null
+        },
+        {
+          "label": "Freight",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        },
+        {
+          "label": "Applicable tax",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        }
+      ],
+      "totals": {
+        "subtotalCents": 175500,
+        "totalCents": null,
+        "pending": [
+          "Finish change: Zinc finish — request for review",
+          "Freight",
+          "Applicable tax"
+        ]
+      },
+      "lead": "6–8 weeks after order and technical review",
+      "terms": "Example only: Net 30, subject to account approval.",
+      "validity": "Example only: 30 days from the displayed quote date.",
+      "status": "Example quote · Not an NHI offer"
+    },
+    {
+      "id": "Q-DEMO-002",
+      "version": 1,
+      "rfqId": "RFQ-DEMO-002",
+      "rfqVersion": 2,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T07:05:14.761Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "200",
+        "annual": "3000",
+        "timing": "6 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ]
+      },
+      "lines": [
+        {
+          "label": "F-4412 · standard iron phosphate",
+          "qty": 200,
+          "unit": "each",
+          "unitCents": 860
+        },
+        {
+          "label": "Example packing allowance",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": 3500
+        },
+        {
+          "label": "Finish change: Zinc finish — request for review",
+          "qty": 200,
+          "unit": "each",
+          "unitCents": null
+        },
+        {
+          "label": "Freight",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        },
+        {
+          "label": "Applicable tax",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        }
+      ],
+      "totals": {
+        "subtotalCents": 175500,
+        "totalCents": null,
+        "pending": [
+          "Finish change: Zinc finish — request for review",
+          "Freight",
+          "Applicable tax"
+        ]
+      },
+      "lead": "6–8 weeks after order and technical review",
+      "terms": "Example only: Net 30, subject to account approval.",
+      "validity": "Example only: 30 days from the displayed quote date.",
+      "status": "Example quote · Not an NHI offer"
+    },
+    {
+      "id": "Q-DEMO-002",
+      "version": 2,
+      "rfqId": "RFQ-DEMO-002",
+      "rfqVersion": 2,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T07:15:45.993Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "250",
+        "annual": "3000",
+        "timing": "5 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ]
+      },
+      "lines": [
+        {
+          "label": "F-4412 · standard iron phosphate",
+          "qty": 250,
+          "unit": "each",
+          "unitCents": 830
+        },
+        {
+          "label": "Example packing allowance",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": 3500
+        },
+        {
+          "label": "Zinc finish · conditional example allowance",
+          "qty": 250,
+          "unit": "each",
+          "unitCents": 60
+        },
+        {
+          "label": "Freight",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        },
+        {
+          "label": "Applicable tax",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        }
+      ],
+      "totals": {
+        "subtotalCents": 226000,
+        "totalCents": null,
+        "pending": [
+          "Freight",
+          "Applicable tax"
+        ]
+      },
+      "lead": "6–8 weeks after order and technical review",
+      "terms": "Example only: Net 30, subject to account approval.",
+      "validity": "Example only: 30 days from the displayed quote date.",
+      "status": "Example revised quote · Not an NHI offer",
+      "previousVersion": 1,
+      "responseId": "REPLY-DEMO-001",
+      "revisionId": "REV-DEMO-002",
+      "assumptions": "Fixed demonstration policy: F-4412 at $8.30 for exactly 250 units, otherwise $8.60; zinc allowance $0.60 each; packing $35. These are invented example prices. Free-text questions are preserved for review, not automatically answered."
+    },
+    {
+      "id": "Q-DEMO-003",
+      "version": 1,
+      "rfqId": "RFQ-DEMO-003",
+      "rfqVersion": 3,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T07:17:19.032Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "200",
+        "annual": "3000",
+        "timing": "6 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ],
+        "selectionBasis": {
+          "productId": "F-4412",
+          "context": {
+            "purpose": "Replace an existing pulley",
+            "belt": "Back side of V-belt",
+            "od": "3-1/8",
+            "flat": "2-3/4",
+            "width": "3/4",
+            "unit": "in"
+          },
+          "assessment": {
+            "dimensions": [
+              {
+                "key": "od",
+                "label": "A · Outside diameter",
+                "input": "3-1/8",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3-1/8″"
+              },
+              {
+                "key": "flat",
+                "label": "B · Belt-running diameter",
+                "input": "2-3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "2-3/4″"
+              },
+              {
+                "key": "width",
+                "label": "D · Belt-running width",
+                "input": "3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3/4″"
+              }
+            ],
+            "matches": 3,
+            "mismatches": 0,
+            "status": "Entered dimensions match",
+            "fitConfirmed": false
+          },
+          "source": "Public catalog, page 6; customer-entered dimensions. Application fit is unverified."
+        },
+        "explorerRequirements": [
+          {
+            "id": "F-4412:belt",
+            "productId": "F-4412",
+            "feature": "belt",
+            "dimension": "width",
+            "kind": "measurement",
+            "value": 19.05,
+            "unit": "mm",
+            "note": "Example measurement between the flanges of the existing pulley.",
+            "confirmedAt": "2026-11-01T07:16:52.171Z",
+            "matchesCatalog": true,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          },
+          {
+            "id": "F-4412:mount",
+            "productId": "F-4412",
+            "feature": "mount",
+            "dimension": null,
+            "kind": "review",
+            "value": null,
+            "unit": "mm",
+            "note": "Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.",
+            "confirmedAt": "2026-11-01T07:16:58.330Z",
+            "matchesCatalog": null,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          }
+        ]
+      },
+      "lines": [
+        {
+          "label": "F-4412 · standard iron phosphate",
+          "qty": 200,
+          "unit": "each",
+          "unitCents": 860
+        },
+        {
+          "label": "Example packing allowance",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": 3500
+        },
+        {
+          "label": "Finish change: Zinc finish — request for review",
+          "qty": 200,
+          "unit": "each",
+          "unitCents": null
+        },
+        {
+          "label": "Freight",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        },
+        {
+          "label": "Applicable tax",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        }
+      ],
+      "totals": {
+        "subtotalCents": 175500,
+        "totalCents": null,
+        "pending": [
+          "Finish change: Zinc finish — request for review",
+          "Freight",
+          "Applicable tax"
+        ]
+      },
+      "lead": "6–8 weeks after order and technical review",
+      "terms": "Example only: Net 30, subject to account approval.",
+      "validity": "Example only: 30 days from the displayed quote date.",
+      "status": "Example quote · Not an NHI offer"
+    },
+    {
+      "id": "Q-DEMO-003",
+      "version": 2,
+      "rfqId": "RFQ-DEMO-003",
+      "rfqVersion": 3,
+      "caseId": "DEMO-4412",
+      "createdAt": "2026-11-01T07:17:35.966Z",
+      "product": {
+        "id": "F-4412",
+        "name": "Double-flange flat idler",
+        "od": 3.125,
+        "flat": 2.75,
+        "width": 0.75,
+        "odLabel": "3-1/8",
+        "flatLabel": "2-3/4",
+        "widthLabel": "3/4",
+        "feature": "Main demo product",
+        "model": true
+      },
+      "requirements": {
+        "quantity": "250",
+        "annual": "3000",
+        "timing": "5 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ],
+        "selectionBasis": {
+          "productId": "F-4412",
+          "context": {
+            "purpose": "Replace an existing pulley",
+            "belt": "Back side of V-belt",
+            "od": "3-1/8",
+            "flat": "2-3/4",
+            "width": "3/4",
+            "unit": "in"
+          },
+          "assessment": {
+            "dimensions": [
+              {
+                "key": "od",
+                "label": "A · Outside diameter",
+                "input": "3-1/8",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3-1/8″"
+              },
+              {
+                "key": "flat",
+                "label": "B · Belt-running diameter",
+                "input": "2-3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "2-3/4″"
+              },
+              {
+                "key": "width",
+                "label": "D · Belt-running width",
+                "input": "3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3/4″"
+              }
+            ],
+            "matches": 3,
+            "mismatches": 0,
+            "status": "Entered dimensions match",
+            "fitConfirmed": false
+          },
+          "source": "Public catalog, page 6; customer-entered dimensions. Application fit is unverified."
+        },
+        "explorerRequirements": [
+          {
+            "id": "F-4412:belt",
+            "productId": "F-4412",
+            "feature": "belt",
+            "dimension": "width",
+            "kind": "measurement",
+            "value": 19.05,
+            "unit": "mm",
+            "note": "Example measurement between the flanges of the existing pulley.",
+            "confirmedAt": "2026-11-01T07:16:52.171Z",
+            "matchesCatalog": true,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          },
+          {
+            "id": "F-4412:mount",
+            "productId": "F-4412",
+            "feature": "mount",
+            "dimension": null,
+            "kind": "review",
+            "value": null,
+            "unit": "mm",
+            "note": "Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.",
+            "confirmedAt": "2026-11-01T07:16:58.330Z",
+            "matchesCatalog": null,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          }
+        ]
+      },
+      "lines": [
+        {
+          "label": "F-4412 · standard iron phosphate",
+          "qty": 250,
+          "unit": "each",
+          "unitCents": 830
+        },
+        {
+          "label": "Example packing allowance",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": 3500
+        },
+        {
+          "label": "Zinc finish · conditional example allowance",
+          "qty": 250,
+          "unit": "each",
+          "unitCents": 60
+        },
+        {
+          "label": "Freight",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        },
+        {
+          "label": "Applicable tax",
+          "qty": 1,
+          "unit": "lot",
+          "unitCents": null
+        }
+      ],
+      "totals": {
+        "subtotalCents": 226000,
+        "totalCents": null,
+        "pending": [
+          "Freight",
+          "Applicable tax"
+        ]
+      },
+      "lead": "6–8 weeks after order and technical review",
+      "terms": "Example only: Net 30, subject to account approval.",
+      "validity": "Example only: 30 days from the displayed quote date.",
+      "status": "Example revised quote · Not an NHI offer",
+      "previousVersion": 1,
+      "responseId": "REPLY-DEMO-002",
+      "revisionId": "REV-DEMO-003",
+      "assumptions": "Fixed demonstration policy: F-4412 at $8.30 for exactly 250 units, otherwise $8.60; zinc allowance $0.60 each; packing $35. These are invented example prices. Free-text questions are preserved for review, not automatically answered."
+    }
+  ],
+  "revisions": [
+    {
+      "id": "REV-DEMO-001",
+      "quoteId": "Q-DEMO-001",
+      "quoteVersion": 1,
+      "rfqId": "RFQ-DEMO-001",
+      "createdAt": "2026-11-01T06:54:22.906Z",
+      "changes": [
+        {
+          "field": "quantity",
+          "before": "200",
+          "after": "250"
+        },
+        {
+          "field": "timing",
+          "before": "6 weeks from order",
+          "after": "5 weeks from order"
+        }
+      ],
+      "message": "Please review a 250-unit initial order and whether a five-week delivery window is feasible. Confirm the outstanding mounting, speed and load requirements before release.",
+      "status": "Demo change request saved"
+    },
+    {
+      "id": "REV-DEMO-002",
+      "quoteId": "Q-DEMO-002",
+      "quoteVersion": 1,
+      "rfqId": "RFQ-DEMO-002",
+      "createdAt": "2026-11-01T07:05:41.950Z",
+      "changes": [
+        {
+          "field": "quantity",
+          "before": "200",
+          "after": "250"
+        },
+        {
+          "field": "timing",
+          "before": "6 weeks from order",
+          "after": "5 weeks from order"
+        }
+      ],
+      "message": "Our initial production requirement has increased to 250 units. Please review whether delivery within five weeks is feasible, and advise on the zinc finish cost and outstanding technical requirements.",
+      "status": "Demo change request saved"
+    },
+    {
+      "id": "REV-DEMO-003",
+      "quoteId": "Q-DEMO-003",
+      "quoteVersion": 1,
+      "rfqId": "RFQ-DEMO-003",
+      "createdAt": "2026-11-01T07:17:25.320Z",
+      "changes": [
+        {
+          "field": "quantity",
+          "before": "200",
+          "after": "250"
+        },
+        {
+          "field": "timing",
+          "before": "6 weeks from order",
+          "after": "5 weeks from order"
+        }
+      ],
+      "message": "Please review a 250-unit initial order and whether a five-week delivery window is feasible. Confirm the outstanding mounting, speed and load requirements before release.",
+      "status": "Demo change request saved"
+    },
+    {
+      "id": "REV-DEMO-004",
+      "quoteId": "Q-DEMO-003",
+      "quoteVersion": 2,
+      "rfqId": "RFQ-DEMO-003",
+      "createdAt": "2026-11-01T07:43:22.039Z",
+      "changes": [
+        {
+          "field": "quantity",
+          "before": "250",
+          "after": "300"
+        },
+        {
+          "field": "timing",
+          "before": "5 weeks from order",
+          "after": "7 weeks from order"
+        }
+      ],
+      "message": "Please review a larger initial order and confirm mounting requirements.",
+      "status": "Demo change request saved"
+    }
+  ],
+  "replies": [
+    {
+      "id": "REPLY-DEMO-001",
+      "revisionId": "REV-DEMO-002",
+      "quoteId": "Q-DEMO-002",
+      "quoteVersion": 1,
+      "rfqId": "RFQ-DEMO-002",
+      "createdAt": "2026-11-01T07:15:40.236Z",
+      "requirements": {
+        "quantity": "250",
+        "annual": "3000",
+        "timing": "5 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ]
+      },
+      "unitCents": 830,
+      "finishCents": 60,
+      "lead": "6–8 weeks after order and technical review",
+      "decisions": [
+        {
+          "topic": "Quantity & base price",
+          "requested": "250 units",
+          "response": "250 units at $8.30 each in the revised example. The 250-unit example uses a $0.30 lower base price.",
+          "status": "Included in example"
+        },
+        {
+          "topic": "Delivery",
+          "requested": "5 weeks from order",
+          "response": "Requested timing is not confirmed. Planning alternative: 6–8 weeks after order and technical review. Expedite availability and charges are not assumed.",
+          "status": "Alternative proposed"
+        },
+        {
+          "topic": "Finish",
+          "requested": "Zinc finish — request for review",
+          "response": "Budget allowance: $0.60 per unit. Zinc suitability and manufacturing approval still need engineering review.",
+          "status": "Budgeted · conditional"
+        }
+      ],
+      "tasks": [
+        {
+          "owner": "Customer",
+          "title": "Operating speed",
+          "detail": "Provide RPM or the application reference for engineering to assess."
+        },
+        {
+          "owner": "Customer / engineering",
+          "title": "Radial load",
+          "detail": "Provide load information, or ask engineering what application details are needed."
+        },
+        {
+          "owner": "Engineering",
+          "title": "Mounting & application fit",
+          "detail": "Check the mounting drawing, offsets, spacers and any customer measurements before release."
+        },
+        {
+          "owner": "Engineering",
+          "title": "Finish suitability",
+          "detail": "Review the requested finish for this application; an example allowance is not approval."
+        },
+        {
+          "owner": "Customer / sales",
+          "title": "Freight & tax",
+          "detail": "Confirm ship-to details before completing the total."
+        },
+        {
+          "owner": "Sales / engineering",
+          "title": "Customer question",
+          "detail": "Our initial production requirement has increased to 250 units. Please review whether delivery within five weeks is feasible, and advise on the zinc finish cost and outstanding technical requirements.",
+          "unanswered": true
+        }
+      ],
+      "status": "Simulated supplier reply · Not sent by NHI",
+      "assumption": "Fixed demonstration policy: F-4412 at $8.30 for exactly 250 units, otherwise $8.60; zinc allowance $0.60 each; packing $35. These are invented example prices. Free-text questions are preserved for review, not automatically answered."
+    },
+    {
+      "id": "REPLY-DEMO-002",
+      "revisionId": "REV-DEMO-003",
+      "quoteId": "Q-DEMO-003",
+      "quoteVersion": 1,
+      "rfqId": "RFQ-DEMO-003",
+      "createdAt": "2026-11-01T07:17:30.395Z",
+      "requirements": {
+        "quantity": "250",
+        "annual": "3000",
+        "timing": "5 weeks from order",
+        "application": "Idler for a compact mower deck; back side of a V-belt.",
+        "belt": "Back side of V-belt",
+        "finish": "zinc",
+        "mounting": "Confirm mounting dimensions",
+        "speed": "",
+        "load": "",
+        "notes": "Outdoor mower-deck application. Please review zinc finish suitability and confirm mounting dimensions before release.",
+        "company": "Fieldwork Equipment",
+        "name": "Alex Morgan",
+        "email": "alex@fieldwork.example",
+        "attachments": [
+          {
+            "name": "demo-application-sketch.svg",
+            "size": 1007,
+            "sample": true,
+            "type": "image/svg+xml",
+            "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTIwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUyMCIgZmlsbD0iI2Y0ZjZmMiIvPjxnIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0iIzI2MzEyNSI+PHRleHQgeD0iNDAiIHk9IjUwIiBmb250LXNpemU9IjIzIj5FWEFNUExFIEFQUExJQ0FUSU9OIFNLRVRDSDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iODAiIGZvbnQtc2l6ZT0iMTQiPkZpZWxkd29yayBFcXVpcG1lbnQgtyBGaWN0aW9uYWwgY29tcGFjdCBtb3dlciBkZWNrILcgREVNTyBPTkxZPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI0ODAiIGZvbnQtc2l6ZT0iMTQiPk5vdCBhbiBlbmdpbmVlcmluZyBkcmF3aW5nLiBObyBtb3VudGluZyBkaW1lbnNpb25zLCBsb2FkcyBvciBmaXQgYXJlIHNwZWNpZmllZC48L3RleHQ+PC9nPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU1NjY0YiIgc3Ryb2tlLXdpZHRoPSIzIj48Y2lyY2xlIGN4PSIyMjAiIGN5PSIyNjAiIHI9Ijg2Ii8+PGNpcmNsZSBjeD0iNTgwIiBjeT0iMjYwIiByPSI4NiIvPjxwYXRoIGQ9Ik0yMjAgMTc0SDU4ME0yMjAgMzQ2SDU4MCIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MyIgcj0iMjciLz48cGF0aCBkPSJNNDAwIDQwMHYzMyIvPjwvZz48ZyBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IiMyNjMxMjUiPjx0ZXh0IHg9IjE1NiIgeT0iMjY1Ij5Ecml2ZSBwdWxsZXk8L3RleHQ+PHRleHQgeD0iNTE4IiB5PSIyNjUiPkRyaXZlbiBwdWxsZXk8L3RleHQ+PHRleHQgeD0iMzMzIiB5PSI0NTQiPklkbGVyIGNhbmRpZGF0ZSC3IEYtNDQxMjwvdGV4dD48L2c+PHRleHQgeD0iNDAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNjA3MDU5Ij5CZWx0IHBhdGggaXMgc2NoZW1hdGljLiBNb3VudGluZywgc3BlZWQgYW5kIHJhZGlhbCBsb2FkIHJlcXVpcmUgcmV2aWV3LjwvdGV4dD48L3N2Zz4="
+          }
+        ],
+        "selectionBasis": {
+          "productId": "F-4412",
+          "context": {
+            "purpose": "Replace an existing pulley",
+            "belt": "Back side of V-belt",
+            "od": "3-1/8",
+            "flat": "2-3/4",
+            "width": "3/4",
+            "unit": "in"
+          },
+          "assessment": {
+            "dimensions": [
+              {
+                "key": "od",
+                "label": "A · Outside diameter",
+                "input": "3-1/8",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3-1/8″"
+              },
+              {
+                "key": "flat",
+                "label": "B · Belt-running diameter",
+                "input": "2-3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "2-3/4″"
+              },
+              {
+                "key": "width",
+                "label": "D · Belt-running width",
+                "input": "3/4",
+                "unit": "in",
+                "valid": true,
+                "matches": true,
+                "catalog": "3/4″"
+              }
+            ],
+            "matches": 3,
+            "mismatches": 0,
+            "status": "Entered dimensions match",
+            "fitConfirmed": false
+          },
+          "source": "Public catalog, page 6; customer-entered dimensions. Application fit is unverified."
+        },
+        "explorerRequirements": [
+          {
+            "id": "F-4412:belt",
+            "productId": "F-4412",
+            "feature": "belt",
+            "dimension": "width",
+            "kind": "measurement",
+            "value": 19.05,
+            "unit": "mm",
+            "note": "Example measurement between the flanges of the existing pulley.",
+            "confirmedAt": "2026-11-01T07:16:52.171Z",
+            "matchesCatalog": true,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          },
+          {
+            "id": "F-4412:mount",
+            "productId": "F-4412",
+            "feature": "mount",
+            "dimension": null,
+            "kind": "review",
+            "value": null,
+            "unit": "mm",
+            "note": "Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.",
+            "confirmedAt": "2026-11-01T07:16:58.330Z",
+            "matchesCatalog": null,
+            "source": "Explicit customer entry in Explorer; not a manufacturer validation"
+          }
+        ]
+      },
+      "unitCents": 830,
+      "finishCents": 60,
+      "lead": "6–8 weeks after order and technical review",
+      "decisions": [
+        {
+          "topic": "Quantity & base price",
+          "requested": "250 units",
+          "response": "250 units at $8.30 each in the revised example. The 250-unit example uses a $0.30 lower base price.",
+          "status": "Included in example"
+        },
+        {
+          "topic": "Delivery",
+          "requested": "5 weeks from order",
+          "response": "Requested timing is not confirmed. Planning alternative: 6–8 weeks after order and technical review. Expedite availability and charges are not assumed.",
+          "status": "Alternative proposed"
+        },
+        {
+          "topic": "Finish",
+          "requested": "Zinc finish — request for review",
+          "response": "Budget allowance: $0.60 per unit. Zinc suitability and manufacturing approval still need engineering review.",
+          "status": "Budgeted · conditional"
+        }
+      ],
+      "tasks": [
+        {
+          "owner": "Customer",
+          "title": "Operating speed",
+          "detail": "Provide RPM or the application reference for engineering to assess."
+        },
+        {
+          "owner": "Customer / engineering",
+          "title": "Radial load",
+          "detail": "Provide load information, or ask engineering what application details are needed."
+        },
+        {
+          "owner": "Engineering",
+          "title": "Mounting & application fit",
+          "detail": "Check the mounting drawing, offsets, spacers and any customer measurements before release."
+        },
+        {
+          "owner": "Engineering",
+          "title": "Finish suitability",
+          "detail": "Review the requested finish for this application; an example allowance is not approval."
+        },
+        {
+          "owner": "Customer / sales",
+          "title": "Freight & tax",
+          "detail": "Confirm ship-to details before completing the total."
+        },
+        {
+          "owner": "Sales / engineering",
+          "title": "Customer question",
+          "detail": "Please review a 250-unit initial order and whether a five-week delivery window is feasible. Confirm the outstanding mounting, speed and load requirements before release.",
+          "unanswered": true
+        }
+      ],
+      "status": "Simulated supplier reply · Not sent by NHI",
+      "assumption": "Fixed demonstration policy: F-4412 at $8.30 for exactly 250 units, otherwise $8.60; zinc allowance $0.60 each; packing $35. These are invented example prices. Free-text questions are preserved for review, not automatically answered."
+    }
+  ],
+  "activeRfqId": "RFQ-DEMO-004",
+  "activeQuoteId": null,
+  "activeQuoteVersion": 2,
+  "activeRevisionId": "REV-DEMO-003",
+  "discovery": {
+    "purpose": "Replace an existing pulley",
+    "belt": "Back side of V-belt",
+    "od": "3-1/8",
+    "flat": "2-3/4",
+    "width": "3/4",
+    "unit": "in"
+  },
+  "explorerDrafts": {
+    "F-4412:belt": {
+      "value": "19.05",
+      "note": "Example measurement between the flanges of the existing pulley.",
+      "unit": "mm"
+    },
+    "F-4412:mount": {
+      "value": "",
+      "note": "Please verify bore, spacers and mounting offset against our existing bracket; these dimensions are not yet confirmed.",
+      "unit": "mm"
+    }
+  },
+  "revisionDraft": {
+    "quantity": "",
+    "timing": "",
+    "finish": "",
+    "message": ""
+  },
+  "findMode": "guided",
+  "revisionDraftsByQuote": {
+    "Q-DEMO-003:v2": {
+      "quantity": "",
+      "timing": "",
+      "finish": "",
+      "message": ""
+    },
+    "Q-DEMO-003:v1": {
+      "quantity": "",
+      "timing": "",
+      "finish": "",
+      "message": ""
+    }
+  },
+  "revisionDraftQuoteKey": "Q-DEMO-003:v2"
+}

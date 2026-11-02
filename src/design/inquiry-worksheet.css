@@ -1,0 +1,116 @@
+/* Round 18: one editable worksheet, compact retained evidence, quiet review rail. */
+.nhi-ui .n-inquiry-worksheet{max-width:1200px;margin-inline:auto}
+.nhi-ui .n-inquiry-worksheet>.n-heading{align-items:flex-start;margin:0 0 16px;gap:16px}
+.nhi-ui .n-inquiry-worksheet>.n-heading .n-eyebrow{margin-bottom:6px}
+.nhi-ui .n-inquiry-worksheet>.n-heading h1{font-size:32px;letter-spacing:-.025em;font-weight:500;line-height:1.2}
+.nhi-ui .n-inquiry-worksheet>.n-heading .n-lede{margin-top:8px}
+.nhi-ui .n-inquiry-worksheet .n-draft-relationship{font-size:13px;color:var(--n-muted);margin-bottom:20px;line-height:1.5}
+.nhi-ui .n-inquiry-worksheet .n-draft-relationship strong{color:var(--n-foreground);font-weight:500}
+.nhi-ui .n-inquiry-worksheet .n-draft-relationship>p+p{margin-top:5px}
+.nhi-ui .n-inquiry-worksheet .n-draft-relationship .n-control{min-height:36px;padding:6px 0;font-size:13px;text-decoration:underline;text-underline-offset:3px}
+.nhi-ui .n-inquiry-worksheet .n-draft-relationship .n-disclosure{margin:4px 0 0;padding:0;border:0;background:transparent}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context{border:1px solid var(--n-line);background:var(--n-soft);padding:16px 20px;margin:0 0 24px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context-head{display:flex;justify-content:space-between;gap:16px;align-items:center}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context-head .n-eyebrow{margin:0 0 4px;font-size:11px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context-head h2{font-size:16px;letter-spacing:0;line-height:1.35;font-weight:600}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context-head .n-control{padding:4px 0;min-height:36px;font-size:12px;text-decoration:underline;text-underline-offset:3px;flex-shrink:0}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 24px;margin:12px 0 0}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts>div{min-width:0}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts dt{font-size:12px;color:var(--n-muted);margin-bottom:2px;font-weight:400}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts dd{font-size:14px;font-weight:500;overflow-wrap:anywhere}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts .n-help{display:block;font-size:12px;font-weight:400;margin:3px 0 0}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context>.n-help{margin-top:10px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context .n-disclosure{margin:10px 0 0;border:0;padding:0}
+.nhi-ui .n-inquiry-worksheet .n-disclosure>summary{min-height:36px;padding:6px 0;font-size:12px}
+.nhi-ui .n-inquiry-worksheet .n-inquiry-evidence{border-top:1px solid var(--n-line);margin-top:8px;padding-top:8px}
+.nhi-ui .n-inquiry-worksheet .n-inquiry-layout{grid-template-columns:minmax(0,1fr) 280px;gap:32px;align-items:start}
+.nhi-ui .n-inquiry-worksheet .n-form-main{min-width:0;background:var(--n-background);border:1px solid var(--n-line);padding:0 28px}
+.nhi-ui .n-inquiry-worksheet .n-form-main>.n-notice{margin-top:24px}
+.nhi-ui .n-inquiry-worksheet .n-form-section{padding:26px 0 30px;border-top:1px solid var(--n-line)}
+.nhi-ui .n-inquiry-worksheet .n-form-section:first-of-type{border-top:0}
+.nhi-ui .n-inquiry-worksheet .n-form-section-head{gap:12px;align-items:baseline;margin-bottom:22px}
+.nhi-ui .n-inquiry-worksheet .n-section-number{font-size:12px;min-width:18px}
+.nhi-ui .n-inquiry-worksheet .n-form-section-head h2{font-size:21px;letter-spacing:-.02em;line-height:1.3}
+.nhi-ui .n-inquiry-worksheet .n-form-section-head .n-help{font-size:13px;margin-top:5px}
+.nhi-ui .n-inquiry-worksheet .n-field-grid{gap:20px 22px}
+.nhi-ui .n-inquiry-worksheet .n-form-section textarea{min-height:88px}
+.nhi-ui .n-inquiry-worksheet .n-field>label{font-weight:500}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-additional{margin-top:20px;max-width:calc(50% - 11px)}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-additional>summary{font-size:13px;min-height:40px;cursor:pointer}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-additional .n-field{margin-top:8px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-engineering{border-left:2px solid var(--n-input-border);padding:2px 0 2px 14px;margin:0 0 24px;font-size:13px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-engineering h3{font-size:14px;font-weight:600;letter-spacing:0;margin-bottom:5px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-engineering p{line-height:1.5;color:var(--n-muted)}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-engineering ul{padding-left:18px;margin:8px 0 0;font-size:13px;color:var(--n-muted)}
+.nhi-ui .n-inquiry-worksheet .n-attachment-heading{margin:20px 0 8px;gap:12px}
+.nhi-ui .n-inquiry-worksheet .n-attachment-heading h3{font-size:14px;font-weight:500;letter-spacing:0}
+.nhi-ui .n-inquiry-worksheet .n-attachment-heading .n-control{padding-inline:0}
+.nhi-ui .n-inquiry-worksheet .n-file-drop{padding:14px;background:var(--n-background)}
+.nhi-ui .n-inquiry-worksheet .n-file-drop input{max-width:100%;font-size:12px}
+.nhi-ui .n-inquiry-worksheet .n-file-drop label{font-size:13px}
+.nhi-ui .n-inquiry-worksheet .n-file{gap:12px;padding:14px 0;flex-wrap:wrap}
+.nhi-ui .n-inquiry-worksheet .n-file>div:first-child{min-width:0;flex:1 1 200px;overflow-wrap:anywhere}
+.nhi-ui .n-inquiry-worksheet .n-file strong{font-size:13px;font-weight:500}
+.nhi-ui .n-inquiry-worksheet .n-file>.n-actions{gap:4px}
+.nhi-ui .n-inquiry-worksheet .n-form-footer{padding:18px 0}
+.nhi-ui .n-inquiry-worksheet .n-form-footer .n-control{padding-inline:0;min-height:36px;font-size:13px}
+.nhi-ui .n-inquiry-worksheet .n-inquiry-summary{position:sticky;top:24px;border:0;padding:0;background:transparent;min-width:0}
+.nhi-ui .n-inquiry-worksheet .n-inquiry-summary>.n-eyebrow{font-size:11px;margin-bottom:10px}
+.nhi-ui .n-inquiry-worksheet .n-inquiry-summary>h2{font-size:24px;margin-bottom:6px}
+.nhi-ui .n-inquiry-worksheet .n-request-data{margin:18px 0;font-size:13px}
+.nhi-ui .n-inquiry-worksheet .n-request-data>div{grid-template-columns:1fr 1fr;gap:12px;padding:12px 0}
+.nhi-ui .n-inquiry-worksheet .n-request-data dd{font-weight:500;overflow-wrap:anywhere}
+.nhi-ui .n-inquiry-worksheet .n-summary-section{padding:16px 0;border-top:1px solid var(--n-line)}
+.nhi-ui .n-inquiry-worksheet .n-summary-section h3{font-size:14px;letter-spacing:0;font-weight:500}
+.nhi-ui .n-inquiry-worksheet .n-summary-section p{margin-top:6px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-desktop-action .n-control{width:100%;justify-content:center;text-align:center}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-desktop-action>.n-help{margin-top:10px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action{display:none}
+@media(max-width:950px){
+ .nhi-ui .n-inquiry-worksheet{max-width:720px;padding-bottom:100px}
+ .nhi-ui .n-inquiry-worksheet .n-inquiry-layout{grid-template-columns:minmax(0,1fr);gap:0}
+ .nhi-ui .n-inquiry-worksheet .n-inquiry-summary{position:static;display:none}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-desktop-action{display:none}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action{display:block;position:fixed;bottom:0;left:0;right:0;z-index:25;background:var(--n-background);border-top:1px solid var(--n-line);padding:10px 20px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -4px 14px #20262208}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action .n-actions{max-width:720px;margin-inline:auto;display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action .n-control{min-height:46px;justify-content:center;text-align:center}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action .n-pending-label{font-size:12px;white-space:nowrap;gap:6px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action .n-control[data-variant=text]{font-size:12px;padding-inline:0}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action .n-help{font-size:11px;text-align:right;margin:6px auto 0;max-width:720px}
+ .nhi-ui .n-inquiry-worksheet .n-form-footer{display:none}
+ .nhi-ui .n-inquiry-worksheet :is(input,textarea,select,summary){scroll-margin-bottom:130px}
+}
+@media(max-width:600px){
+ .nhi-ui .n-inquiry-worksheet>.n-heading{display:block;position:relative;margin-bottom:14px}
+ .nhi-ui .n-inquiry-worksheet>.n-heading .n-eyebrow{font-size:11px;min-height:27px;padding-top:3px}
+ .nhi-ui .n-inquiry-worksheet>.n-heading h1{font-size:28px}
+ .nhi-ui .n-inquiry-worksheet>.n-heading .n-lede{font-size:13px;margin-top:6px}
+ .nhi-ui .n-inquiry-worksheet>.n-heading .n-heading-tools{position:absolute;top:0;right:0;margin:0;width:auto}
+ .nhi-ui .n-inquiry-worksheet>.n-heading .n-evidence{font-size:10px;padding:3px 6px}
+ .nhi-ui .n-inquiry-worksheet .n-draft-relationship{font-size:12px;margin-bottom:16px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-context{padding:12px 14px;margin-bottom:18px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-context-head{gap:8px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-context-head h2{font-size:14px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts{grid-template-columns:minmax(0,1fr);gap:7px;margin-top:10px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:12px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts dd{font-size:12px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-carried-facts .n-help{font-size:11px;line-height:1.4}
+ .nhi-ui .n-inquiry-worksheet .n-form-main{padding:0 16px}
+ .nhi-ui .n-inquiry-worksheet .n-form-section{padding:20px 0 24px}
+ .nhi-ui .n-inquiry-worksheet .n-form-section-head{margin-bottom:18px;gap:9px}
+ .nhi-ui .n-inquiry-worksheet .n-form-section-head h2{font-size:20px}
+ .nhi-ui .n-inquiry-worksheet .n-field-grid{grid-template-columns:minmax(0,1fr);gap:18px}
+ .nhi-ui .n-inquiry-worksheet .n-input{font-size:16px}
+ .nhi-ui .n-inquiry-worksheet .n-field>label{font-size:13px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-additional{max-width:none}
+ .nhi-ui .n-inquiry-worksheet .n-attachment-heading{align-items:center}
+ .nhi-ui .n-inquiry-worksheet .n-attachment-heading .n-control{font-size:11px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action{padding-inline:16px}
+ .nhi-ui .n-inquiry-worksheet .n-worksheet-mobile-action .n-actions{gap:10px;grid-template-columns:110px minmax(0,1fr)}
+}
+
+.nhi-ui .n-inquiry-worksheet .n-worksheet-context-head p{font-size:12px;color:var(--n-muted);margin-top:3px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-technical-fields{margin-top:24px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-readiness{padding-bottom:20px;font-size:13px}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-readiness strong{font-weight:500}
+.nhi-ui .n-inquiry-worksheet .n-worksheet-readiness p{margin-top:5px}

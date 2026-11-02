@@ -1,0 +1,61 @@
+/* Round 20: current work, exact quotation and technical questions are separate destinations. */
+.nhi-ui .n-quote-followup,.nhi-ui .n-quote-document-workspace{max-width:1200px;margin-inline:auto;min-width:0}
+.nhi-ui .n-quote-followup .n-quote-decision{padding-bottom:24px}
+.nhi-ui .n-quote-followup .n-quote-basis{grid-row:1}
+.nhi-ui .n-quote-review-entry{display:flex;justify-content:space-between;align-items:center;gap:24px;border-block:1px solid var(--n-line);padding:20px 0}
+.nhi-ui .n-quote-review-entry h2{font-size:16px;line-height:1.5;margin:0 0 5px;font-weight:500}
+.nhi-ui .n-quote-review-entry p{font-size:13px;line-height:1.6;color:var(--n-muted);margin:0}
+.nhi-ui .n-quote-review-entry>.n-control{flex-shrink:0;text-decoration:underline;text-underline-offset:4px}
+.nhi-ui .n-case-resource-nav{display:flex;align-items:center;flex-wrap:wrap;gap:8px 26px;padding-top:16px}
+.nhi-ui .n-case-resource-nav>.n-control{font-size:13px;padding-inline:0;min-height:40px;text-decoration:underline;text-underline-offset:4px}
+.nhi-ui .n-quote-document-workspace>.n-heading{margin:24px 0 20px;align-items:flex-start}
+.nhi-ui .n-quote-document-workspace>.n-heading h1{font-size:30px;line-height:1.25;font-weight:500;letter-spacing:-.025em}
+.nhi-ui .n-quote-document-workspace>.n-heading .n-lede{font-size:13px;line-height:1.6;margin-top:8px}
+.nhi-ui .n-quote-document-workspace .n-doc-actions{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.nhi-ui .n-quote-document-workspace .n-doc-actions .n-control{font-size:13px;min-height:42px}
+.nhi-ui .n-quote-document-workspace .n-doc-controls{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px 24px;padding:14px 0 20px;border-top:1px solid var(--n-line)}
+.nhi-ui .n-quote-document-workspace .n-version-bar{border:0;margin:0;padding:0;gap:12px;flex-wrap:wrap;font-size:13px}
+.nhi-ui .n-quote-document-workspace .n-version-bar>.n-mono{display:none}
+.nhi-ui .n-quote-document-workspace .n-choices[data-variant=segmented]{width:auto;margin:0}
+.nhi-ui .n-quote-document-workspace .n-choices[data-variant=segmented] .n-choice{font-size:12px;min-height:38px}
+.nhi-ui .n-quote-document-workspace .n-doc-version-note{font-size:13px;line-height:1.6;margin:0 0 20px;max-width:80ch;color:var(--n-muted)}
+.nhi-ui .n-quote-document-workspace>.n-document{padding:28px 32px;max-width:none;margin:0}
+.nhi-ui .n-quote-document-workspace .n-document-header{gap:24px;margin-bottom:28px}
+.nhi-ui .n-quote-document-workspace .n-document-header h2{font-size:22px;line-height:1.4;font-weight:500}
+.nhi-ui .n-quote-document-workspace .n-document-header p,.nhi-ui .n-quote-document-workspace .n-record-meta{font-size:13px;line-height:1.6}
+.nhi-ui .n-quote-document-workspace .n-price-table,.nhi-ui .n-quote-document-workspace .n-terms{font-size:14px;line-height:1.6}
+.nhi-ui .n-quote-document-workspace .n-price-table small{font-size:12px}
+.nhi-ui .n-quote-document-workspace .n-section>h2{font-size:18px;font-weight:500;line-height:1.5}
+.nhi-ui .n-quote-document-workspace .n-section>p{font-size:14px;line-height:1.65}
+.nhi-ui .n-quote-document-workspace .n-doc-seller-note{white-space:pre-wrap;overflow-wrap:anywhere;max-width:80ch}
+.nhi-ui .n-quote-document-workspace .n-totals{font-size:14px}
+.nhi-ui .n-quote-document-workspace .n-totals strong{font-size:20px;font-weight:500;font-variant-numeric:tabular-nums}
+.nhi-ui .n-quote-document-workspace .n-doc-comparison{background:var(--n-background);border:1px solid var(--n-line);padding:28px 32px}
+.nhi-ui .n-quote-document-workspace .n-doc-comparison>h2{font-size:22px;font-weight:500;line-height:1.4;margin-bottom:8px}
+@media(max-width:700px){
+ .nhi-ui .n-quote-followup .n-quote-decision{gap:20px;padding-bottom:0}
+ .nhi-ui .n-quote-followup .n-quote-basis{grid-row:2;border-bottom:0;padding-bottom:20px}
+ .nhi-ui .n-quote-review-entry{display:block;padding:18px 0}
+ .nhi-ui .n-quote-review-entry>.n-control{font-size:13px;margin-top:8px;padding-inline:0;min-height:44px}
+ .nhi-ui .n-case-resource-nav{gap:4px 24px;padding-top:12px}
+ .nhi-ui .n-case-resource-nav>.n-control{min-height:44px}
+ .nhi-ui .n-quote-document-workspace{padding-bottom:84px}
+ .nhi-ui .n-quote-document-workspace>.n-heading{margin-top:0;display:block}
+ .nhi-ui .n-quote-document-workspace>.n-heading h1{font-size:26px}
+ .nhi-ui .n-quote-document-workspace>.n-heading .n-heading-tools{margin-top:12px}
+ .nhi-ui .n-quote-document-workspace .n-doc-actions{position:fixed;inset:auto 0 0;z-index:25;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--n-background);border-top:1px solid var(--n-line);gap:10px}
+ .nhi-ui .n-quote-document-workspace .n-doc-actions .n-control{font-size:12px;min-height:44px;text-align:center;justify-content:center;padding-inline:10px;flex:1 1 0}
+ .nhi-ui .n-quote-document-workspace .n-doc-actions .n-pending-label{font-size:12px;white-space:nowrap;gap:6px}
+ .nhi-ui .n-quote-document-workspace .n-doc-controls{align-items:flex-start;gap:14px;padding-bottom:16px}
+ .nhi-ui .n-quote-document-workspace .n-version-bar{gap:10px}
+ .nhi-ui .n-quote-document-workspace .n-version-bar>.n-help{font-size:12px}
+ .nhi-ui .n-quote-document-workspace>.n-document,.nhi-ui .n-quote-document-workspace .n-doc-comparison{padding:20px 16px}
+ .nhi-ui .n-quote-document-workspace .n-document-header{display:block;margin-bottom:22px}
+ .nhi-ui .n-quote-document-workspace .n-document-header h2{font-size:20px}
+ .nhi-ui .n-quote-document-workspace .n-record-meta{margin-top:18px}
+ .nhi-ui .n-quote-document-workspace .n-totals{max-width:100%;padding-block:16px}
+ .nhi-ui .n-quote-document-workspace .n-terms{display:block}
+ .nhi-ui .n-quote-document-workspace .n-terms>div{padding:12px 0}
+ .nhi-ui .n-quote-document-workspace .n-doc-comparison>h2{font-size:20px}
+ .nhi-ui .n-quote-document-workspace :is(button,a){scroll-margin-bottom:100px}
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "f4412",
+  "rootId": "f4412",
+  "title": "F-4412 · illustrative pulley",
+  "shortTitle": "F-4412",
+  "provenance": {
+    "author": "Annora",
+    "license": "MIT",
+    "attribution": "Annora · illustrative F-4412 study · MIT · 2026",
+    "description": "Original presentation geometry based on the catalog A/B/D dimensions; the hub, seals and stamped contours are reconstructed illustrations.",
+    "note": "Not manufacturer CAD. Inspection regions are not a verified BOM. No bore, tolerance, mounting fit, speed, load or operating motion is established."
+  },
+  "licenseFile": "LICENSE",
+  "view": {
+    "direction": [
+      1.3,
+      0.6,
+      1.7
+    ],
+    "normalizedWidth": 4.2,
+    "labels": [
+      "Overview",
+      "Reverse"
+    ],
+    "facts": [
+      {
+        "label": "Catalog A",
+        "value": "3.125 in"
+      },
+      {
+        "label": "Catalog B",
+        "value": "2.75 in"
+      },
+      {
+        "label": "Catalog D",
+        "value": "0.75 in"
+      }
+    ]
+  },
+  "creaseAngle": 35,
+  "groups": [
+    {
+      "id": "belt",
+      "title": "Belt-running region",
+      "description": "Inspection region: catalog B is 2.75 in; catalog D is 0.75 in. Viewing does not confirm belt compatibility.",
+      "meshNames": [
+        "belt_surface"
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "flange",
+      "title": "Flange region",
+      "description": "Inspection region: catalog A is 3.125 in across the outside edges. Stamped contours are illustrative.",
+      "meshNames": [
+        "flange_front",
+        "flange_rear"
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mount",
+      "title": "Mounting region",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "meshNames": [
+        "mounting_hub",
+        "seal_rear",
+        "seal_front"
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "parts": {
+    "belt_surface": {
+      "id": "belt-surface",
+      "title": "Belt-running surface (illustrative)",
+      "description": "Inspection region: catalog B is 2.75 in; catalog D is 0.75 in. Viewing does not confirm belt compatibility.",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    "flange_front": {
+      "id": "flange-front",
+      "title": "Front flange region (illustrative contour)",
+      "description": "Inspection region: catalog A is 3.125 in across the outside edges. Stamped contours are illustrative.",
+      "finishFamily": "satin",
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    "flange_rear": {
+      "id": "flange-rear",
+      "title": "Rear flange region (illustrative contour)",
+      "description": "Inspection region: catalog A is 3.125 in across the outside edges. Stamped contours are illustrative.",
+      "finishFamily": "satin",
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    "mounting_hub": {
+      "id": "mounting-hub",
+      "title": "Illustrative mounting hub",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seal_rear": {
+      "id": "seal-rear",
+      "title": "Rear illustrative seal region",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    "seal_front": {
+      "id": "seal-front",
+      "title": "Front illustrative seal region",
+      "description": "Inspection region: the hub and seal shapes are illustrative. Bore, offsets, spacers, speed and load require engineering review.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "tour": "authored-tour.json"
+}

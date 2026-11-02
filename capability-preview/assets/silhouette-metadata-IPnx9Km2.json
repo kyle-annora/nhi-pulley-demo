@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "sha256": "f7d2ac18f02d8d8648d35d3f40c86d850bbb41b5caf48495c0752a740e9607fa"
+  },
+  "contours": {
+    "file": "silhouettes.bin",
+    "compressedFile": "silhouettes.bin.gz",
+    "format": "uint32-oct16-le",
+    "coordinates": "original-mesh-local",
+    "bytesPerSegment": 16,
+    "sha256": "66ffaf29ca97b2386ffa7216cb251cd972497238c7fb1a66ee03d4f92657c8c1"
+  },
+  "stats": {
+    "meshCount": 1,
+    "uniqueGeometryCount": 1,
+    "bytes": 49312,
+    "uniqueSegments": 3082
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "segmentCount": 3082,
+      "geometryId": 0,
+      "sourceGeometrySha256": "2aab2845c481f4498f96232c82fe2b90b368e602c9ac804207901bee4f954f95",
+      "sha256": "66ffaf29ca97b2386ffa7216cb251cd972497238c7fb1a66ee03d4f92657c8c1"
+    }
+  ],
+  "meshes": {
+    "sk08_body": {
+      "byteOffset": 0,
+      "segmentCount": 3082,
+      "geometryId": 0
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "sha256": "c27ba681dbf70527a92274019ad1ed74ec889ef31d12541e1130a01c08ab106a"
+  },
+  "contours": {
+    "file": "silhouettes.bin",
+    "compressedFile": "silhouettes.bin.gz",
+    "format": "uint32-oct16-le",
+    "coordinates": "original-mesh-local",
+    "bytesPerSegment": 16,
+    "sha256": "ceb8baa7e507989b2396c040e8ce6993057aa81103f8c54b2e0ba6436fb2764e"
+  },
+  "stats": {
+    "meshCount": 6,
+    "uniqueGeometryCount": 6,
+    "bytes": 125952,
+    "uniqueSegments": 7872
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "segmentCount": 576,
+      "geometryId": 0,
+      "sourceGeometrySha256": "c3ba1997246faaafe8682af4941da28368777b696a2f139e9350825efa58a0dc",
+      "sha256": "43b79c26f8e9b3a18cf1ae89b3ac810d5b9270885335018b3c74e93418747ffd"
+    },
+    {
+      "byteOffset": 9216,
+      "segmentCount": 2592,
+      "geometryId": 1,
+      "sourceGeometrySha256": "aa6ab9953c8458a631fcb6ad6feefaf91a9ab69b73cc064b63e43ce959729f3c",
+      "sha256": "8490edef3114bf32e017564aab723473404e41111998c16157152a18a83cfcd0"
+    },
+    {
+      "byteOffset": 50688,
+      "segmentCount": 2592,
+      "geometryId": 2,
+      "sourceGeometrySha256": "4ae547ac6cb8cb2e978498b0128f267f9a5f9d88277551b0ae74019288496b7c",
+      "sha256": "43bec1122c5dae59998eb313b7d13bcf9ae77b90948e80a409dff05f19a4f89b"
+    },
+    {
+      "byteOffset": 92160,
+      "segmentCount": 960,
+      "geometryId": 3,
+      "sourceGeometrySha256": "97f42a8ae54735d25b6256bd9667690b2fad9f7725712ff55bc4f8e380ee3753",
+      "sha256": "46e08508e1f1d2515ab0e28a803a9c4ed9e7f549ffaeb065cdda34f161fc3186"
+    },
+    {
+      "byteOffset": 107520,
+      "segmentCount": 576,
+      "geometryId": 4,
+      "sourceGeometrySha256": "26f373eeb15cd5c6892c35a2d20b8f496509ffef78850dad4d63a35ab0a6c6e9",
+      "sha256": "f16ba6d4e1a028521bb88722bdbc9ccb4b200a075b809f1b7e7a56a3d495ec95"
+    },
+    {
+      "byteOffset": 116736,
+      "segmentCount": 576,
+      "geometryId": 5,
+      "sourceGeometrySha256": "7037ccad677d5f3c122c78963348a6cc1b92ccd2a5253815486feb5eff3e202e",
+      "sha256": "7337dd3e61f81dcafbfaa3616ffb43125c54aa617ddb3f558e532139d83e71a1"
+    }
+  ],
+  "meshes": {
+    "belt_surface": {
+      "byteOffset": 0,
+      "segmentCount": 576,
+      "geometryId": 0
+    },
+    "flange_front": {
+      "byteOffset": 9216,
+      "segmentCount": 2592,
+      "geometryId": 1
+    },
+    "flange_rear": {
+      "byteOffset": 50688,
+      "segmentCount": 2592,
+      "geometryId": 2
+    },
+    "mounting_hub": {
+      "byteOffset": 92160,
+      "segmentCount": 960,
+      "geometryId": 3
+    },
+    "seal_rear": {
+      "byteOffset": 107520,
+      "segmentCount": 576,
+      "geometryId": 4
+    },
+    "seal_front": {
+      "byteOffset": 116736,
+      "segmentCount": 576,
+      "geometryId": 5
+    }
+  }
+}

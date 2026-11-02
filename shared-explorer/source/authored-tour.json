@@ -1,0 +1,122 @@
+{
+  "id": "f4412-inspection",
+  "title": "Three checks before an F-4412 inquiry",
+  "playback": "steps",
+  "duration": 7.5,
+  "chapters": [
+    {
+      "id": "belt",
+      "label": "Belt contact",
+      "title": "Check the belt-running surface.",
+      "caption": "B = 2.75 in running diameter. D = 0.75 in width between flanges. Compare these with the belt requirement; fit is not established.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "start": 0,
+      "end": 2.5,
+      "scopeId": "f4412",
+      "selectedId": "belt",
+      "highlightIds": [
+        "belt"
+      ],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "f4412",
+        "direction": [
+          1.6,
+          0.7,
+          1.05
+        ],
+        "scale": 1,
+        "explosion": 0
+      },
+      "annotations": [
+        {
+          "nodeId": "belt",
+          "label": "Belt contact"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "flange",
+      "label": "Outside diameter",
+      "title": "Separate outside diameter from running diameter.",
+      "caption": "A = 3.125 in across flange edges. B = 2.75 in where the belt runs. Allow for the outside envelope in your application.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "start": 2.5,
+      "end": 5,
+      "scopeId": "f4412",
+      "selectedId": "flange",
+      "highlightIds": [
+        "flange"
+      ],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "f4412",
+        "direction": [
+          0.12,
+          0.1,
+          2.2
+        ],
+        "scale": 1,
+        "explosion": 0
+      },
+      "annotations": [
+        {
+          "nodeId": "flange",
+          "label": "Outside diameter"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "mount",
+      "label": "Mounting",
+      "title": "Record what engineering must confirm.",
+      "caption": "The hub is illustrative. Provide bore, offsets, spacers, speed and load for engineering review. No mounting fit has been verified.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "start": 5,
+      "end": 7.5,
+      "scopeId": "f4412",
+      "selectedId": "mount",
+      "highlightIds": [
+        "mount"
+      ],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "f4412",
+        "direction": [
+          0.42,
+          0.23,
+          2.2
+        ],
+        "scale": 1,
+        "explosion": 0
+      },
+      "annotations": [
+        {
+          "nodeId": "mount",
+          "label": "Mounting"
+        }
+      ],
+      "cues": []
+    }
+  ]
+}

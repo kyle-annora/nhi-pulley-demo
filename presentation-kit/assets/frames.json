@@ -37,8 +37,10 @@
   {
     "scene": 6,
     "file": "06-next-step.png",
-    "source": "docs/round29/complete-desktop.png",
-    "caption": "Live demo capture: acknowledged engineering-review plan; findings and application fit remain unconfirmed.",
-    "sha256": "68c5631032c2c214775d5eb4a7797408be8e78fe0b1208336f5fcdcfa417ad8c"
+    "source": "docs/round32/completed-case-desktop-full.png",
+    "caption": "Current focused-demo capture: prepared same-case review plan, led by the customer’s application-information next step. Skipped transactions were not performed live.",
+    "sha256": "26890505d80fad7fa4ce5847ed4166e9f486b61c69cb85b77d00bca017450f17",
+    "recordMode": "Prepared same-case records · Read-only replay",
+    "edition": "Focused mobile and business-next-step refinement"
   }
 ]

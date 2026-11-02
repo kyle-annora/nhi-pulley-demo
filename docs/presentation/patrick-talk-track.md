@@ -4,7 +4,7 @@ November 1, 2026 · English presenter notes. Use the dedicated Patrick example. 
 
 ## Before the call
 
-Open `patrick.html` through the supplied local preview server. Use the opening scene for the long route, or a clearly labeled prepared checkpoint for the short route. Keep `presentation-kit/backup.html` open in a second tab as the offline fallback.
+Open [the hosted demo](https://kyle-annora.github.io/nhi-pulley-demo/) or `patrick.html` through the supplied local preview server. Use the opening scene for the long route, or the clearly labeled prepared replay for the short route. Keep `presentation-kit/backup.html` open in a second tab as the offline fallback.
 
 The main story is one F-4412 case: 200 units in the initial inquiry and v1, a customer request for 250 units and five-week delivery, a revised example v2 at 250 units, then an acknowledged engineering-review plan. The separate existing 250-to-300 waiting case is outside this route.
 
@@ -23,7 +23,7 @@ Check the product loads before the meeting. Use one deliberate sequence through 
 | 4:10–4:55 · Buyer | Request 250 units and a five-week delivery window; review and save the request. | “The conversation continues against this exact quotation. The buyer asks for 250 units and five weeks. Those are requests; the existing proposal and original engineering question remain intact.” | Requested versus existing terms and the source quote version. |
 | 4:55–5:45 · Seller → Buyer | Review the linked request, prepare and review v2, then explicitly issue it. | “The seller responds within the same case. The revised example covers 250 units, with a $2,260 priced subtotal. The five-week request is still unconfirmed; the example proposal is six to eight weeks after order and technical review.” | 250 units, $2,260, the requested/proposed timing difference, and unresolved technical question. |
 | 5:45–6:15 · Buyer | Compare v1 and v2; point to the visible retained question. | “We can see what changed without losing what came before. Commercial terms have a response. The mounting question remains open for engineering.” | **Reveal 3: a visible response, retained history and an explicit open issue.** |
-| 6:15–7:00 · Buyer → Seller | Review the engineering plan, explicitly request it, then review and acknowledge as the seller. End on the saved result. | “The next step is now explicit: engineering reviews mounting and finish suitability, the customer supplies the required application information, and sales follows up on commercial questions. This records an agreed review plan; it does not claim an engineering finding or place an order. The first delivery can stay focused on one pulley family, a useful RFQ handoff and versioned quotation follow-up.” | The acknowledged plan, original question and next responsibilities. |
+| 6:15–7:00 · Buyer → Seller | Review the engineering plan, explicitly request it, then review and acknowledge as the seller. End on **Prepare application information.** | “The next step is now explicit: engineering reviews mounting and finish suitability, the customer supplies the required application information, and sales follows up on commercial questions. This records an agreed review plan; it does not claim an engineering finding or place an order. The first delivery can stay focused on one pulley family, a useful RFQ handoff and versioned quotation follow-up.” | The customer's mounting, speed and load information; the acknowledged plan and retained question. |
 
 Let the actual action label guide the click. Use explicit review/confirmation actions at every saved inquiry, quotation issue, change and review-plan handoff. A navigation button does not silently submit on the customer's behalf.
 
@@ -38,7 +38,9 @@ Let the actual action label guide the click. Use explicit review/confirmation ac
 | Buyer · Engineering plan | **Plan engineering review** → **Review next-step request** → **Confirm review request** |
 | Seller · Acknowledgement | **Review acknowledgement** → **Confirm review plan** |
 
-The phone route keeps these actions available without hover. Expand the model only when needed, then use **Back to question** to continue with input.
+The phone route keeps these actions available without hover. **Open illustrative 3D** positions the model in view. **Back to question** returns to the current inspection question without opening the keyboard or changing its saved words.
+
+The ending leads with **Prepare application information.**: mounting dimensions, offsets and spacers; operating speed or an application reference; radial load or loading conditions. The footer says **Next: prepare application information**. **Export example case** saves the local example for reference; it does not send the details or complete the engineering review. The optional platform demonstration is a separate appendix below this business outcome.
 
 ## Three-minute route
 
@@ -76,13 +78,15 @@ Select **Show the acknowledged review plan**.
 
 Open the prepared acknowledged-plan checkpoint.
 
-“The conversation ends with a clear review plan and responsibilities. This is the focused starting scope: pulley understanding, useful inquiry context and a quotation the customer can return to.”
+“The customer's next step is to prepare mounting information, operating speed and radial load. The seller can then coordinate engineering review. The quotation and original question stay attached to that plan. This is the focused starting scope: pulley understanding, useful inquiry context and versioned quotation follow-up.”
+
+Pause on **Prepare application information.** The optional platform preview is outside the business workflow. **Export example case** downloads the local record; it does not submit anything.
 
 Use **Previous scene** if a question requires revisiting an earlier view. This changes the prepared replay scene; it does not roll quotation records back.
 
 ## Optional Annora platform preview — 60–90 seconds
 
-Use the labeled capability branch after the NHI outcome. Keep its model and example identity visible.
+After finishing the NHI outcome, select **Open optional capability preview** in the presentation appendix, or Guide → **Optional Annora capability preview**. This is optional demonstration content, not the customer's next business task. Keep its different model and example identity visible.
 
 “This next view is a separate Annora platform sample, using a crank mechanism. It shows the broader Explorer capabilities that can be authored for appropriate product data. It is not a moving F-4412 model.”
 
@@ -92,7 +96,23 @@ Then choose one Studio sequence for 40–60 seconds:
 
 “Studio lets a supplier edit the product explanation, preview the buyer experience and review content before publishing a local example version. This is the maintenance side of the same idea: a clear customer explanation with a controlled source.”
 
-Use one edit → buyer preview → review/publish demonstration. Leave drawing-version authoring and the other Studio sections for a separate engineering follow-up. Return explicitly to NHI.
+Use one edit → save draft → buyer preview → review/publish demonstration. On phone, the buyer preview occupies its own visible screen. **Back to Studio** returns to editing; **Review release** continues the existing release review. **Return to F-4412** leaves the optional branch and restores the NHI scene. Leave drawing-version authoring and the other Studio sections for a separate engineering follow-up.
+
+End the appendix by returning to F-4412 and restating the business next step: the customer prepares application information. The separate sample does not answer the F-4412 mounting question.
+
+## Mobile capability proof — 45–60 seconds
+
+Use a real phone or responsive phone viewport with the **3-minute prepared replay**. Say that these are prepared same-case records; this short proof does not reperform the saved transactions. Prepare the separate Studio draft before the call so no text entry or release is needed during this minute.
+
+| Time | Operate | Say / reveal |
+| --- | --- | --- |
+| 0:00–0:12 | At the mounting scene, show the question first; choose **Open illustrative 3D**. | “On a phone, the buyer starts with the question. The model opens at the relevant inspection when it helps.” |
+| 0:12–0:22 | Choose **Back to question**, then **Show the prepared inquiry**. | “The return keeps the buyer oriented. The same words and reference continue with the inquiry.” |
+| 0:22–0:35 | Choose **Show prepared quote v2**. | “The price, conditional timing and original question stay readable on a small screen. The full line items are available when needed.” |
+| 0:35–0:45 | Choose **Show the acknowledged review plan**; pause on **Prepare application information.** | “The business next step is to supply mounting, speed and load information.” |
+| 0:45–1:00 | Open the optional appendix, choose **Studio**, open the product and **Preview**. Show the direct buyer preview briefly, then **Return to F-4412**. | “This is a separate crank sample. Its customer preview has its own screen and a clear return; the NHI case is retained.” |
+
+For a strict 45-second version, open the pre-prepared Studio view from Guide after showing v2, then return and name the customer's next step. Keep the optional preview separate in the narration. Do not fit a fresh edit, typing, or publication into this minute; show that longer supplier workflow on desktop.
 
 ## If the live model does not load
 
